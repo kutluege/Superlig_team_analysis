@@ -81,7 +81,10 @@ class Wayback:
                 self.conn_fail += 1
                 log.warning("Bağlantı hatası (%d): %s -> %s", self.conn_fail, url, str(e)[:160])
                 if self.conn_fail >= 3:
-                    raise WaybackUnavailable(f"web.archive.org erişilemiyor: {str(e)[:160]}")
+                    blocked = "403" in str(e) or "Tunnel" in str(e) or "ProxyError" in type(e).__name__
+                    raise WaybackUnavailable(
+                        "web.archive.org'a bağlanılamadı (ağ politikası engeli, proxy CONNECT 403); denenemedi."
+                        if blocked else f"web.archive.org'a bağlanılamadı ({type(e).__name__}); denenemedi.")
                 continue
             except requests.Timeout:
                 log.warning("Zaman aşımı: %s (deneme %d)", url, attempt + 1)

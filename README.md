@@ -78,3 +78,25 @@ maç başına gol ve iç sahada maç başına puan sıralamaları.
   olmadığı için uygulanmaz; bazı sezonlarda resmi tablodan bu nedenle sapma olabilir.
 - Sezon ataması tarihe göre yapılır (15 Temmuz kesim; COVID'li 2020'de 15 Ağustos).
 - 2022-23'te deprem sonrası çekilen Gaziantep FK ve Hatayspor'un kalan 29 maçı hükmen 3-0 olarak dahildir.
+
+## Forma ve kombine fiyatları (Wayback Machine)
+
+```bash
+python collect_prices.py                  # kaldığı yerden devam eder
+python collect_prices.py --retry-missing  # 'bulunamadi' olanları da yeniden dene
+python -m pytest -q tests/                # ağ gerektirmeyen testler
+```
+
+- `data/sources.csv` (takim, alan_adi, tur): 19 kulübün resmi site ve mağaza alan adları; eski alan adları
+  `*_eski` türüyle. Her alan adının kanıt bağlantısı `data/sources_kanit.csv` içinde.
+- Her sezon için CDX'te 1 Mayıs–30 Eylül aralığı taranır. Yetişkin ev forması ürün sayfası (çocuk, kadın,
+  deplasman, kaleci vb. elenir; sezon ibaresi URL'de ya da sayfa başlığında olmalı) ve kombine duyuru/bilet
+  sayfaları seçilir. Pencere içindeki **en erken kopyadan** fiyat okunur. Üstü çizili fiyat varsa liste fiyatı
+  alınır ve notta belirtilir.
+- Çıktılar: `data/forma.csv`, `data/kombine.csv`, `data/eksikler.txt`. Her dolu değerin bir
+  `web.archive.org/web/<zaman>/<url>` kaynağı vardır; kaynak yoksa hücre boş kalır.
+- İstekler arasında 1-2 sn bekleme, yanıtlar `cache/wayback/` altında, ilerleme `data/fiyat_durum.json`'da.
+  Mevcut `forma.csv`/`kombine.csv` içindeki dolu satırlara dokunulmaz.
+
+**Durum:** Bu ortamda `web.archive.org` ağ politikasıyla engelli olduğu için henüz hiçbir fiyat toplanamadı;
+tüm işler "hata" durumunda ve bir sonraki çalıştırmada yeniden denenecek.

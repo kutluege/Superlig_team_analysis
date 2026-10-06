@@ -75,7 +75,10 @@ class Collector:
 
     def _domains(self, takim: str, kinds: tuple[str, ...]) -> list[str]:
         s = self.sources[(self.sources.takim == takim) & self.sources.tur.isin(kinds)]
-        return list(dict.fromkeys(s.alan_adi))
+        s = s.assign(_o=s.tur.map({k: i for i, k in enumerate(kinds)})).sort_values("_o", kind="stable")
+        doms = list(dict.fromkeys(s.alan_adi))
+        # matchType=domain alt alan adlarını da kapsar: store.x.com.tr, x.com.tr sorgusunda zaten var
+        return [d for d in doms if not any(d != o and d.endswith("." + o) for o in doms)]
 
     def _captures(self, domain: str, season: str) -> list[Capture]:
         key = (domain, season)
