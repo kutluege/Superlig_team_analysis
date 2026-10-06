@@ -1,0 +1,1025 @@
+sezon,tarih,ev,deplasman,ev_xg,dep_xg,kaynak
+2023-24,2023-08-11,Trabzonspor,Antalyaspor,1.41,0.94,sofascore
+2023-24,2023-08-12,Kasımpaşa,Ankaragücü,1.4,0.92,sofascore
+2023-24,2023-08-12,Kayserispor,Galatasaray,0.92,1.26,sofascore
+2023-24,2023-08-12,Konyaspor,İstanbulspor,1.6,1.06,sofascore
+2023-24,2023-08-12,Pendikspor,Hatayspor,0.77,3.08,sofascore
+2023-24,2023-08-13,Adana Demirspor,Çaykur Rizespor,0.97,0.47,sofascore
+2023-24,2023-08-13,Fenerbahçe,Gaziantep FK,3.96,0.36,sofascore
+2023-24,2023-08-13,Sivasspor,Samsunspor,0.93,1.09,sofascore
+2023-24,2023-08-14,Alanyaspor,İstanbul Başakşehir,1.05,0.84,sofascore
+2023-24,2023-08-14,Fatih Karagümrük,Beşiktaş,0.18,1.93,sofascore
+2023-24,2023-08-18,Antalyaspor,Konyaspor,1.13,1.02,sofascore
+2023-24,2023-08-18,İstanbulspor,Kayserispor,0.53,0.66,sofascore
+2023-24,2023-08-19,Galatasaray,Trabzonspor,2.53,0.26,sofascore
+2023-24,2023-08-19,Hatayspor,Kasımpaşa,0.58,0.8,sofascore
+2023-24,2023-08-19,Çaykur Rizespor,Alanyaspor,0.6,0.3,sofascore
+2023-24,2023-08-20,Beşiktaş,Pendikspor,1.38,1.16,sofascore
+2023-24,2023-08-20,Gaziantep FK,Sivasspor,1.15,1.45,sofascore
+2023-24,2023-08-20,İstanbul Başakşehir,Fatih Karagümrük,1.04,0.65,sofascore
+2023-24,2023-08-21,Ankaragücü,Adana Demirspor,1.78,1.35,sofascore
+2023-24,2023-08-21,Samsunspor,Fenerbahçe,0.12,1.7,sofascore
+2023-24,2023-08-25,Konyaspor,Gaziantep FK,1.88,0.94,sofascore
+2023-24,2023-08-26,Kasımpaşa,Pendikspor,1.54,1.71,sofascore
+2023-24,2023-08-26,Sivasspor,Antalyaspor,0.84,0.62,sofascore
+2023-24,2023-08-26,Trabzonspor,Çaykur Rizespor,2.08,1.77,sofascore
+2023-24,2023-08-27,Alanyaspor,Hatayspor,1.62,0.21,sofascore
+2023-24,2023-08-27,Fatih Karagümrük,Ankaragücü,0.57,0.62,sofascore
+2023-24,2023-08-27,Kayserispor,Samsunspor,1.12,1.42,sofascore
+2023-24,2023-09-01,Kasımpaşa,Trabzonspor,1.74,1.4,sofascore
+2023-24,2023-09-01,Çaykur Rizespor,Fatih Karagümrük,1.81,0.97,sofascore
+2023-24,2023-09-02,Antalyaspor,Kayserispor,1.07,0.27,sofascore
+2023-24,2023-09-02,Gaziantep FK,Galatasaray,0.83,2.62,sofascore
+2023-24,2023-09-02,Pendikspor,Alanyaspor,0.82,1.16,sofascore
+2023-24,2023-09-02,İstanbul Başakşehir,Konyaspor,0.54,0.85,sofascore
+2023-24,2023-09-03,Ankaragücü,Fenerbahçe,0.85,1.48,sofascore
+2023-24,2023-09-03,Beşiktaş,Sivasspor,1.79,0.18,sofascore
+2023-24,2023-09-03,Hatayspor,Adana Demirspor,1.41,1.75,sofascore
+2023-24,2023-09-16,Adana Demirspor,Pendikspor,2.54,1.19,sofascore
+2023-24,2023-09-16,Galatasaray,Samsunspor,1.06,1.21,sofascore
+2023-24,2023-09-16,Kayserispor,Gaziantep FK,2.45,1.33,sofascore
+2023-24,2023-09-17,Alanyaspor,Kasımpaşa,1.55,2.02,sofascore
+2023-24,2023-09-17,Fenerbahçe,Antalyaspor,2.12,1.59,sofascore
+2023-24,2023-09-17,Trabzonspor,Beşiktaş,1.48,0.42,sofascore
+2023-24,2023-09-17,İstanbulspor,İstanbul Başakşehir,0.16,3.14,sofascore
+2023-24,2023-09-18,Fatih Karagümrük,Hatayspor,0.17,2.33,sofascore
+2023-24,2023-09-18,Sivasspor,Ankaragücü,1.25,1.53,sofascore
+2023-24,2023-09-22,Gaziantep FK,İstanbulspor,1.43,1.12,sofascore
+2023-24,2023-09-23,Antalyaspor,Samsunspor,0.68,0.84,sofascore
+2023-24,2023-09-23,Pendikspor,Fatih Karagümrük,1.85,2.09,sofascore
+2023-24,2023-09-23,İstanbul Başakşehir,Galatasaray,0.36,2.14,sofascore
+2023-24,2023-09-24,Alanyaspor,Fenerbahçe,0.1,1.42,sofascore
+2023-24,2023-09-24,Ankaragücü,Konyaspor,1.13,0.33,sofascore
+2023-24,2023-09-24,Beşiktaş,Kayserispor,2.46,0.85,sofascore
+2023-24,2023-09-24,Kasımpaşa,Adana Demirspor,1.48,1.45,sofascore
+2023-24,2023-09-25,Hatayspor,Trabzonspor,0.67,0.45,sofascore
+2023-24,2023-09-26,İstanbulspor,Galatasaray,0.45,1.99,sofascore
+2023-24,2023-09-27,Adana Demirspor,Beşiktaş,2.02,1.51,sofascore
+2023-24,2023-09-28,Fenerbahçe,İstanbul Başakşehir,2.44,0.19,sofascore
+2023-24,2023-09-29,Samsunspor,Gaziantep FK,1.48,0.23,sofascore
+2023-24,2023-09-30,Galatasaray,Ankaragücü,3.67,0.74,sofascore
+2023-24,2023-09-30,Sivasspor,Hatayspor,1.04,0.17,sofascore
+2023-24,2023-09-30,Trabzonspor,Pendikspor,0.93,0.98,sofascore
+2023-24,2023-09-30,İstanbulspor,Antalyaspor,0.44,1.3,sofascore
+2023-24,2023-10-01,Adana Demirspor,Alanyaspor,3.15,0.49,sofascore
+2023-24,2023-10-01,Fatih Karagümrük,Kasımpaşa,1.23,0.23,sofascore
+2023-24,2023-10-01,Fenerbahçe,Çaykur Rizespor,4.37,0.24,sofascore
+2023-24,2023-10-01,Konyaspor,Beşiktaş,0.24,0.69,sofascore
+2023-24,2023-10-02,Kayserispor,İstanbul Başakşehir,1.08,0.33,sofascore
+2023-24,2023-10-06,Adana Demirspor,Trabzonspor,0.74,0.78,sofascore
+2023-24,2023-10-06,Alanyaspor,Fatih Karagümrük,0.82,1.18,sofascore
+2023-24,2023-10-07,Ankaragücü,Kayserispor,0.94,0.27,sofascore
+2023-24,2023-10-07,Antalyaspor,Galatasaray,0.97,2.16,sofascore
+2023-24,2023-10-07,Pendikspor,Sivasspor,1.43,2.85,sofascore
+2023-24,2023-10-07,İstanbul Başakşehir,Gaziantep FK,0.74,1.88,sofascore
+2023-24,2023-10-08,Beşiktaş,İstanbulspor,2.13,0.38,sofascore
+2023-24,2023-10-08,Hatayspor,Konyaspor,1.18,0.52,sofascore
+2023-24,2023-10-08,Kasımpaşa,Fenerbahçe,0.18,4.08,sofascore
+2023-24,2023-10-08,Çaykur Rizespor,Samsunspor,1.09,0.58,sofascore
+2023-24,2023-10-21,Galatasaray,Beşiktaş,2.17,0.44,sofascore
+2023-24,2023-10-21,Gaziantep FK,Antalyaspor,0.77,0.37,sofascore
+2023-24,2023-10-21,Kayserispor,Çaykur Rizespor,3.24,0.86,sofascore
+2023-24,2023-10-21,Konyaspor,Pendikspor,1.21,2.32,sofascore
+2023-24,2023-10-22,Fenerbahçe,Hatayspor,1.88,0.77,sofascore
+2023-24,2023-10-22,Samsunspor,İstanbul Başakşehir,0.81,0.51,sofascore
+2023-24,2023-10-22,Sivasspor,Kasımpaşa,0.97,1.56,sofascore
+2023-24,2023-10-22,İstanbulspor,Ankaragücü,1.19,1.38,sofascore
+2023-24,2023-10-23,Fatih Karagümrük,Adana Demirspor,1.58,0.78,sofascore
+2023-24,2023-10-23,Trabzonspor,Alanyaspor,1.16,1.08,sofascore
+2023-24,2023-10-27,Hatayspor,Kayserispor,2.57,0.66,sofascore
+2023-24,2023-10-27,Kasımpaşa,İstanbulspor,1.9,2.05,sofascore
+2023-24,2023-10-28,Adana Demirspor,Konyaspor,2.66,0.6,sofascore
+2023-24,2023-10-28,Alanyaspor,Sivasspor,1.95,0.7,sofascore
+2023-24,2023-10-28,Çaykur Rizespor,Galatasaray,0.66,1.82,sofascore
+2023-24,2023-10-29,Ankaragücü,Samsunspor,1.56,0.2,sofascore
+2023-24,2023-10-29,Antalyaspor,İstanbul Başakşehir,0.84,0.54,sofascore
+2023-24,2023-10-29,Fatih Karagümrük,Trabzonspor,0.43,1.03,sofascore
+2023-24,2023-10-29,Pendikspor,Fenerbahçe,0.55,3.41,sofascore
+2023-24,2023-10-30,Beşiktaş,Gaziantep FK,1.03,1.09,sofascore
+2023-24,2023-11-03,Galatasaray,Kasımpaşa,1.27,0.94,sofascore
+2023-24,2023-11-04,Fenerbahçe,Trabzonspor,2.53,0.64,sofascore
+2023-24,2023-11-04,Samsunspor,Hatayspor,2.04,1.34,sofascore
+2023-24,2023-11-04,İstanbulspor,Pendikspor,2.43,3.03,sofascore
+2023-24,2023-11-05,Antalyaspor,Beşiktaş,0.72,1.55,sofascore
+2023-24,2023-11-05,Konyaspor,Fatih Karagümrük,1.97,1.2,sofascore
+2023-24,2023-11-05,Sivasspor,Adana Demirspor,2.31,0.63,sofascore
+2023-24,2023-11-05,İstanbul Başakşehir,Ankaragücü,1.14,0.52,sofascore
+2023-24,2023-11-06,Gaziantep FK,Çaykur Rizespor,2.31,1.0,sofascore
+2023-24,2023-11-06,Kayserispor,Alanyaspor,0.91,1.22,sofascore
+2023-24,2023-11-08,Samsunspor,İstanbulspor,1.49,0.45,sofascore
+2023-24,2023-11-10,Ankaragücü,Antalyaspor,0.66,1.69,sofascore
+2023-24,2023-11-10,Trabzonspor,Konyaspor,1.03,1.7,sofascore
+2023-24,2023-11-11,Alanyaspor,Gaziantep FK,0.56,2.39,sofascore
+2023-24,2023-11-11,Fatih Karagümrük,Sivasspor,1.91,0.73,sofascore
+2023-24,2023-11-11,Hatayspor,Galatasaray,1.15,1.59,sofascore
+2023-24,2023-11-11,Kasımpaşa,Kayserispor,2.28,1.57,sofascore
+2023-24,2023-11-12,Adana Demirspor,Fenerbahçe,0.22,1.05,sofascore
+2023-24,2023-11-12,Beşiktaş,İstanbul Başakşehir,1.68,0.58,sofascore
+2023-24,2023-11-12,Pendikspor,Samsunspor,0.93,1.35,sofascore
+2023-24,2023-11-12,Çaykur Rizespor,İstanbulspor,0.36,0.39,sofascore
+2023-24,2023-11-25,Galatasaray,Alanyaspor,3.81,0.22,sofascore
+2023-24,2023-11-25,Gaziantep FK,Ankaragücü,0.3,0.56,sofascore
+2023-24,2023-11-25,Konyaspor,Kasımpaşa,1.86,1.05,sofascore
+2023-24,2023-11-25,İstanbulspor,Hatayspor,2.45,2.17,sofascore
+2023-24,2023-11-26,Antalyaspor,Çaykur Rizespor,1.82,1.26,sofascore
+2023-24,2023-11-26,Fenerbahçe,Fatih Karagümrük,2.32,0.66,sofascore
+2023-24,2023-11-26,Kayserispor,Adana Demirspor,1.33,0.58,sofascore
+2023-24,2023-11-26,Samsunspor,Beşiktaş,1.07,2.15,sofascore
+2023-24,2023-11-27,Sivasspor,Trabzonspor,1.26,1.3,sofascore
+2023-24,2023-11-27,İstanbul Başakşehir,Pendikspor,2.94,1.04,sofascore
+2023-24,2023-12-01,Fatih Karagümrük,İstanbulspor,1.88,0.25,sofascore
+2023-24,2023-12-01,Hatayspor,Antalyaspor,1.34,1.86,sofascore
+2023-24,2023-12-02,Adana Demirspor,Samsunspor,1.13,2.32,sofascore
+2023-24,2023-12-02,Alanyaspor,Konyaspor,1.92,1.29,sofascore
+2023-24,2023-12-02,Pendikspor,Galatasaray,0.46,1.51,sofascore
+2023-24,2023-12-02,Çaykur Rizespor,İstanbul Başakşehir,2.56,1.55,sofascore
+2023-24,2023-12-03,Ankaragücü,Beşiktaş,0.49,0.43,sofascore
+2023-24,2023-12-03,Kasımpaşa,Gaziantep FK,1.82,2.79,sofascore
+2023-24,2023-12-03,Trabzonspor,Kayserispor,0.78,0.49,sofascore
+2023-24,2023-12-04,Fenerbahçe,Sivasspor,1.27,0.83,sofascore
+2023-24,2023-12-08,Galatasaray,Adana Demirspor,3.39,1.16,sofascore
+2023-24,2023-12-09,Antalyaspor,Fatih Karagümrük,0.14,0.91,sofascore
+2023-24,2023-12-09,Beşiktaş,Fenerbahçe,1.16,3.98,sofascore
+2023-24,2023-12-09,Samsunspor,Kasımpaşa,2.35,1.27,sofascore
+2023-24,2023-12-10,Gaziantep FK,Trabzonspor,0.5,2.62,sofascore
+2023-24,2023-12-10,Kayserispor,Pendikspor,1.88,1.4,sofascore
+2023-24,2023-12-10,İstanbul Başakşehir,Hatayspor,1.07,2.65,sofascore
+2023-24,2023-12-10,İstanbulspor,Alanyaspor,0.55,2.96,sofascore
+2023-24,2023-12-11,Ankaragücü,Çaykur Rizespor,0.83,1.37,sofascore
+2023-24,2023-12-11,Konyaspor,Sivasspor,0.83,0.83,sofascore
+2023-24,2023-12-19,Gaziantep FK,Adana Demirspor,1.11,1.6,sofascore
+2023-24,2023-12-19,İstanbul Başakşehir,Sivasspor,3.16,0.41,sofascore
+2023-24,2023-12-20,Antalyaspor,Kasımpaşa,0.36,0.33,sofascore
+2023-24,2023-12-20,Galatasaray,Fatih Karagümrük,1.65,0.37,sofascore
+2023-24,2023-12-20,Kayserispor,Fenerbahçe,2.09,1.81,sofascore
+2023-24,2023-12-21,Ankaragücü,Hatayspor,1.38,0.73,sofascore
+2023-24,2023-12-21,Beşiktaş,Alanyaspor,1.65,1.84,sofascore
+2023-24,2023-12-21,Samsunspor,Konyaspor,1.2,1.51,sofascore
+2023-24,2023-12-21,Çaykur Rizespor,Pendikspor,3.17,1.13,sofascore
+2023-24,2023-12-23,Fatih Karagümrük,Gaziantep FK,1.19,2.05,sofascore
+2023-24,2023-12-23,Sivasspor,İstanbulspor,1.34,0.26,sofascore
+2023-24,2023-12-23,Trabzonspor,İstanbul Başakşehir,1.25,0.88,sofascore
+2023-24,2023-12-24,Adana Demirspor,Antalyaspor,1.56,1.91,sofascore
+2023-24,2023-12-24,Fenerbahçe,Galatasaray,0.39,0.42,sofascore
+2023-24,2023-12-24,Konyaspor,Kayserispor,2.23,1.01,sofascore
+2023-24,2023-12-25,Alanyaspor,Samsunspor,1.89,0.75,sofascore
+2023-24,2023-12-25,Hatayspor,Beşiktaş,0.7,1.16,sofascore
+2023-24,2023-12-25,Kasımpaşa,Çaykur Rizespor,1.77,1.63,sofascore
+2023-24,2023-12-25,Pendikspor,Ankaragücü,1.52,0.42,sofascore
+2023-24,2024-01-05,Antalyaspor,Alanyaspor,0.96,1.48,sofascore
+2023-24,2024-01-05,Beşiktaş,Kasımpaşa,0.81,1.26,sofascore
+2023-24,2024-01-05,Gaziantep FK,Pendikspor,0.63,2.1,sofascore
+2023-24,2024-01-06,Ankaragücü,Trabzonspor,0.77,0.94,sofascore
+2023-24,2024-01-06,Samsunspor,Fatih Karagümrük,1.56,0.28,sofascore
+2023-24,2024-01-06,Çaykur Rizespor,Hatayspor,0.98,0.77,sofascore
+2023-24,2024-01-06,İstanbul Başakşehir,Adana Demirspor,0.77,0.97,sofascore
+2023-24,2024-01-07,Galatasaray,Konyaspor,2.82,0.7,sofascore
+2023-24,2024-01-07,Kayserispor,Sivasspor,1.55,2.17,sofascore
+2023-24,2024-01-07,İstanbulspor,Fenerbahçe,0.81,3.02,sofascore
+2023-24,2024-01-09,Alanyaspor,Ankaragücü,0.61,0.39,sofascore
+2023-24,2024-01-09,Kasımpaşa,İstanbul Başakşehir,0.76,1.98,sofascore
+2023-24,2024-01-09,Pendikspor,Antalyaspor,1.31,1.38,sofascore
+2023-24,2024-01-09,Çaykur Rizespor,Beşiktaş,1.56,2.01,sofascore
+2023-24,2024-01-10,Adana Demirspor,İstanbulspor,1.36,1.04,sofascore
+2023-24,2024-01-10,Fatih Karagümrük,Kayserispor,1.27,1.81,sofascore
+2023-24,2024-01-10,Fenerbahçe,Konyaspor,5.16,0.09,sofascore
+2023-24,2024-01-10,Hatayspor,Gaziantep FK,0.5,0.16,sofascore
+2023-24,2024-01-11,Sivasspor,Galatasaray,1.56,1.6,sofascore
+2023-24,2024-01-11,Trabzonspor,Samsunspor,1.25,2.35,sofascore
+2023-24,2024-01-13,Ankaragücü,Kasımpaşa,2.33,1.47,sofascore
+2023-24,2024-01-13,Beşiktaş,Fatih Karagümrük,2.08,0.38,sofascore
+2023-24,2024-01-13,Hatayspor,Pendikspor,0.99,1.66,sofascore
+2023-24,2024-01-13,Çaykur Rizespor,Adana Demirspor,1.71,0.59,sofascore
+2023-24,2024-01-13,İstanbul Başakşehir,Alanyaspor,0.7,1.58,sofascore
+2023-24,2024-01-14,Antalyaspor,Trabzonspor,1.55,0.29,sofascore
+2023-24,2024-01-14,Gaziantep FK,Fenerbahçe,0.62,2.62,sofascore
+2023-24,2024-01-14,Samsunspor,Sivasspor,1.65,0.23,sofascore
+2023-24,2024-01-14,İstanbulspor,Konyaspor,2.25,0.32,sofascore
+2023-24,2024-01-15,Galatasaray,Kayserispor,2.85,1.85,sofascore
+2023-24,2024-01-20,Adana Demirspor,Ankaragücü,1.97,1.21,sofascore
+2023-24,2024-01-20,Alanyaspor,Çaykur Rizespor,2.3,1.38,sofascore
+2023-24,2024-01-20,Fatih Karagümrük,İstanbul Başakşehir,0.95,1.61,sofascore
+2023-24,2024-01-20,Kasımpaşa,Hatayspor,1.26,1.17,sofascore
+2023-24,2024-01-20,Pendikspor,Beşiktaş,1.24,1.9,sofascore
+2023-24,2024-01-21,Fenerbahçe,Samsunspor,2.54,0.34,sofascore
+2023-24,2024-01-21,Konyaspor,Antalyaspor,0.49,1.32,sofascore
+2023-24,2024-01-21,Sivasspor,Gaziantep FK,1.98,2.01,sofascore
+2023-24,2024-01-21,Trabzonspor,Galatasaray,0.98,2.17,sofascore
+2023-24,2024-01-22,Kayserispor,İstanbulspor,0.5,2.16,sofascore
+2023-24,2024-01-23,Beşiktaş,Adana Demirspor,1.4,0.2,sofascore
+2023-24,2024-01-23,Hatayspor,Alanyaspor,0.09,2.1,sofascore
+2023-24,2024-01-23,Pendikspor,Kasımpaşa,1.82,0.52,sofascore
+2023-24,2024-01-24,Ankaragücü,Fatih Karagümrük,1.68,0.41,sofascore
+2023-24,2024-01-24,Antalyaspor,Sivasspor,2.19,1.22,sofascore
+2023-24,2024-01-24,Gaziantep FK,Konyaspor,0.72,0.59,sofascore
+2023-24,2024-01-24,İstanbul Başakşehir,Fenerbahçe,0.57,3.03,sofascore
+2023-24,2024-01-25,Galatasaray,İstanbulspor,2.34,0.41,sofascore
+2023-24,2024-01-25,Samsunspor,Kayserispor,0.97,0.48,sofascore
+2023-24,2024-01-25,Çaykur Rizespor,Trabzonspor,1.63,0.73,sofascore
+2023-24,2024-01-27,Adana Demirspor,Hatayspor,1.03,0.2,sofascore
+2023-24,2024-01-27,Alanyaspor,Pendikspor,1.38,0.73,sofascore
+2023-24,2024-01-28,Fatih Karagümrük,Çaykur Rizespor,1.67,0.24,sofascore
+2023-24,2024-01-28,Fenerbahçe,Ankaragücü,1.88,0.89,sofascore
+2023-24,2024-01-28,Konyaspor,İstanbul Başakşehir,1.09,2.06,sofascore
+2023-24,2024-01-28,Sivasspor,Beşiktaş,0.71,1.2,sofascore
+2023-24,2024-01-29,Galatasaray,Gaziantep FK,3.18,0.51,sofascore
+2023-24,2024-01-29,Kayserispor,Antalyaspor,1.48,1.82,sofascore
+2023-24,2024-01-29,Trabzonspor,Kasımpaşa,1.86,2.1,sofascore
+2023-24,2024-01-29,İstanbulspor,Samsunspor,0.87,0.83,sofascore
+2023-24,2024-02-02,Ankaragücü,Sivasspor,0.55,0.47,sofascore
+2023-24,2024-02-02,Hatayspor,Fatih Karagümrük,1.83,1.92,sofascore
+2023-24,2024-02-02,Samsunspor,Galatasaray,1.06,2.09,sofascore
+2023-24,2024-02-03,Antalyaspor,Fenerbahçe,0.59,1.48,sofascore
+2023-24,2024-02-03,Gaziantep FK,Kayserispor,0.94,0.99,sofascore
+2023-24,2024-02-03,Çaykur Rizespor,Konyaspor,0.97,1.4,sofascore
+2023-24,2024-02-03,İstanbul Başakşehir,İstanbulspor,3.06,0.41,sofascore
+2023-24,2024-02-04,Beşiktaş,Trabzonspor,0.53,1.45,sofascore
+2023-24,2024-02-04,Kasımpaşa,Alanyaspor,1.81,0.69,sofascore
+2023-24,2024-02-04,Pendikspor,Adana Demirspor,1.48,1.24,sofascore
+2023-24,2024-02-09,Adana Demirspor,Kasımpaşa,1.73,1.84,sofascore
+2023-24,2024-02-10,Fatih Karagümrük,Pendikspor,1.59,0.42,sofascore
+2023-24,2024-02-10,Galatasaray,İstanbul Başakşehir,1.36,0.64,sofascore
+2023-24,2024-02-11,Fenerbahçe,Alanyaspor,1.91,0.67,sofascore
+2023-24,2024-02-11,Konyaspor,Ankaragücü,0.69,0.5,sofascore
+2023-24,2024-02-11,Sivasspor,Çaykur Rizespor,0.62,1.65,sofascore
+2023-24,2024-02-11,İstanbulspor,Gaziantep FK,0.97,2.25,sofascore
+2023-24,2024-02-12,Kayserispor,Beşiktaş,1.12,0.22,sofascore
+2023-24,2024-02-12,Samsunspor,Antalyaspor,0.92,0.52,sofascore
+2023-24,2024-02-12,Trabzonspor,Hatayspor,1.99,1.01,sofascore
+2023-24,2024-02-16,Kasımpaşa,Fatih Karagümrük,0.55,1.48,sofascore
+2023-24,2024-02-17,Antalyaspor,İstanbulspor,1.49,2.07,sofascore
+2023-24,2024-02-17,Hatayspor,Sivasspor,0.51,0.34,sofascore
+2023-24,2024-02-17,Çaykur Rizespor,Fenerbahçe,0.81,1.64,sofascore
+2023-24,2024-02-18,Alanyaspor,Adana Demirspor,1.09,1.86,sofascore
+2023-24,2024-02-18,Ankaragücü,Galatasaray,0.34,2.46,sofascore
+2023-24,2024-02-18,Gaziantep FK,Samsunspor,0.47,0.88,sofascore
+2023-24,2024-02-18,Pendikspor,Trabzonspor,0.76,1.41,sofascore
+2023-24,2024-02-19,Beşiktaş,Konyaspor,1.47,0.16,sofascore
+2023-24,2024-02-19,İstanbul Başakşehir,Kayserispor,2.54,1.56,sofascore
+2023-24,2024-02-23,Samsunspor,Çaykur Rizespor,1.54,0.76,sofascore
+2023-24,2024-02-24,Fenerbahçe,Kasımpaşa,3.44,0.81,sofascore
+2023-24,2024-02-24,Gaziantep FK,İstanbul Başakşehir,0.77,0.43,sofascore
+2023-24,2024-02-24,Kayserispor,Ankaragücü,0.78,1.89,sofascore
+2023-24,2024-02-24,Konyaspor,Hatayspor,1.59,0.23,sofascore
+2023-24,2024-02-25,Fatih Karagümrük,Alanyaspor,1.01,1.71,sofascore
+2023-24,2024-02-25,Sivasspor,Pendikspor,1.51,1.04,sofascore
+2023-24,2024-02-25,Trabzonspor,Adana Demirspor,1.09,0.85,sofascore
+2023-24,2024-02-25,İstanbulspor,Beşiktaş,0.76,0.81,sofascore
+2023-24,2024-02-26,Galatasaray,Antalyaspor,3.46,1.01,sofascore
+2023-24,2024-03-01,Kasımpaşa,Sivasspor,1.04,0.6,sofascore
+2023-24,2024-03-02,Ankaragücü,İstanbulspor,0.85,0.86,sofascore
+2023-24,2024-03-02,Hatayspor,Fenerbahçe,0.58,2.11,sofascore
+2023-24,2024-03-02,Çaykur Rizespor,Kayserispor,2.01,1.54,sofascore
+2023-24,2024-03-03,Beşiktaş,Galatasaray,0.32,0.6,sofascore
+2023-24,2024-03-03,Pendikspor,Konyaspor,1.25,1.91,sofascore
+2023-24,2024-03-03,İstanbul Başakşehir,Samsunspor,0.83,0.74,sofascore
+2023-24,2024-03-04,Adana Demirspor,Fatih Karagümrük,1.69,0.84,sofascore
+2023-24,2024-03-04,Alanyaspor,Trabzonspor,2.66,1.44,sofascore
+2023-24,2024-03-04,Antalyaspor,Gaziantep FK,1.84,0.48,sofascore
+2023-24,2024-03-08,Galatasaray,Çaykur Rizespor,2.29,0.51,sofascore
+2023-24,2024-03-09,Konyaspor,Adana Demirspor,2.25,0.64,sofascore
+2023-24,2024-03-09,Sivasspor,Alanyaspor,0.8,0.89,sofascore
+2023-24,2024-03-09,Trabzonspor,Fatih Karagümrük,3.07,0.28,sofascore
+2023-24,2024-03-09,İstanbul Başakşehir,Antalyaspor,1.38,0.39,sofascore
+2023-24,2024-03-10,Fenerbahçe,Pendikspor,2.7,0.57,sofascore
+2023-24,2024-03-10,Kayserispor,Hatayspor,1.75,0.27,sofascore
+2023-24,2024-03-10,Samsunspor,Ankaragücü,1.72,0.14,sofascore
+2023-24,2024-03-10,İstanbulspor,Kasımpaşa,0.57,2.05,sofascore
+2023-24,2024-03-11,Gaziantep FK,Beşiktaş,1.11,1.34,sofascore
+2023-24,2024-03-15,Fatih Karagümrük,Konyaspor,0.88,0.79,sofascore
+2023-24,2024-03-15,Pendikspor,İstanbulspor,1.66,0.21,sofascore
+2023-24,2024-03-16,Adana Demirspor,Sivasspor,1.01,0.28,sofascore
+2023-24,2024-03-16,Alanyaspor,Kayserispor,1.21,0.88,sofascore
+2023-24,2024-03-16,Ankaragücü,İstanbul Başakşehir,1.61,1.66,sofascore
+2023-24,2024-03-16,Beşiktaş,Antalyaspor,2.25,1.53,sofascore
+2023-24,2024-03-17,Hatayspor,Samsunspor,1.08,0.44,sofascore
+2023-24,2024-03-17,Kasımpaşa,Galatasaray,2.03,2.53,sofascore
+2023-24,2024-03-17,Trabzonspor,Fenerbahçe,1.17,0.91,sofascore
+2023-24,2024-03-17,Çaykur Rizespor,Gaziantep FK,2.21,1.16,sofascore
+2023-24,2024-04-02,Antalyaspor,Ankaragücü,0.48,0.68,sofascore
+2023-24,2024-04-02,Galatasaray,Hatayspor,1.64,0.57,sofascore
+2023-24,2024-04-02,Gaziantep FK,Alanyaspor,1.3,2.92,sofascore
+2023-24,2024-04-02,İstanbulspor,Çaykur Rizespor,0.26,3.0,sofascore
+2023-24,2024-04-03,Fenerbahçe,Adana Demirspor,3.11,1.95,sofascore
+2023-24,2024-04-03,Kayserispor,Kasımpaşa,0.86,1.43,sofascore
+2023-24,2024-04-03,Konyaspor,Trabzonspor,1.55,1.2,sofascore
+2023-24,2024-04-03,Sivasspor,Fatih Karagümrük,2.91,1.69,sofascore
+2023-24,2024-04-04,Samsunspor,Pendikspor,0.44,0.8,sofascore
+2023-24,2024-04-04,İstanbul Başakşehir,Beşiktaş,0.99,1.16,sofascore
+2023-24,2024-04-12,Trabzonspor,Sivasspor,1.33,1.25,sofascore
+2023-24,2024-04-13,Adana Demirspor,Kayserispor,1.54,0.67,sofascore
+2023-24,2024-04-13,Ankaragücü,Gaziantep FK,1.67,0.9,sofascore
+2023-24,2024-04-13,Beşiktaş,Samsunspor,1.04,0.68,sofascore
+2023-24,2024-04-13,Kasımpaşa,Konyaspor,0.76,1.86,sofascore
+2023-24,2024-04-14,Fatih Karagümrük,Fenerbahçe,0.92,2.38,sofascore
+2023-24,2024-04-14,Hatayspor,İstanbulspor,2.11,3.19,sofascore
+2023-24,2024-04-14,Pendikspor,İstanbul Başakşehir,1.55,1.89,sofascore
+2023-24,2024-04-14,Çaykur Rizespor,Antalyaspor,2.26,1.11,sofascore
+2023-24,2024-04-15,Alanyaspor,Galatasaray,0.73,1.75,sofascore
+2023-24,2024-04-19,Beşiktaş,Ankaragücü,0.94,1.12,sofascore
+2023-24,2024-04-20,Kayserispor,Trabzonspor,1.57,1.46,sofascore
+2023-24,2024-04-20,Konyaspor,Alanyaspor,0.09,1.15,sofascore
+2023-24,2024-04-20,Samsunspor,Adana Demirspor,2.04,0.47,sofascore
+2023-24,2024-04-20,İstanbulspor,Fatih Karagümrük,2.24,3.56,sofascore
+2023-24,2024-04-21,Antalyaspor,Hatayspor,0.91,2.42,sofascore
+2023-24,2024-04-21,Galatasaray,Pendikspor,2.84,0.97,sofascore
+2023-24,2024-04-21,Gaziantep FK,Kasımpaşa,0.88,1.02,sofascore
+2023-24,2024-04-21,İstanbul Başakşehir,Çaykur Rizespor,1.93,0.76,sofascore
+2023-24,2024-04-22,Sivasspor,Fenerbahçe,1.22,1.15,sofascore
+2023-24,2024-04-26,Adana Demirspor,Galatasaray,0.82,1.73,sofascore
+2023-24,2024-04-27,Fenerbahçe,Beşiktaş,0.98,0.51,sofascore
+2023-24,2024-04-27,Hatayspor,İstanbul Başakşehir,1.34,0.61,sofascore
+2023-24,2024-04-27,Kasımpaşa,Samsunspor,1.31,0.83,sofascore
+2023-24,2024-04-27,Sivasspor,Konyaspor,0.4,0.34,sofascore
+2023-24,2024-04-28,Alanyaspor,İstanbulspor,2.55,1.06,sofascore
+2023-24,2024-04-28,Pendikspor,Kayserispor,1.92,0.57,sofascore
+2023-24,2024-04-28,Trabzonspor,Gaziantep FK,2.15,0.68,sofascore
+2023-24,2024-04-28,Çaykur Rizespor,Ankaragücü,0.99,1.32,sofascore
+2023-24,2024-04-29,Fatih Karagümrük,Antalyaspor,1.72,0.45,sofascore
+2023-24,2024-05-03,Ankaragücü,Alanyaspor,0.91,2.51,sofascore
+2023-24,2024-05-03,Beşiktaş,Çaykur Rizespor,2.08,1.02,sofascore
+2023-24,2024-05-04,Kayserispor,Fatih Karagümrük,1.73,1.79,sofascore
+2023-24,2024-05-04,Samsunspor,Trabzonspor,1.97,0.31,sofascore
+2023-24,2024-05-04,İstanbulspor,Adana Demirspor,0.95,1.57,sofascore
+2023-24,2024-05-05,Galatasaray,Sivasspor,2.62,0.8,sofascore
+2023-24,2024-05-05,Gaziantep FK,Hatayspor,1.61,1.01,sofascore
+2023-24,2024-05-05,İstanbul Başakşehir,Kasımpaşa,2.62,0.49,sofascore
+2023-24,2024-05-06,Antalyaspor,Pendikspor,1.88,2.35,sofascore
+2023-24,2024-05-06,Konyaspor,Fenerbahçe,0.38,2.38,sofascore
+2023-24,2024-05-12,Adana Demirspor,Gaziantep FK,0.56,3.44,sofascore
+2023-24,2024-05-12,Alanyaspor,Beşiktaş,1.76,0.45,sofascore
+2023-24,2024-05-12,Fatih Karagümrük,Galatasaray,1.08,1.29,sofascore
+2023-24,2024-05-12,Fenerbahçe,Kayserispor,2.12,0.58,sofascore
+2023-24,2024-05-12,Hatayspor,Ankaragücü,1.48,2.22,sofascore
+2023-24,2024-05-12,Kasımpaşa,Antalyaspor,2.98,2.05,sofascore
+2023-24,2024-05-12,Konyaspor,Samsunspor,0.88,0.25,sofascore
+2023-24,2024-05-12,Pendikspor,Çaykur Rizespor,1.98,1.73,sofascore
+2023-24,2024-05-12,Sivasspor,İstanbul Başakşehir,0.54,1.8,sofascore
+2023-24,2024-05-12,Trabzonspor,İstanbulspor,0.66,0.62,sofascore
+2023-24,2024-05-17,Antalyaspor,Adana Demirspor,0.49,2.51,sofascore
+2023-24,2024-05-17,İstanbulspor,Sivasspor,1.66,1.71,sofascore
+2023-24,2024-05-18,Ankaragücü,Pendikspor,0.78,0.57,sofascore
+2023-24,2024-05-18,Beşiktaş,Hatayspor,2.55,1.09,sofascore
+2023-24,2024-05-18,Gaziantep FK,Fatih Karagümrük,1.72,0.3,sofascore
+2023-24,2024-05-18,Kayserispor,Konyaspor,1.51,1.67,sofascore
+2023-24,2024-05-18,Samsunspor,Alanyaspor,1.12,0.35,sofascore
+2023-24,2024-05-18,Çaykur Rizespor,Kasımpaşa,1.2,2.03,sofascore
+2023-24,2024-05-18,İstanbul Başakşehir,Trabzonspor,0.97,0.62,sofascore
+2023-24,2024-05-19,Galatasaray,Fenerbahçe,0.67,1.41,sofascore
+2023-24,2024-05-24,Alanyaspor,Antalyaspor,2.21,0.34,sofascore
+2023-24,2024-05-25,Fatih Karagümrük,Samsunspor,2.09,1.21,sofascore
+2023-24,2024-05-25,Sivasspor,Kayserispor,1.02,1.65,sofascore
+2023-24,2024-05-26,Adana Demirspor,İstanbul Başakşehir,1.38,2.73,sofascore
+2023-24,2024-05-26,Fenerbahçe,İstanbulspor,5.21,0.31,sofascore
+2023-24,2024-05-26,Hatayspor,Çaykur Rizespor,2.17,1.19,sofascore
+2023-24,2024-05-26,Kasımpaşa,Beşiktaş,2.29,1.48,sofascore
+2023-24,2024-05-26,Konyaspor,Galatasaray,0.32,2.31,sofascore
+2023-24,2024-05-26,Pendikspor,Gaziantep FK,0.72,1.54,sofascore
+2023-24,2024-05-26,Trabzonspor,Ankaragücü,1.84,1.99,sofascore
+2024-25,2024-08-09,Galatasaray,Hatayspor,3.58,0.57,sofascore
+2024-25,2024-08-10,Antalyaspor,Göztepe,0.31,0.82,sofascore
+2024-25,2024-08-10,Fenerbahçe,Adana Demirspor,1.49,0.27,sofascore
+2024-25,2024-08-10,Kasımpaşa,Konyaspor,0.7,0.76,sofascore
+2024-25,2024-08-11,Alanyaspor,Eyüpspor,1.93,0.41,sofascore
+2024-25,2024-08-11,Samsunspor,Beşiktaş,1.25,0.51,sofascore
+2024-25,2024-08-11,Sivasspor,Trabzonspor,0.65,1.07,sofascore
+2024-25,2024-08-12,Bodrum FK,Gaziantep FK,0.77,0.29,sofascore
+2024-25,2024-08-12,Çaykur Rizespor,İstanbul Başakşehir,1.61,0.3,sofascore
+2024-25,2024-08-16,Konyaspor,Galatasaray,1.78,1.02,sofascore
+2024-25,2024-08-17,Adana Demirspor,Çaykur Rizespor,1.26,1.45,sofascore
+2024-25,2024-08-17,Göztepe,Fenerbahçe,0.87,2.13,sofascore
+2024-25,2024-08-17,Kayserispor,Sivasspor,1.83,1.18,sofascore
+2024-25,2024-08-18,Beşiktaş,Antalyaspor,2.98,1.03,sofascore
+2024-25,2024-08-18,Gaziantep FK,Samsunspor,1.14,1.06,sofascore
+2024-25,2024-08-18,İstanbul Başakşehir,Alanyaspor,1.12,2.13,sofascore
+2024-25,2024-08-19,Eyüpspor,Bodrum FK,2.28,1.71,sofascore
+2024-25,2024-08-19,Hatayspor,Kasımpaşa,0.53,1.08,sofascore
+2024-25,2024-08-23,Alanyaspor,Göztepe,1.53,1.44,sofascore
+2024-25,2024-08-24,Bodrum FK,Konyaspor,1.61,0.36,sofascore
+2024-25,2024-08-24,Sivasspor,Eyüpspor,0.55,1.13,sofascore
+2024-25,2024-08-25,Antalyaspor,Hatayspor,2.37,1.38,sofascore
+2024-25,2024-08-25,Kasımpaşa,Adana Demirspor,2.4,1.66,sofascore
+2024-25,2024-08-25,Çaykur Rizespor,Fenerbahçe,0.5,1.78,sofascore
+2024-25,2024-08-30,Fenerbahçe,Alanyaspor,1.88,0.39,sofascore
+2024-25,2024-08-31,Adana Demirspor,Galatasaray,2.29,2.45,sofascore
+2024-25,2024-08-31,Göztepe,Bodrum FK,1.5,1.97,sofascore
+2024-25,2024-08-31,Konyaspor,Kayserispor,0.93,0.87,sofascore
+2024-25,2024-08-31,Çaykur Rizespor,Kasımpaşa,1.55,1.23,sofascore
+2024-25,2024-09-01,Beşiktaş,Sivasspor,2.16,0.16,sofascore
+2024-25,2024-09-01,Eyüpspor,Trabzonspor,0.91,0.24,sofascore
+2024-25,2024-09-01,Hatayspor,Samsunspor,0.25,2.29,sofascore
+2024-25,2024-09-01,İstanbul Başakşehir,Antalyaspor,2.66,0.88,sofascore
+2024-25,2024-09-14,Bodrum FK,İstanbul Başakşehir,0.46,1.89,sofascore
+2024-25,2024-09-14,Galatasaray,Çaykur Rizespor,3.26,0.1,sofascore
+2024-25,2024-09-14,Samsunspor,Konyaspor,0.47,0.32,sofascore
+2024-25,2024-09-14,Sivasspor,Gaziantep FK,1.11,1.9,sofascore
+2024-25,2024-09-15,Alanyaspor,Hatayspor,0.62,0.75,sofascore
+2024-25,2024-09-15,Kasımpaşa,Fenerbahçe,0.96,1.71,sofascore
+2024-25,2024-09-15,Kayserispor,Eyüpspor,1.91,2.74,sofascore
+2024-25,2024-09-15,Trabzonspor,Beşiktaş,0.27,1.47,sofascore
+2024-25,2024-09-16,Antalyaspor,Adana Demirspor,0.4,0.88,sofascore
+2024-25,2024-09-17,Galatasaray,Gaziantep FK,2.21,0.61,sofascore
+2024-25,2024-09-18,Samsunspor,İstanbul Başakşehir,1.96,1.16,sofascore
+2024-25,2024-09-19,Trabzonspor,Kayserispor,2.71,2.4,sofascore
+2024-25,2024-09-20,Hatayspor,Bodrum FK,0.81,0.78,sofascore
+2024-25,2024-09-21,Fenerbahçe,Galatasaray,3.0,1.39,sofascore
+2024-25,2024-09-21,Konyaspor,Sivasspor,1.2,0.95,sofascore
+2024-25,2024-09-22,Adana Demirspor,Alanyaspor,0.44,1.56,sofascore
+2024-25,2024-09-22,Beşiktaş,Eyüpspor,2.26,2.02,sofascore
+2024-25,2024-09-22,Kasımpaşa,Antalyaspor,0.69,0.28,sofascore
+2024-25,2024-09-22,Çaykur Rizespor,Samsunspor,0.49,0.97,sofascore
+2024-25,2024-09-23,Gaziantep FK,Trabzonspor,1.21,0.91,sofascore
+2024-25,2024-09-23,Göztepe,Kayserispor,2.29,0.41,sofascore
+2024-25,2024-09-27,Sivasspor,İstanbul Başakşehir,1.76,2.07,sofascore
+2024-25,2024-09-28,Alanyaspor,Çaykur Rizespor,0.85,1.4,sofascore
+2024-25,2024-09-28,Galatasaray,Kasımpaşa,0.93,2.24,sofascore
+2024-25,2024-09-28,Samsunspor,Göztepe,2.02,1.27,sofascore
+2024-25,2024-09-29,Antalyaspor,Fenerbahçe,0.39,1.84,sofascore
+2024-25,2024-09-29,Bodrum FK,Adana Demirspor,1.58,1.1,sofascore
+2024-25,2024-09-29,Eyüpspor,Gaziantep FK,1.89,1.59,sofascore
+2024-25,2024-09-29,Trabzonspor,Konyaspor,2.0,2.09,sofascore
+2024-25,2024-09-30,Kayserispor,Beşiktaş,0.52,2.15,sofascore
+2024-25,2024-10-04,Çaykur Rizespor,Antalyaspor,0.84,1.79,sofascore
+2024-25,2024-10-05,Göztepe,Sivasspor,1.57,1.12,sofascore
+2024-25,2024-10-05,Hatayspor,Trabzonspor,1.06,1.38,sofascore
+2024-25,2024-10-05,Kasımpaşa,Bodrum FK,0.81,0.07,sofascore
+2024-25,2024-10-05,İstanbul Başakşehir,Kayserispor,1.95,1.3,sofascore
+2024-25,2024-10-06,Adana Demirspor,Samsunspor,1.29,1.14,sofascore
+2024-25,2024-10-06,Galatasaray,Alanyaspor,1.31,0.49,sofascore
+2024-25,2024-10-06,Gaziantep FK,Beşiktaş,1.5,2.19,sofascore
+2024-25,2024-10-06,Konyaspor,Eyüpspor,1.48,0.66,sofascore
+2024-25,2024-10-19,Antalyaspor,Galatasaray,0.33,2.2,sofascore
+2024-25,2024-10-19,Eyüpspor,Göztepe,1.23,1.14,sofascore
+2024-25,2024-10-19,Kayserispor,Gaziantep FK,1.83,1.49,sofascore
+2024-25,2024-10-19,Trabzonspor,İstanbul Başakşehir,1.32,0.42,sofascore
+2024-25,2024-10-20,Alanyaspor,Kasımpaşa,1.43,1.27,sofascore
+2024-25,2024-10-20,Beşiktaş,Konyaspor,3.05,1.35,sofascore
+2024-25,2024-10-20,Samsunspor,Fenerbahçe,0.7,1.6,sofascore
+2024-25,2024-10-20,Sivasspor,Hatayspor,1.54,1.89,sofascore
+2024-25,2024-10-21,Bodrum FK,Çaykur Rizespor,0.72,0.82,sofascore
+2024-25,2024-10-25,Adana Demirspor,Sivasspor,1.72,1.55,sofascore
+2024-25,2024-10-26,Göztepe,Trabzonspor,2.9,1.89,sofascore
+2024-25,2024-10-26,Hatayspor,Kayserispor,1.74,1.71,sofascore
+2024-25,2024-10-26,Kasımpaşa,Samsunspor,1.4,2.38,sofascore
+2024-25,2024-10-27,Alanyaspor,Antalyaspor,1.22,1.11,sofascore
+2024-25,2024-10-27,Fenerbahçe,Bodrum FK,1.58,0.43,sofascore
+2024-25,2024-10-27,Gaziantep FK,Konyaspor,1.09,1.45,sofascore
+2024-25,2024-10-28,Galatasaray,Beşiktaş,1.99,0.59,sofascore
+2024-25,2024-10-28,İstanbul Başakşehir,Eyüpspor,1.66,0.53,sofascore
+2024-25,2024-11-01,Gaziantep FK,Göztepe,1.28,1.2,sofascore
+2024-25,2024-11-02,Beşiktaş,Kasımpaşa,1.49,1.06,sofascore
+2024-25,2024-11-02,Kayserispor,Adana Demirspor,1.16,0.24,sofascore
+2024-25,2024-11-02,Sivasspor,Çaykur Rizespor,0.55,1.92,sofascore
+2024-25,2024-11-03,Bodrum FK,Alanyaspor,0.68,0.28,sofascore
+2024-25,2024-11-03,Eyüpspor,Hatayspor,1.6,0.94,sofascore
+2024-25,2024-11-03,Konyaspor,İstanbul Başakşehir,1.34,2.3,sofascore
+2024-25,2024-11-03,Trabzonspor,Fenerbahçe,2.18,2.14,sofascore
+2024-25,2024-11-04,Samsunspor,Antalyaspor,2.83,0.65,sofascore
+2024-25,2024-11-08,Kasımpaşa,Kayserispor,1.25,1.2,sofascore
+2024-25,2024-11-09,Adana Demirspor,Eyüpspor,0.28,0.75,sofascore
+2024-25,2024-11-09,Antalyaspor,Bodrum FK,2.38,1.33,sofascore
+2024-25,2024-11-09,Hatayspor,Gaziantep FK,2.43,0.99,sofascore
+2024-25,2024-11-09,Çaykur Rizespor,Trabzonspor,1.99,0.68,sofascore
+2024-25,2024-11-10,Fenerbahçe,Sivasspor,3.39,1.17,sofascore
+2024-25,2024-11-10,Galatasaray,Samsunspor,2.18,2.03,sofascore
+2024-25,2024-11-10,Göztepe,Konyaspor,2.42,0.45,sofascore
+2024-25,2024-11-10,İstanbul Başakşehir,Beşiktaş,0.55,0.85,sofascore
+2024-25,2024-11-23,Bodrum FK,Galatasaray,0.25,3.16,sofascore
+2024-25,2024-11-23,Eyüpspor,Çaykur Rizespor,1.04,1.58,sofascore
+2024-25,2024-11-23,Gaziantep FK,İstanbul Başakşehir,2.06,0.97,sofascore
+2024-25,2024-11-23,Kayserispor,Fenerbahçe,1.01,3.83,sofascore
+2024-25,2024-11-24,Beşiktaş,Göztepe,1.43,2.42,sofascore
+2024-25,2024-11-24,Konyaspor,Hatayspor,0.75,0.8,sofascore
+2024-25,2024-11-24,Samsunspor,Alanyaspor,0.78,0.98,sofascore
+2024-25,2024-11-24,Sivasspor,Kasımpaşa,1.24,1.24,sofascore
+2024-25,2024-11-25,Trabzonspor,Adana Demirspor,2.66,0.3,sofascore
+2024-25,2024-11-29,Antalyaspor,Sivasspor,1.64,1.36,sofascore
+2024-25,2024-11-30,Adana Demirspor,Konyaspor,0.71,0.66,sofascore
+2024-25,2024-11-30,Alanyaspor,Trabzonspor,1.79,1.47,sofascore
+2024-25,2024-11-30,Samsunspor,Bodrum FK,3.21,0.46,sofascore
+2024-25,2024-11-30,İstanbul Başakşehir,Göztepe,1.37,0.26,sofascore
+2024-25,2024-12-01,Galatasaray,Eyüpspor,4.27,1.38,sofascore
+2024-25,2024-12-01,Çaykur Rizespor,Kayserispor,1.97,0.36,sofascore
+2024-25,2024-12-02,Fenerbahçe,Gaziantep FK,1.59,1.15,sofascore
+2024-25,2024-12-02,Hatayspor,Beşiktaş,0.64,1.34,sofascore
+2024-25,2024-12-06,Trabzonspor,Kasımpaşa,3.42,2.33,sofascore
+2024-25,2024-12-07,Beşiktaş,Fenerbahçe,1.12,1.78,sofascore
+2024-25,2024-12-07,Göztepe,Adana Demirspor,2.26,1.13,sofascore
+2024-25,2024-12-07,Konyaspor,Antalyaspor,1.95,1.19,sofascore
+2024-25,2024-12-08,Eyüpspor,Samsunspor,1.79,1.64,sofascore
+2024-25,2024-12-08,Kayserispor,Alanyaspor,1.73,0.42,sofascore
+2024-25,2024-12-08,Sivasspor,Galatasaray,1.72,2.43,sofascore
+2024-25,2024-12-08,İstanbul Başakşehir,Hatayspor,2.88,0.23,sofascore
+2024-25,2024-12-09,Gaziantep FK,Çaykur Rizespor,0.86,0.78,sofascore
+2024-25,2024-12-13,Bodrum FK,Sivasspor,1.5,0.4,sofascore
+2024-25,2024-12-13,Kasımpaşa,Eyüpspor,1.24,0.84,sofascore
+2024-25,2024-12-14,Alanyaspor,Gaziantep FK,2.32,0.55,sofascore
+2024-25,2024-12-14,Çaykur Rizespor,Konyaspor,3.02,0.54,sofascore
+2024-25,2024-12-15,Antalyaspor,Kayserispor,1.08,0.95,sofascore
+2024-25,2024-12-15,Fenerbahçe,İstanbul Başakşehir,1.14,0.62,sofascore
+2024-25,2024-12-15,Hatayspor,Göztepe,0.96,1.52,sofascore
+2024-25,2024-12-16,Adana Demirspor,Beşiktaş,1.6,1.6,sofascore
+2024-25,2024-12-16,Galatasaray,Trabzonspor,2.84,1.55,sofascore
+2024-25,2024-12-20,Eyüpspor,Fenerbahçe,1.35,1.38,sofascore
+2024-25,2024-12-21,Beşiktaş,Alanyaspor,1.44,0.65,sofascore
+2024-25,2024-12-21,Sivasspor,Samsunspor,0.37,1.47,sofascore
+2024-25,2024-12-22,Gaziantep FK,Antalyaspor,2.09,1.58,sofascore
+2024-25,2024-12-22,Göztepe,Çaykur Rizespor,1.8,0.44,sofascore
+2024-25,2024-12-22,Kayserispor,Galatasaray,1.72,2.33,sofascore
+2024-25,2024-12-22,Trabzonspor,Bodrum FK,0.8,2.3,sofascore
+2024-25,2024-12-23,Hatayspor,Adana Demirspor,2.23,1.1,sofascore
+2024-25,2024-12-23,İstanbul Başakşehir,Kasımpaşa,3.61,1.68,sofascore
+2024-25,2025-01-03,Alanyaspor,Konyaspor,1.89,0.72,sofascore
+2024-25,2025-01-03,Çaykur Rizespor,Beşiktaş,2.54,0.44,sofascore
+2024-25,2025-01-04,Adana Demirspor,İstanbul Başakşehir,0.52,1.6,sofascore
+2024-25,2025-01-04,Antalyaspor,Eyüpspor,1.56,3.19,sofascore
+2024-25,2025-01-04,Galatasaray,Göztepe,1.23,0.52,sofascore
+2024-25,2025-01-04,Samsunspor,Trabzonspor,2.34,0.56,sofascore
+2024-25,2025-01-05,Bodrum FK,Kayserispor,0.75,0.99,sofascore
+2024-25,2025-01-05,Fenerbahçe,Hatayspor,2.88,0.54,sofascore
+2024-25,2025-01-05,Kasımpaşa,Gaziantep FK,2.14,1.47,sofascore
+2024-25,2025-01-11,Beşiktaş,Bodrum FK,1.63,1.43,sofascore
+2024-25,2025-01-11,Hatayspor,Çaykur Rizespor,0.79,2.21,sofascore
+2024-25,2025-01-11,Kayserispor,Samsunspor,0.84,0.8,sofascore
+2024-25,2025-01-12,Gaziantep FK,Adana Demirspor,1.6,0.82,sofascore
+2024-25,2025-01-12,Sivasspor,Alanyaspor,0.85,0.27,sofascore
+2024-25,2025-01-12,Trabzonspor,Antalyaspor,1.87,0.74,sofascore
+2024-25,2025-01-12,İstanbul Başakşehir,Galatasaray,0.89,0.95,sofascore
+2024-25,2025-01-13,Göztepe,Kasımpaşa,3.31,0.64,sofascore
+2024-25,2025-01-13,Konyaspor,Fenerbahçe,1.05,2.33,sofascore
+2024-25,2025-01-17,Hatayspor,Galatasaray,0.82,3.52,sofascore
+2024-25,2025-01-18,Beşiktaş,Samsunspor,2.35,0.67,sofascore
+2024-25,2025-01-18,Gaziantep FK,Bodrum FK,0.52,0.58,sofascore
+2024-25,2025-01-18,İstanbul Başakşehir,Çaykur Rizespor,1.5,1.11,sofascore
+2024-25,2025-01-19,Adana Demirspor,Fenerbahçe,0.24,4.17,sofascore
+2024-25,2025-01-19,Eyüpspor,Alanyaspor,3.29,0.84,sofascore
+2024-25,2025-01-19,Göztepe,Antalyaspor,3.74,0.46,sofascore
+2024-25,2025-01-19,Konyaspor,Kasımpaşa,2.17,0.92,sofascore
+2024-25,2025-01-20,Trabzonspor,Sivasspor,3.03,0.8,sofascore
+2024-25,2025-01-24,Samsunspor,Gaziantep FK,1.47,0.85,sofascore
+2024-25,2025-01-25,Alanyaspor,İstanbul Başakşehir,2.43,2.62,sofascore
+2024-25,2025-01-25,Galatasaray,Konyaspor,2.29,0.34,sofascore
+2024-25,2025-01-25,Sivasspor,Kayserispor,2.9,2.81,sofascore
+2024-25,2025-01-26,Antalyaspor,Beşiktaş,0.56,1.18,sofascore
+2024-25,2025-01-26,Bodrum FK,Eyüpspor,1.0,0.4,sofascore
+2024-25,2025-01-26,Fenerbahçe,Göztepe,1.0,1.57,sofascore
+2024-25,2025-01-26,Çaykur Rizespor,Adana Demirspor,3.69,0.74,sofascore
+2024-25,2025-01-27,Kasımpaşa,Hatayspor,2.84,1.59,sofascore
+2024-25,2025-01-31,Eyüpspor,Sivasspor,1.06,0.75,sofascore
+2024-25,2025-01-31,Konyaspor,Bodrum FK,2.76,1.92,sofascore
+2024-25,2025-02-01,Hatayspor,Antalyaspor,0.96,2.58,sofascore
+2024-25,2025-02-01,Kayserispor,Trabzonspor,1.55,0.73,sofascore
+2024-25,2025-02-01,İstanbul Başakşehir,Samsunspor,1.33,0.49,sofascore
+2024-25,2025-02-02,Adana Demirspor,Kasımpaşa,0.58,2.83,sofascore
+2024-25,2025-02-02,Fenerbahçe,Çaykur Rizespor,4.53,0.28,sofascore
+2024-25,2025-02-02,Göztepe,Alanyaspor,2.9,0.45,sofascore
+2024-25,2025-02-03,Gaziantep FK,Galatasaray,1.01,1.87,sofascore
+2024-25,2025-02-07,Samsunspor,Hatayspor,1.52,0.57,sofascore
+2024-25,2025-02-08,Kayserispor,Konyaspor,1.43,1.38,sofascore
+2024-25,2025-02-08,Sivasspor,Beşiktaş,0.43,1.42,sofascore
+2024-25,2025-02-09,Alanyaspor,Fenerbahçe,1.29,1.16,sofascore
+2024-25,2025-02-09,Antalyaspor,İstanbul Başakşehir,1.17,0.36,sofascore
+2024-25,2025-02-09,Kasımpaşa,Çaykur Rizespor,1.56,1.15,sofascore
+2024-25,2025-02-10,Bodrum FK,Göztepe,0.19,0.37,sofascore
+2024-25,2025-02-10,Trabzonspor,Eyüpspor,1.1,2.29,sofascore
+2024-25,2025-02-14,Adana Demirspor,Antalyaspor,1.27,2.73,sofascore
+2024-25,2025-02-15,Beşiktaş,Trabzonspor,0.89,0.89,sofascore
+2024-25,2025-02-15,Gaziantep FK,Sivasspor,0.82,1.12,sofascore
+2024-25,2025-02-15,İstanbul Başakşehir,Bodrum FK,0.83,1.39,sofascore
+2024-25,2025-02-16,Eyüpspor,Kayserispor,0.29,0.62,sofascore
+2024-25,2025-02-16,Fenerbahçe,Kasımpaşa,1.62,1.07,sofascore
+2024-25,2025-02-16,Hatayspor,Alanyaspor,1.24,1.89,sofascore
+2024-25,2025-02-16,Konyaspor,Samsunspor,1.53,1.16,sofascore
+2024-25,2025-02-17,Çaykur Rizespor,Galatasaray,1.95,1.79,sofascore
+2024-25,2025-02-21,Bodrum FK,Hatayspor,1.78,0.69,sofascore
+2024-25,2025-02-21,Eyüpspor,Beşiktaş,1.36,3.05,sofascore
+2024-25,2025-02-22,Antalyaspor,Kasımpaşa,1.29,1.26,sofascore
+2024-25,2025-02-22,Samsunspor,Çaykur Rizespor,0.76,1.06,sofascore
+2024-25,2025-02-22,Sivasspor,Konyaspor,0.46,0.62,sofascore
+2024-25,2025-02-23,Alanyaspor,Adana Demirspor,4.81,1.22,sofascore
+2024-25,2025-02-23,Kayserispor,Göztepe,2.26,1.54,sofascore
+2024-25,2025-02-23,Trabzonspor,Gaziantep FK,2.47,2.21,sofascore
+2024-25,2025-02-24,Galatasaray,Fenerbahçe,0.12,1.44,sofascore
+2024-25,2025-03-01,Adana Demirspor,Bodrum FK,0.29,2.33,sofascore
+2024-25,2025-03-01,Beşiktaş,Kayserispor,1.54,0.58,sofascore
+2024-25,2025-03-02,Fenerbahçe,Antalyaspor,2.02,0.14,sofascore
+2024-25,2025-03-02,Kasımpaşa,Galatasaray,2.38,2.72,sofascore
+2024-25,2025-03-02,Çaykur Rizespor,Alanyaspor,1.78,1.36,sofascore
+2024-25,2025-03-03,Gaziantep FK,Eyüpspor,2.62,1.27,sofascore
+2024-25,2025-03-03,Göztepe,Samsunspor,3.09,0.89,sofascore
+2024-25,2025-03-03,Konyaspor,Trabzonspor,1.18,0.6,sofascore
+2024-25,2025-03-03,İstanbul Başakşehir,Sivasspor,1.33,0.98,sofascore
+2024-25,2025-03-07,Bodrum FK,Kasımpaşa,1.64,1.01,sofascore
+2024-25,2025-03-08,Antalyaspor,Çaykur Rizespor,2.59,1.94,sofascore
+2024-25,2025-03-08,Kayserispor,İstanbul Başakşehir,1.12,0.64,sofascore
+2024-25,2025-03-08,Trabzonspor,Hatayspor,2.19,0.21,sofascore
+2024-25,2025-03-09,Alanyaspor,Galatasaray,0.74,1.64,sofascore
+2024-25,2025-03-09,Eyüpspor,Konyaspor,1.61,0.59,sofascore
+2024-25,2025-03-09,Samsunspor,Adana Demirspor,2.56,0.28,sofascore
+2024-25,2025-03-09,Sivasspor,Göztepe,1.1,0.43,sofascore
+2024-25,2025-03-10,Beşiktaş,Gaziantep FK,1.77,0.74,sofascore
+2024-25,2025-03-14,Galatasaray,Antalyaspor,4.06,0.4,sofascore
+2024-25,2025-03-15,Gaziantep FK,Kayserispor,1.48,2.59,sofascore
+2024-25,2025-03-15,Kasımpaşa,Alanyaspor,2.31,2.14,sofascore
+2024-25,2025-03-15,Konyaspor,Beşiktaş,0.84,2.65,sofascore
+2024-25,2025-03-15,İstanbul Başakşehir,Trabzonspor,1.37,1.34,sofascore
+2024-25,2025-03-16,Fenerbahçe,Samsunspor,1.98,0.07,sofascore
+2024-25,2025-03-16,Göztepe,Eyüpspor,1.61,0.72,sofascore
+2024-25,2025-03-16,Hatayspor,Sivasspor,1.8,2.09,sofascore
+2024-25,2025-03-16,Çaykur Rizespor,Bodrum FK,0.75,0.69,sofascore
+2024-25,2025-03-28,Antalyaspor,Alanyaspor,1.33,0.21,sofascore
+2024-25,2025-03-28,Bodrum FK,Fenerbahçe,1.75,3.37,sofascore
+2024-25,2025-03-28,Kayserispor,Hatayspor,4.89,1.1,sofascore
+2024-25,2025-03-28,Konyaspor,Gaziantep FK,1.45,0.12,sofascore
+2024-25,2025-03-29,Beşiktaş,Galatasaray,2.01,0.43,sofascore
+2024-25,2025-03-29,Samsunspor,Kasımpaşa,0.77,1.29,sofascore
+2024-25,2025-03-29,Sivasspor,Adana Demirspor,3.34,0.55,sofascore
+2024-25,2025-03-29,Trabzonspor,Göztepe,0.81,1.43,sofascore
+2024-25,2025-03-31,Eyüpspor,İstanbul Başakşehir,1.64,1.32,sofascore
+2024-25,2025-04-04,Adana Demirspor,Kayserispor,0.53,1.14,sofascore
+2024-25,2025-04-05,Antalyaspor,Samsunspor,2.09,1.31,sofascore
+2024-25,2025-04-05,Çaykur Rizespor,Sivasspor,1.84,0.61,sofascore
+2024-25,2025-04-05,İstanbul Başakşehir,Konyaspor,1.23,2.19,sofascore
+2024-25,2025-04-06,Alanyaspor,Bodrum FK,0.69,0.18,sofascore
+2024-25,2025-04-06,Fenerbahçe,Trabzonspor,1.81,1.41,sofascore
+2024-25,2025-04-06,Hatayspor,Eyüpspor,0.96,1.76,sofascore
+2024-25,2025-04-07,Göztepe,Gaziantep FK,2.53,0.56,sofascore
+2024-25,2025-04-07,Kasımpaşa,Beşiktaş,1.15,1.9,sofascore
+2024-25,2025-04-11,Samsunspor,Galatasaray,0.16,0.87,sofascore
+2024-25,2025-04-12,Beşiktaş,İstanbul Başakşehir,0.84,0.6,sofascore
+2024-25,2025-04-12,Bodrum FK,Antalyaspor,0.33,0.44,sofascore
+2024-25,2025-04-12,Konyaspor,Göztepe,1.51,1.27,sofascore
+2024-25,2025-04-13,Gaziantep FK,Hatayspor,2.7,1.34,sofascore
+2024-25,2025-04-13,Kayserispor,Kasımpaşa,0.46,0.72,sofascore
+2024-25,2025-04-13,Sivasspor,Fenerbahçe,0.7,2.09,sofascore
+2024-25,2025-04-13,Trabzonspor,Çaykur Rizespor,2.66,0.35,sofascore
+2024-25,2025-04-14,Eyüpspor,Adana Demirspor,3.21,0.35,sofascore
+2024-25,2025-04-18,Galatasaray,Bodrum FK,3.5,0.05,sofascore
+2024-25,2025-04-18,Hatayspor,Konyaspor,1.36,1.67,sofascore
+2024-25,2025-04-19,Adana Demirspor,Trabzonspor,0.44,1.13,sofascore
+2024-25,2025-04-19,Göztepe,Beşiktaş,0.82,0.62,sofascore
+2024-25,2025-04-19,Kasımpaşa,Sivasspor,2.65,1.69,sofascore
+2024-25,2025-04-20,Fenerbahçe,Kayserispor,2.76,1.37,sofascore
+2024-25,2025-04-20,Çaykur Rizespor,Eyüpspor,0.94,0.3,sofascore
+2024-25,2025-04-20,İstanbul Başakşehir,Gaziantep FK,1.54,1.55,sofascore
+2024-25,2025-04-21,Alanyaspor,Samsunspor,0.4,1.43,sofascore
+2024-25,2025-04-25,Beşiktaş,Hatayspor,3.29,1.1,sofascore
+2024-25,2025-04-26,Bodrum FK,Samsunspor,1.58,0.98,sofascore
+2024-25,2025-04-26,Gaziantep FK,Fenerbahçe,0.55,2.65,sofascore
+2024-25,2025-04-26,Sivasspor,Antalyaspor,0.85,0.57,sofascore
+2024-25,2025-04-27,Eyüpspor,Galatasaray,0.42,3.39,sofascore
+2024-25,2025-04-27,Kayserispor,Çaykur Rizespor,1.2,0.7,sofascore
+2024-25,2025-04-27,Konyaspor,Adana Demirspor,3.35,0.17,sofascore
+2024-25,2025-04-27,Trabzonspor,Alanyaspor,2.27,2.13,sofascore
+2024-25,2025-04-28,Göztepe,İstanbul Başakşehir,3.32,1.1,sofascore
+2024-25,2025-05-02,Antalyaspor,Konyaspor,0.56,2.11,sofascore
+2024-25,2025-05-03,Alanyaspor,Kayserispor,1.21,0.53,sofascore
+2024-25,2025-05-03,Galatasaray,Sivasspor,3.17,0.2,sofascore
+2024-25,2025-05-03,Hatayspor,İstanbul Başakşehir,0.73,2.74,sofascore
+2024-25,2025-05-03,Çaykur Rizespor,Gaziantep FK,3.14,0.69,sofascore
+2024-25,2025-05-04,Adana Demirspor,Göztepe,1.13,2.54,sofascore
+2024-25,2025-05-04,Fenerbahçe,Beşiktaş,0.66,1.55,sofascore
+2024-25,2025-05-04,Samsunspor,Eyüpspor,1.9,1.24,sofascore
+2024-25,2025-05-05,Kasımpaşa,Trabzonspor,1.63,0.39,sofascore
+2024-25,2025-05-09,Gaziantep FK,Alanyaspor,0.39,1.02,sofascore
+2024-25,2025-05-09,İstanbul Başakşehir,Fenerbahçe,1.46,3.47,sofascore
+2024-25,2025-05-10,Eyüpspor,Kasımpaşa,0.37,0.7,sofascore
+2024-25,2025-05-10,Konyaspor,Çaykur Rizespor,1.62,1.13,sofascore
+2024-25,2025-05-10,Trabzonspor,Galatasaray,1.26,1.43,sofascore
+2024-25,2025-05-11,Beşiktaş,Adana Demirspor,3.65,0.59,sofascore
+2024-25,2025-05-11,Göztepe,Hatayspor,2.26,0.56,sofascore
+2024-25,2025-05-11,Sivasspor,Bodrum FK,0.82,0.59,sofascore
+2024-25,2025-05-12,Kayserispor,Antalyaspor,1.93,0.25,sofascore
+2024-25,2025-05-17,Adana Demirspor,Hatayspor,1.63,3.23,sofascore
+2024-25,2025-05-18,Alanyaspor,Beşiktaş,0.67,1.58,sofascore
+2024-25,2025-05-18,Antalyaspor,Gaziantep FK,0.97,1.25,sofascore
+2024-25,2025-05-18,Bodrum FK,Trabzonspor,0.88,1.71,sofascore
+2024-25,2025-05-18,Fenerbahçe,Eyüpspor,3.45,1.68,sofascore
+2024-25,2025-05-18,Galatasaray,Kayserispor,2.72,0.85,sofascore
+2024-25,2025-05-18,Kasımpaşa,İstanbul Başakşehir,1.66,1.92,sofascore
+2024-25,2025-05-18,Samsunspor,Sivasspor,0.97,0.29,sofascore
+2024-25,2025-05-18,Çaykur Rizespor,Göztepe,2.0,1.93,sofascore
+2024-25,2025-05-24,Eyüpspor,Antalyaspor,1.4,1.06,sofascore
+2024-25,2025-05-24,Gaziantep FK,Kasımpaşa,2.6,1.55,sofascore
+2024-25,2025-05-24,Göztepe,Galatasaray,1.55,1.62,sofascore
+2024-25,2025-05-25,Beşiktaş,Çaykur Rizespor,1.48,0.95,sofascore
+2024-25,2025-05-25,Kayserispor,Bodrum FK,1.03,2.16,sofascore
+2024-25,2025-05-25,Konyaspor,Alanyaspor,0.9,0.76,sofascore
+2024-25,2025-05-25,Trabzonspor,Samsunspor,2.19,1.04,sofascore
+2024-25,2025-05-25,İstanbul Başakşehir,Adana Demirspor,4.38,1.57,sofascore
+2024-25,2025-05-26,Hatayspor,Fenerbahçe,2.24,2.83,sofascore
+2024-25,2025-05-30,Antalyaspor,Trabzonspor,0.43,1.13,sofascore
+2024-25,2025-05-30,Galatasaray,İstanbul Başakşehir,3.04,1.24,sofascore
+2024-25,2025-05-30,Kasımpaşa,Göztepe,2.41,2.32,sofascore
+2024-25,2025-05-31,Adana Demirspor,Gaziantep FK,1.46,2.12,sofascore
+2024-25,2025-05-31,Alanyaspor,Sivasspor,1.76,0.37,sofascore
+2024-25,2025-05-31,Fenerbahçe,Konyaspor,1.98,0.29,sofascore
+2024-25,2025-05-31,Çaykur Rizespor,Hatayspor,4.82,0.78,sofascore
+2024-25,2025-06-01,Bodrum FK,Beşiktaş,0.31,1.69,sofascore
+2024-25,2025-06-01,Samsunspor,Kayserispor,2.76,0.34,sofascore
+2025-26,2025-08-08,Gaziantep FK,Galatasaray,0.14,2.55,sofascore
+2025-26,2025-08-09,Antalyaspor,Kasımpaşa,1.74,0.68,sofascore
+2025-26,2025-08-09,Samsunspor,Gençlerbirliği,1.16,0.34,sofascore
+2025-26,2025-08-10,Eyüpspor,Konyaspor,2.09,2.07,sofascore
+2025-26,2025-08-10,Çaykur Rizespor,Göztepe,1.67,1.04,sofascore
+2025-26,2025-08-11,Trabzonspor,Kocaelispor,1.05,1.0,sofascore
+2025-26,2025-08-15,Galatasaray,Fatih Karagümrük,3.2,0.72,sofascore
+2025-26,2025-08-16,Alanyaspor,Çaykur Rizespor,0.47,1.44,sofascore
+2025-26,2025-08-16,Göztepe,Fenerbahçe,0.59,1.94,sofascore
+2025-26,2025-08-16,Kocaelispor,Samsunspor,0.71,0.73,sofascore
+2025-26,2025-08-17,Beşiktaş,Eyüpspor,2.68,1.27,sofascore
+2025-26,2025-08-17,Gençlerbirliği,Antalyaspor,1.14,0.65,sofascore
+2025-26,2025-08-17,Konyaspor,Gaziantep FK,2.09,0.77,sofascore
+2025-26,2025-08-17,İstanbul Başakşehir,Kayserispor,0.81,0.44,sofascore
+2025-26,2025-08-18,Kasımpaşa,Trabzonspor,0.2,1.16,sofascore
+2025-26,2025-08-22,Fatih Karagümrük,Göztepe,0.33,1.88,sofascore
+2025-26,2025-08-23,Fenerbahçe,Kocaelispor,1.56,0.3,sofascore
+2025-26,2025-08-23,Gaziantep FK,Gençlerbirliği,2.5,0.51,sofascore
+2025-26,2025-08-24,Kayserispor,Galatasaray,0.92,3.35,sofascore
+2025-26,2025-08-24,Trabzonspor,Antalyaspor,1.82,0.63,sofascore
+2025-26,2025-08-25,Eyüpspor,Alanyaspor,0.56,1.4,sofascore
+2025-26,2025-08-29,Göztepe,Konyaspor,1.78,0.59,sofascore
+2025-26,2025-08-30,Antalyaspor,Fatih Karagümrük,0.8,1.53,sofascore
+2025-26,2025-08-30,Galatasaray,Çaykur Rizespor,2.28,0.97,sofascore
+2025-26,2025-08-30,Kasımpaşa,Gaziantep FK,2.45,1.18,sofascore
+2025-26,2025-08-30,Kocaelispor,Kayserispor,1.27,0.51,sofascore
+2025-26,2025-08-31,Alanyaspor,Beşiktaş,1.43,2.43,sofascore
+2025-26,2025-08-31,Gençlerbirliği,Fenerbahçe,1.16,1.68,sofascore
+2025-26,2025-08-31,Trabzonspor,Samsunspor,0.61,1.41,sofascore
+2025-26,2025-08-31,İstanbul Başakşehir,Eyüpspor,0.69,0.61,sofascore
+2025-26,2025-09-13,Beşiktaş,İstanbul Başakşehir,1.96,0.68,sofascore
+2025-26,2025-09-13,Eyüpspor,Galatasaray,0.38,1.99,sofascore
+2025-26,2025-09-13,Fatih Karagümrük,Kasımpaşa,0.79,0.59,sofascore
+2025-26,2025-09-13,Konyaspor,Alanyaspor,1.39,1.32,sofascore
+2025-26,2025-09-13,Samsunspor,Antalyaspor,0.91,1.05,sofascore
+2025-26,2025-09-14,Fenerbahçe,Trabzonspor,3.12,0.04,sofascore
+2025-26,2025-09-14,Gaziantep FK,Kocaelispor,1.89,0.2,sofascore
+2025-26,2025-09-14,Kayserispor,Göztepe,0.66,0.48,sofascore
+2025-26,2025-09-15,Çaykur Rizespor,Gençlerbirliği,1.18,1.16,sofascore
+2025-26,2025-09-17,Fatih Karagümrük,İstanbul Başakşehir,0.39,0.13,sofascore
+2025-26,2025-09-17,Fenerbahçe,Alanyaspor,2.95,0.47,sofascore
+2025-26,2025-09-17,Samsunspor,Kasımpaşa,1.2,0.85,sofascore
+2025-26,2025-09-19,Göztepe,Beşiktaş,2.76,0.63,sofascore
+2025-26,2025-09-20,Antalyaspor,Kayserispor,0.8,0.79,sofascore
+2025-26,2025-09-20,Gençlerbirliği,Eyüpspor,0.76,1.26,sofascore
+2025-26,2025-09-20,Trabzonspor,Gaziantep FK,1.62,0.19,sofascore
+2025-26,2025-09-21,Kasımpaşa,Fenerbahçe,1.38,0.8,sofascore
+2025-26,2025-09-21,Kocaelispor,Çaykur Rizespor,1.28,0.29,sofascore
+2025-26,2025-09-21,Samsunspor,Fatih Karagümrük,2.01,0.55,sofascore
+2025-26,2025-09-21,İstanbul Başakşehir,Alanyaspor,1.83,1.73,sofascore
+2025-26,2025-09-22,Galatasaray,Konyaspor,1.13,0.94,sofascore
+2025-26,2025-09-24,Kayserispor,Beşiktaş,0.66,2.36,sofascore
+2025-26,2025-09-26,Alanyaspor,Galatasaray,2.66,1.67,sofascore
+2025-26,2025-09-27,Eyüpspor,Göztepe,0.46,1.64,sofascore
+2025-26,2025-09-27,Fatih Karagümrük,Trabzonspor,1.6,2.01,sofascore
+2025-26,2025-09-27,Gaziantep FK,Samsunspor,2.4,0.93,sofascore
+2025-26,2025-09-28,Fenerbahçe,Antalyaspor,2.65,0.24,sofascore
+2025-26,2025-09-28,Kayserispor,Gençlerbirliği,2.33,0.38,sofascore
+2025-26,2025-09-28,Konyaspor,İstanbul Başakşehir,0.97,1.87,sofascore
+2025-26,2025-09-28,Çaykur Rizespor,Kasımpaşa,1.37,0.36,sofascore
+2025-26,2025-09-29,Beşiktaş,Kocaelispor,2.39,0.27,sofascore
+2025-26,2025-10-03,Antalyaspor,Çaykur Rizespor,0.95,1.89,sofascore
+2025-26,2025-10-03,Trabzonspor,Kayserispor,3.64,1.18,sofascore
+2025-26,2025-10-04,Galatasaray,Beşiktaş,0.98,1.67,sofascore
+2025-26,2025-10-04,Gençlerbirliği,Alanyaspor,1.81,1.04,sofascore
+2025-26,2025-10-04,Kocaelispor,Eyüpspor,1.2,0.51,sofascore
+2025-26,2025-10-05,Fatih Karagümrük,Gaziantep FK,1.65,2.77,sofascore
+2025-26,2025-10-05,Göztepe,İstanbul Başakşehir,1.14,0.85,sofascore
+2025-26,2025-10-05,Kasımpaşa,Konyaspor,1.52,0.97,sofascore
+2025-26,2025-10-05,Samsunspor,Fenerbahçe,1.27,0.33,sofascore
+2025-26,2025-10-18,Beşiktaş,Gençlerbirliği,1.79,0.61,sofascore
+2025-26,2025-10-18,Konyaspor,Kocaelispor,1.56,0.98,sofascore
+2025-26,2025-10-18,Çaykur Rizespor,Trabzonspor,2.69,0.47,sofascore
+2025-26,2025-10-18,İstanbul Başakşehir,Galatasaray,1.56,3.17,sofascore
+2025-26,2025-10-19,Alanyaspor,Göztepe,0.85,0.65,sofascore
+2025-26,2025-10-19,Fenerbahçe,Fatih Karagümrük,2.72,0.84,sofascore
+2025-26,2025-10-19,Gaziantep FK,Antalyaspor,1.73,0.46,sofascore
+2025-26,2025-10-19,Kayserispor,Samsunspor,1.3,3.28,sofascore
+2025-26,2025-10-20,Eyüpspor,Kasımpaşa,3.33,0.77,sofascore
+2025-26,2025-10-22,Konyaspor,Beşiktaş,0.81,1.69,sofascore
+2025-26,2025-10-22,Çaykur Rizespor,İstanbul Başakşehir,0.61,0.97,sofascore
+2025-26,2025-10-24,Fatih Karagümrük,Kayserispor,2.15,1.67,sofascore
+2025-26,2025-10-25,Kocaelispor,Alanyaspor,1.24,0.98,sofascore
+2025-26,2025-10-25,Trabzonspor,Eyüpspor,0.97,1.29,sofascore
+2025-26,2025-10-26,Antalyaspor,İstanbul Başakşehir,0.98,3.04,sofascore
+2025-26,2025-10-26,Galatasaray,Göztepe,3.48,1.14,sofascore
+2025-26,2025-10-26,Gençlerbirliği,Konyaspor,1.03,0.93,sofascore
+2025-26,2025-10-26,Kasımpaşa,Beşiktaş,0.96,3.11,sofascore
+2025-26,2025-10-27,Gaziantep FK,Fenerbahçe,0.61,2.71,sofascore
+2025-26,2025-10-27,Samsunspor,Çaykur Rizespor,2.98,1.05,sofascore
+2025-26,2025-10-31,İstanbul Başakşehir,Kocaelispor,1.69,1.04,sofascore
+2025-26,2025-11-01,Galatasaray,Trabzonspor,1.47,0.44,sofascore
+2025-26,2025-11-01,Göztepe,Gençlerbirliği,1.4,0.8,sofascore
+2025-26,2025-11-02,Beşiktaş,Fenerbahçe,1.13,1.66,sofascore
+2025-26,2025-11-02,Kayserispor,Kasımpaşa,1.45,0.39,sofascore
+2025-26,2025-11-02,Konyaspor,Samsunspor,1.44,2.19,sofascore
+2025-26,2025-11-03,Alanyaspor,Gaziantep FK,0.67,0.89,sofascore
+2025-26,2025-11-03,Eyüpspor,Antalyaspor,1.59,1.01,sofascore
+2025-26,2025-11-03,Çaykur Rizespor,Fatih Karagümrük,2.05,0.64,sofascore
+2025-26,2025-11-07,Gençlerbirliği,İstanbul Başakşehir,1.78,1.35,sofascore
+2025-26,2025-11-08,Antalyaspor,Beşiktaş,0.6,1.6,sofascore
+2025-26,2025-11-08,Gaziantep FK,Çaykur Rizespor,3.03,1.42,sofascore
+2025-26,2025-11-08,Kasımpaşa,Göztepe,0.46,2.09,sofascore
+2025-26,2025-11-08,Trabzonspor,Alanyaspor,1.86,1.41,sofascore
+2025-26,2025-11-09,Fatih Karagümrük,Konyaspor,1.63,0.54,sofascore
+2025-26,2025-11-09,Fenerbahçe,Kayserispor,2.24,1.26,sofascore
+2025-26,2025-11-09,Kocaelispor,Galatasaray,0.95,0.65,sofascore
+2025-26,2025-11-09,Samsunspor,Eyüpspor,2.06,0.06,sofascore
+2025-26,2025-11-22,Eyüpspor,Fatih Karagümrük,1.29,1.62,sofascore
+2025-26,2025-11-22,Galatasaray,Gençlerbirliği,4.49,1.88,sofascore
+2025-26,2025-11-22,Kayserispor,Gaziantep FK,0.85,1.68,sofascore
+2025-26,2025-11-23,Alanyaspor,Kasımpaşa,0.82,1.01,sofascore
+2025-26,2025-11-23,Beşiktaş,Samsunspor,1.59,1.91,sofascore
+2025-26,2025-11-23,Göztepe,Kocaelispor,0.42,0.39,sofascore
+2025-26,2025-11-23,Çaykur Rizespor,Fenerbahçe,0.82,3.48,sofascore
+2025-26,2025-11-24,Konyaspor,Antalyaspor,1.02,0.61,sofascore
+2025-26,2025-11-24,İstanbul Başakşehir,Trabzonspor,1.99,3.62,sofascore
+2025-26,2025-11-28,Kocaelispor,Gençlerbirliği,1.27,0.16,sofascore
+2025-26,2025-11-29,Gaziantep FK,Eyüpspor,1.22,3.42,sofascore
+2025-26,2025-11-29,Kasımpaşa,İstanbul Başakşehir,1.29,1.36,sofascore
+2025-26,2025-11-29,Trabzonspor,Konyaspor,2.5,1.63,sofascore
+2025-26,2025-11-29,Çaykur Rizespor,Kayserispor,1.7,0.64,sofascore
+2025-26,2025-11-30,Antalyaspor,Göztepe,0.41,0.71,sofascore
+2025-26,2025-11-30,Fatih Karagümrük,Beşiktaş,0.45,2.78,sofascore
+2025-26,2025-12-01,Fenerbahçe,Galatasaray,1.0,0.23,sofascore
+2025-26,2025-12-01,Samsunspor,Alanyaspor,0.46,0.7,sofascore
+2025-26,2025-12-05,Galatasaray,Samsunspor,1.34,1.03,sofascore
+2025-26,2025-12-06,Eyüpspor,Kayserispor,1.17,0.33,sofascore
+2025-26,2025-12-06,Konyaspor,Çaykur Rizespor,1.42,0.99,sofascore
+2025-26,2025-12-06,İstanbul Başakşehir,Fenerbahçe,1.08,1.1,sofascore
+2025-26,2025-12-07,Gençlerbirliği,Fatih Karagümrük,2.42,0.42,sofascore
+2025-26,2025-12-07,Göztepe,Trabzonspor,1.76,1.43,sofascore
+2025-26,2025-12-07,Kocaelispor,Kasımpaşa,0.81,0.16,sofascore
+2025-26,2025-12-08,Alanyaspor,Antalyaspor,0.65,0.31,sofascore
+2025-26,2025-12-08,Beşiktaş,Gaziantep FK,3.0,0.97,sofascore
+2025-26,2025-12-12,Kasımpaşa,Gençlerbirliği,0.83,0.6,sofascore
+2025-26,2025-12-13,Antalyaspor,Galatasaray,1.34,1.88,sofascore
+2025-26,2025-12-13,Kayserispor,Alanyaspor,0.72,1.48,sofascore
+2025-26,2025-12-13,Çaykur Rizespor,Eyüpspor,3.34,0.33,sofascore
+2025-26,2025-12-14,Fatih Karagümrük,Kocaelispor,0.97,1.56,sofascore
+2025-26,2025-12-14,Gaziantep FK,Göztepe,2.04,0.92,sofascore
+2025-26,2025-12-14,Samsunspor,İstanbul Başakşehir,0.83,0.94,sofascore
+2025-26,2025-12-14,Trabzonspor,Beşiktaş,1.28,1.26,sofascore
+2025-26,2025-12-15,Fenerbahçe,Konyaspor,3.42,0.97,sofascore
+2025-26,2025-12-19,Kocaelispor,Antalyaspor,0.91,0.4,sofascore
+2025-26,2025-12-20,Beşiktaş,Çaykur Rizespor,1.42,0.75,sofascore
+2025-26,2025-12-20,Eyüpspor,Fenerbahçe,0.96,1.7,sofascore
+2025-26,2025-12-20,Konyaspor,Kayserispor,0.87,1.97,sofascore
+2025-26,2025-12-21,Alanyaspor,Fatih Karagümrük,0.95,0.21,sofascore
+2025-26,2025-12-21,Galatasaray,Kasımpaşa,2.87,0.03,sofascore
+2025-26,2025-12-21,Göztepe,Samsunspor,1.0,0.29,sofascore
+2025-26,2025-12-22,Gençlerbirliği,Trabzonspor,2.56,2.6,sofascore
+2025-26,2025-12-22,İstanbul Başakşehir,Gaziantep FK,2.68,1.82,sofascore
+2025-26,2026-01-17,Galatasaray,Gaziantep FK,1.77,0.82,sofascore
+2025-26,2026-01-17,İstanbul Başakşehir,Fatih Karagümrük,1.73,0.61,sofascore
+2025-26,2026-01-18,Alanyaspor,Fenerbahçe,0.67,2.3,sofascore
+2025-26,2026-01-18,Gençlerbirliği,Samsunspor,0.61,1.25,sofascore
+2025-26,2026-01-18,Kasımpaşa,Antalyaspor,1.33,0.71,sofascore
+2025-26,2026-01-18,Kocaelispor,Trabzonspor,1.61,0.74,sofascore
+2025-26,2026-01-19,Beşiktaş,Kayserispor,1.91,0.89,sofascore
+2025-26,2026-01-19,Göztepe,Çaykur Rizespor,1.34,1.46,sofascore
+2025-26,2026-01-19,Konyaspor,Eyüpspor,2.71,1.14,sofascore
+2025-26,2026-01-23,Trabzonspor,Kasımpaşa,0.73,0.46,sofascore
+2025-26,2026-01-24,Fatih Karagümrük,Galatasaray,0.53,1.4,sofascore
+2025-26,2026-01-24,Kayserispor,İstanbul Başakşehir,0.28,1.65,sofascore
+2025-26,2026-01-24,Samsunspor,Kocaelispor,0.65,0.4,sofascore
+2025-26,2026-01-25,Antalyaspor,Gençlerbirliği,1.15,0.91,sofascore
+2025-26,2026-01-25,Fenerbahçe,Göztepe,2.12,0.93,sofascore
+2025-26,2026-01-25,Gaziantep FK,Konyaspor,0.57,1.08,sofascore
+2025-26,2026-01-25,Çaykur Rizespor,Alanyaspor,0.41,1.38,sofascore
+2025-26,2026-01-26,Eyüpspor,Beşiktaş,1.91,1.75,sofascore
+2025-26,2026-01-30,Antalyaspor,Trabzonspor,0.62,1.93,sofascore
+2025-26,2026-01-30,Kasımpaşa,Samsunspor,0.73,0.72,sofascore
+2025-26,2026-01-31,Alanyaspor,Eyüpspor,1.78,1.37,sofascore
+2025-26,2026-01-31,Beşiktaş,Konyaspor,1.83,0.85,sofascore
+2025-26,2026-01-31,Göztepe,Fatih Karagümrük,0.89,1.38,sofascore
+2025-26,2026-01-31,İstanbul Başakşehir,Çaykur Rizespor,1.45,0.48,sofascore
+2025-26,2026-02-01,Galatasaray,Kayserispor,3.62,0.74,sofascore
+2025-26,2026-02-01,Gençlerbirliği,Gaziantep FK,1.47,1.14,sofascore
+2025-26,2026-02-02,Kocaelispor,Fenerbahçe,0.79,1.02,sofascore
+2025-26,2026-02-07,Fatih Karagümrük,Antalyaspor,2.71,0.37,sofascore
+2025-26,2026-02-07,Samsunspor,Trabzonspor,0.59,2.55,sofascore
+2025-26,2026-02-08,Beşiktaş,Alanyaspor,2.41,0.26,sofascore
+2025-26,2026-02-08,Eyüpspor,İstanbul Başakşehir,0.38,2.7,sofascore
+2025-26,2026-02-08,Konyaspor,Göztepe,0.91,0.54,sofascore
+2025-26,2026-02-08,Çaykur Rizespor,Galatasaray,0.82,2.39,sofascore
+2025-26,2026-02-09,Fenerbahçe,Gençlerbirliği,2.17,0.93,sofascore
+2025-26,2026-02-09,Gaziantep FK,Kasımpaşa,0.99,0.62,sofascore
+2025-26,2026-02-09,Kayserispor,Kocaelispor,2.18,1.12,sofascore
+2025-26,2026-02-13,Antalyaspor,Samsunspor,1.13,1.95,sofascore
+2025-26,2026-02-13,Galatasaray,Eyüpspor,2.53,1.05,sofascore
+2025-26,2026-02-14,Alanyaspor,Konyaspor,1.84,0.7,sofascore
+2025-26,2026-02-14,Gençlerbirliği,Çaykur Rizespor,1.18,1.67,sofascore
+2025-26,2026-02-14,Trabzonspor,Fenerbahçe,0.84,0.76,sofascore
+2025-26,2026-02-15,Göztepe,Kayserispor,0.94,1.06,sofascore
+2025-26,2026-02-15,Kocaelispor,Gaziantep FK,2.35,0.79,sofascore
+2025-26,2026-02-15,İstanbul Başakşehir,Beşiktaş,1.39,2.52,sofascore
+2025-26,2026-02-16,Kasımpaşa,Fatih Karagümrük,2.09,1.16,sofascore
+2025-26,2026-02-20,Çaykur Rizespor,Kocaelispor,1.08,0.84,sofascore
+2025-26,2026-02-21,Alanyaspor,İstanbul Başakşehir,1.09,3.59,sofascore
+2025-26,2026-02-21,Eyüpspor,Gençlerbirliği,0.58,0.6,sofascore
+2025-26,2026-02-21,Konyaspor,Galatasaray,1.79,0.46,sofascore
+2025-26,2026-02-22,Beşiktaş,Göztepe,1.51,0.56,sofascore
+2025-26,2026-02-22,Fatih Karagümrük,Samsunspor,1.01,0.68,sofascore
+2025-26,2026-02-22,Gaziantep FK,Trabzonspor,1.45,1.7,sofascore
+2025-26,2026-02-22,Kayserispor,Antalyaspor,1.99,0.9,sofascore
+2025-26,2026-02-23,Fenerbahçe,Kasımpaşa,1.4,1.25,sofascore
+2025-26,2026-02-27,Trabzonspor,Fatih Karagümrük,1.71,0.75,sofascore
+2025-26,2026-02-27,İstanbul Başakşehir,Konyaspor,1.49,0.82,sofascore
+2025-26,2026-02-28,Galatasaray,Alanyaspor,2.18,0.73,sofascore
+2025-26,2026-02-28,Göztepe,Eyüpspor,1.38,0.17,sofascore
+2025-26,2026-02-28,Kasımpaşa,Çaykur Rizespor,0.78,1.43,sofascore
+2025-26,2026-02-28,Kocaelispor,Beşiktaş,0.47,1.04,sofascore
+2025-26,2026-03-01,Antalyaspor,Fenerbahçe,0.79,1.58,sofascore
+2025-26,2026-03-01,Gençlerbirliği,Kayserispor,0.54,0.7,sofascore
+2025-26,2026-03-01,Samsunspor,Gaziantep FK,0.8,0.22,sofascore
+2025-26,2026-03-07,Beşiktaş,Galatasaray,1.34,1.53,sofascore
+2025-26,2026-03-07,İstanbul Başakşehir,Göztepe,0.98,2.98,sofascore
+2025-26,2026-03-08,Fenerbahçe,Samsunspor,1.44,0.99,sofascore
+2025-26,2026-03-08,Gaziantep FK,Fatih Karagümrük,1.1,0.76,sofascore
+2025-26,2026-03-08,Konyaspor,Kasımpaşa,2.11,1.89,sofascore
+2025-26,2026-03-08,Çaykur Rizespor,Antalyaspor,2.28,0.58,sofascore
+2025-26,2026-03-09,Alanyaspor,Gençlerbirliği,1.33,0.12,sofascore
+2025-26,2026-03-09,Eyüpspor,Kocaelispor,1.14,1.6,sofascore
+2025-26,2026-03-09,Kayserispor,Trabzonspor,1.52,2.76,sofascore
+2025-26,2026-03-13,Antalyaspor,Gaziantep FK,0.55,2.75,sofascore
+2025-26,2026-03-13,Fatih Karagümrük,Fenerbahçe,1.37,0.63,sofascore
+2025-26,2026-03-14,Galatasaray,İstanbul Başakşehir,2.68,0.68,sofascore
+2025-26,2026-03-14,Göztepe,Alanyaspor,1.67,0.78,sofascore
+2025-26,2026-03-14,Kocaelispor,Konyaspor,0.73,2.12,sofascore
+2025-26,2026-03-14,Trabzonspor,Çaykur Rizespor,1.58,0.66,sofascore
+2025-26,2026-03-15,Gençlerbirliği,Beşiktaş,0.81,1.52,sofascore
+2025-26,2026-03-15,Kasımpaşa,Eyüpspor,0.78,0.79,sofascore
+2025-26,2026-03-15,Samsunspor,Kayserispor,1.82,0.74,sofascore
+2025-26,2026-03-17,Fenerbahçe,Gaziantep FK,2.79,1.32,sofascore
+2025-26,2026-03-18,Alanyaspor,Kocaelispor,0.63,0.21,sofascore
+2025-26,2026-03-18,Eyüpspor,Trabzonspor,0.4,1.5,sofascore
+2025-26,2026-03-18,İstanbul Başakşehir,Antalyaspor,1.4,0.87,sofascore
+2025-26,2026-03-19,Beşiktaş,Kasımpaşa,1.6,1.11,sofascore
+2025-26,2026-03-19,Kayserispor,Fatih Karagümrük,2.16,0.26,sofascore
+2025-26,2026-03-19,Konyaspor,Gençlerbirliği,1.68,0.06,sofascore
+2025-26,2026-04-04,Gaziantep FK,Alanyaspor,0.92,0.83,sofascore
+2025-26,2026-04-04,Gençlerbirliği,Göztepe,0.97,1.99,sofascore
+2025-26,2026-04-04,Kasımpaşa,Kayserispor,0.55,0.27,sofascore
+2025-26,2026-04-04,Trabzonspor,Galatasaray,0.87,1.47,sofascore
+2025-26,2026-04-05,Antalyaspor,Eyüpspor,2.54,0.32,sofascore
+2025-26,2026-04-05,Fatih Karagümrük,Çaykur Rizespor,1.36,1.74,sofascore
+2025-26,2026-04-05,Fenerbahçe,Beşiktaş,2.95,0.83,sofascore
+2025-26,2026-04-05,Samsunspor,Konyaspor,1.88,2.35,sofascore
+2025-26,2026-04-06,Kocaelispor,İstanbul Başakşehir,0.95,1.38,sofascore
+2025-26,2026-04-08,Göztepe,Galatasaray,2.05,1.38,sofascore
+2025-26,2026-04-09,Çaykur Rizespor,Samsunspor,2.15,1.52,sofascore
+2025-26,2026-04-10,Beşiktaş,Antalyaspor,3.35,0.82,sofascore
+2025-26,2026-04-11,Alanyaspor,Trabzonspor,0.97,2.05,sofascore
+2025-26,2026-04-11,Kayserispor,Fenerbahçe,0.44,1.47,sofascore
+2025-26,2026-04-11,İstanbul Başakşehir,Gençlerbirliği,3.74,1.13,sofascore
+2025-26,2026-04-12,Galatasaray,Kocaelispor,1.36,0.52,sofascore
+2025-26,2026-04-12,Göztepe,Kasımpaşa,2.85,0.78,sofascore
+2025-26,2026-04-12,Konyaspor,Fatih Karagümrük,1.25,1.53,sofascore
+2025-26,2026-04-13,Eyüpspor,Samsunspor,1.49,0.93,sofascore
+2025-26,2026-04-13,Çaykur Rizespor,Gaziantep FK,2.05,0.75,sofascore
+2025-26,2026-04-17,Antalyaspor,Konyaspor,1.04,1.89,sofascore
+2025-26,2026-04-17,Fenerbahçe,Çaykur Rizespor,2.44,0.74,sofascore
+2025-26,2026-04-18,Fatih Karagümrük,Eyüpspor,1.25,0.32,sofascore
+2025-26,2026-04-18,Gençlerbirliği,Galatasaray,0.49,2.25,sofascore
+2025-26,2026-04-18,Kocaelispor,Göztepe,3.1,0.72,sofascore
+2025-26,2026-04-19,Kasımpaşa,Alanyaspor,0.6,0.22,sofascore
+2025-26,2026-04-19,Samsunspor,Beşiktaş,1.08,1.43,sofascore
+2025-26,2026-04-19,Trabzonspor,İstanbul Başakşehir,1.19,0.84,sofascore
+2025-26,2026-04-20,Gaziantep FK,Kayserispor,2.42,1.11,sofascore
+2025-26,2026-04-24,İstanbul Başakşehir,Kasımpaşa,2.22,0.24,sofascore
+2025-26,2026-04-25,Eyüpspor,Gaziantep FK,1.37,0.67,sofascore
+2025-26,2026-04-25,Göztepe,Antalyaspor,2.37,0.91,sofascore
+2025-26,2026-04-25,Kayserispor,Çaykur Rizespor,1.48,1.14,sofascore
+2025-26,2026-04-26,Galatasaray,Fenerbahçe,2.58,1.32,sofascore
+2025-26,2026-04-26,Gençlerbirliği,Kocaelispor,1.06,0.6,sofascore
+2025-26,2026-04-27,Alanyaspor,Samsunspor,1.1,1.54,sofascore
+2025-26,2026-04-27,Beşiktaş,Fatih Karagümrük,2.14,0.67,sofascore
+2025-26,2026-04-27,Konyaspor,Trabzonspor,1.48,2.21,sofascore
+2025-26,2026-05-01,Gaziantep FK,Beşiktaş,1.49,1.67,sofascore
+2025-26,2026-05-01,Çaykur Rizespor,Konyaspor,1.52,1.53,sofascore
+2025-26,2026-05-02,Fenerbahçe,İstanbul Başakşehir,2.62,1.26,sofascore
+2025-26,2026-05-02,Samsunspor,Galatasaray,1.79,1.66,sofascore
+2025-26,2026-05-02,Trabzonspor,Göztepe,0.76,1.34,sofascore
+2025-26,2026-05-03,Antalyaspor,Alanyaspor,0.16,0.96,sofascore
+2025-26,2026-05-03,Fatih Karagümrük,Gençlerbirliği,0.58,2.47,sofascore
+2025-26,2026-05-03,Kasımpaşa,Kocaelispor,1.04,0.68,sofascore
+2025-26,2026-05-03,Kayserispor,Eyüpspor,1.34,0.84,sofascore
+2025-26,2026-05-09,Alanyaspor,Kayserispor,1.64,1.72,sofascore
+2025-26,2026-05-09,Beşiktaş,Trabzonspor,2.27,0.67,sofascore
+2025-26,2026-05-09,Eyüpspor,Çaykur Rizespor,1.81,0.85,sofascore
+2025-26,2026-05-09,Galatasaray,Antalyaspor,4.3,0.34,sofascore
+2025-26,2026-05-09,Gençlerbirliği,Kasımpaşa,1.78,2.04,sofascore
+2025-26,2026-05-09,Göztepe,Gaziantep FK,2.22,1.03,sofascore
+2025-26,2026-05-09,Kocaelispor,Fatih Karagümrük,0.39,0.32,sofascore
+2025-26,2026-05-09,Konyaspor,Fenerbahçe,0.59,3.37,sofascore
+2025-26,2026-05-09,İstanbul Başakşehir,Samsunspor,2.77,0.47,sofascore
+2025-26,2026-05-15,Çaykur Rizespor,Beşiktaş,2.93,2.0,sofascore
+2025-26,2026-05-16,Fatih Karagümrük,Alanyaspor,1.78,0.74,sofascore
+2025-26,2026-05-16,Gaziantep FK,İstanbul Başakşehir,0.73,2.23,sofascore
+2025-26,2026-05-16,Samsunspor,Göztepe,1.87,2.62,sofascore
+2025-26,2026-05-17,Antalyaspor,Kocaelispor,1.3,0.38,sofascore
+2025-26,2026-05-17,Fenerbahçe,Eyüpspor,1.33,0.52,sofascore
+2025-26,2026-05-17,Kasımpaşa,Galatasaray,1.12,0.51,sofascore
+2025-26,2026-05-17,Kayserispor,Konyaspor,1.34,1.37,sofascore
+2025-26,2026-05-17,Trabzonspor,Gençlerbirliği,0.52,2.12,sofascore
