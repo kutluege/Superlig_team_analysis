@@ -162,15 +162,17 @@ def team_card(row, avg, rank, n, path):
     scores = [row[f"skor_{k}"] for k, _ in scorecard.AXES]
     vals = ["veri yok" if pd.isna(v) else _tr(v) for v in scores]
     radar(ax, scores, col, avg=avg, labels=[l for _, l in scorecard.AXES], label_vals=vals)
-    _text(fig, 0.5, 0.338, "— — lig ortalaması (19 kulüp)  ·  skorlar 19 kulüp arasında 0-100", 7.2, MUTED,
-          ha="center", va="center")
+    fig.add_artist(plt.Line2D([0.235, 0.275], [0.338, 0.338], color=MUTED, lw=1.1, ls=(0, (3, 2.5))))
+    _text(fig, 0.285, 0.338, "lig ortalaması (19 kulüp)  ·  skorlar 19 kulüp arasında 0-100", 7.2, MUTED,
+          va="center")
 
     tiles = [
         ("SADAKAT", f"%{_tr(row.get('doluluk_10y', np.nan) * 100)}" if pd.notna(row.get("doluluk_10y")) else "—",
          f"doluluk · {_compact(row.get('takipci_toplam'))} takipçi ({_tr(row.get('takipci_platform'))} platform)"),
         ("BAŞARI", _tr(row.get("kupa_10y")) + (" kupa" if pd.notna(row.get("kupa_10y")) else ""),
          f"Lig {_tr(row.get('super_lig'))} · Kupa {_tr(row.get('turkiye_kupasi'))} · Süper K. {_tr(row.get('super_kupa'))}"),
-        ("GOL", _tr(row.gol_10y), f"{_tr(row.sezon_sayisi)} sezon · maç başı {_tr(row.gol_10y / row.mac, 2)}"),
+        ("GOL", _tr(row.gol_10y), f"maç başı {_tr(row.gol_10y / row.mac, 2)}"
+         + (f" · xG {_tr(row.xg_mac_basi, 2)} (22-26)" if pd.notna(row.get("xg_mac_basi")) else f" · {_tr(row.sezon_sayisi)} sezon")),
         ("GALİBİYET", _tr(row.galibiyet_10y), f"{_tr(row.mac)} maçta · %{_tr(row.galibiyet_10y / row.mac * 100)}"),
         ("FORMA", (_tr(row.get("forma_reel_ort_TL")) + " TL") if pd.notna(row.get("forma_reel_ort_TL")) else "—",
          _forma_sub(row)),
@@ -220,7 +222,7 @@ def cover(df, avg, path):
 # ------------------------------------------------------------------ metrik sıralaması
 METRIC_SLIDES = [
     ("sadakat", "SADAKAT", "Doluluk oranı (10 yıl, 2021-22 hariç) + 5 platform takipçi (log ölçek)", "skor_sadakat",
-     lambda r: f"%{_tr(r.get("doluluk_10y", float("nan")) * 100)} · {_compact(r.get("takipci_toplam"))}" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
+     lambda r: f"%{_tr(r.get("doluluk_10y", float("nan")) * 100)} doluluk · {_compact(r.get("takipci_toplam"))} takipçi" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
     ("basari", "BAŞARI", "10 yılda Süper Lig + Türkiye Kupası + Süper Kupa", "kupa_10y",
      lambda r: f"{_tr(r.kupa_10y)} kupa"),
     ("gol", "GOL", "10 yılda Süper Lig'de atılan gol", "gol_10y", lambda r: f"{_tr(r.gol_10y)}  ({int(r.sezon_sayisi)} sz)"),
@@ -233,28 +235,38 @@ METRIC_SLIDES = [
 ]
 
 
-def metric_slide(df, key, title, subtitle, col, fmt, path, page):
+def metric_slide(df, key, title, subtitle, col, fmt, path, page, weak=None, weak_label=None):
     if col not in df or df[col].notna().sum() == 0:
         return False
     d = df.dropna(subset=[col]).sort_values(col, ascending=False).reset_index(drop=True)
+    missing = [t for t in df.takim if t not in set(d.takim)]
     fig = _fig()
     _text(fig, 0.06, 0.925, title, 34, INK, COND, "bold")
     _text(fig, 0.06, 0.893, subtitle, 9, INK2)
     n = len(d)
-    top, bottom = 0.86, 0.075
+    top, bottom = 0.86, 0.105 if (missing or weak_label) else 0.075
     rowh = (top - bottom) / max(n, 1)
     vmax = d[col].max()
     for i, r in d.iterrows():
         y = top - (i + 0.5) * rowh
-        _text(fig, 0.075, y, str(i + 1), 12, GOLD if i < 3 else MUTED, COND, "bold", ha="right", va="center")
-        _place_logo(fig, r.takim, 0.11, y, 22)
-        _text(fig, 0.14, y, r.takim, 11, INK, COND, "semibold", va="center")
-        x0, wmax = 0.40, 0.33
+        _text(fig, 0.075, y, str(i + 1), 13, GOLD if i < 3 else MUTED, COND, "bold", ha="right", va="center")
+        _place_logo(fig, r.takim, 0.115, y, 34)
+        _text(fig, 0.15, y, r.takim, 12, INK, COND, "semibold", va="center")
+        x0, wmax = 0.42, 0.31
         w = wmax * (r[col] / vmax if vmax else 0)
-        fig.add_artist(FancyBboxPatch((x0, y - rowh * 0.26), max(w, 0.004), rowh * 0.52,
+        low = bool(weak(r)) if weak else False
+        fig.add_artist(FancyBboxPatch((x0, y - rowh * 0.24), max(w, 0.004), rowh * 0.48,
                                       boxstyle="round,pad=0,rounding_size=0.004", transform=fig.transFigure,
-                                      facecolor=accent(r.takim), edgecolor="none"))
-        _text(fig, x0 + w + 0.012, y, fmt(r), 8.6, INK2, va="center")
+                                      facecolor=GOLD if i < 3 else "#dfe5e1", alpha=0.35 if low else 1,
+                                      edgecolor="none"))
+        _text(fig, x0 + w + 0.012, y, fmt(r), 8.8, MUTED if low else INK2, va="center")
+    notes = []
+    if weak_label:
+        notes.append(weak_label)
+    if missing:
+        notes.append("Veri yok: " + ", ".join(missing))
+    for j, t in enumerate(notes):
+        _text(fig, 0.06, 0.08 - j * 0.017, t, 7.2, MUTED)
     _footer(fig, page)
     fig.savefig(path, dpi=DPI, facecolor=BG)
     plt.close(fig)
@@ -276,6 +288,11 @@ def render_all():
     page = 0
     for key, title, sub, col, fmt in METRIC_SLIDES:
         page += 1
-        metric_slide(df, key, title, sub, col, fmt, OUT / f"metrik_{page}_{key}.png", f"{page}/6")
+        weak, wl = None, None
+        if key == "forma":
+            weak, wl = (lambda r: r.forma_sezon < 2), "Soluk çubuk: yalnız 1 sezonun fiyatı bulundu (düşük güven) · sz = fiyatı bulunan sezon sayısı"
+        elif key == "sadakat":
+            weak, wl = (lambda r: r.get("takipci_platform", 5) < 3), "Soluk çubuk: 3'ten az platformda takipçi verisi · Karagümrük doluluğu belirsiz (hangi stadın kapasitesi esas alınacağı net değil)"
+        metric_slide(df, key, title, sub, col, fmt, OUT / f"metrik_{page}_{key}.png", f"{page}/6", weak, wl)
     log.info("Instagram görselleri: %s", OUT)
     return df
