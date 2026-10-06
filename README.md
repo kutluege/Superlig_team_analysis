@@ -120,18 +120,25 @@ Alt ajan çıktıları `data/agents/<ad>/` altında (her birinde RAPOR.md var):
 `xg` (2022-23 – 2025-26), `kupalar`, `sosyal` (5 platform), `forma` (66/190 fiyat + TÜFE 2003=100).
 Birleşik tablo: `data/skor_karti.csv`.
 
+Tüm boyutlar **gerçek yüzdelerdir** (kulüpler arası min-max ölçekleme yok):
+
 | Boyut | Tanım | Kaynak |
 |---|---|---|
-| Sadakat | 10 yıllık doluluk (2021-22 COVID kısıtlı sezon hariç) ve 5 platform takipçisinin log ölçekli skoru, eşit ağırlık | seyirci + sosyal ajanları |
-| Başarı | Süper Lig + Türkiye Kupası + Süper Kupa (2016-17 – 2025-26) | kupalar ajanı |
-| Gol + xG | 10 yıllık lig golü ve maç başı xG (2022-23 – 2025-26) eşit ağırlık; xG yoksa yalnız gol | matches.csv + xg ajanı |
-| Galibiyet | 10 yılda lig galibiyeti toplamı | matches.csv |
-| Forma uygunluğu | **Ters yönlü**: kulübün ev forması fiyatı ÷ aynı sezondaki kulüplerin medyan fiyatı; ortalaması düşük olan yüksek skor alır (dönem yanlılığını giderir). Kartta reel (TÜFE) fiyat ve ilk→son artış da gösterilir | forma ajanı |
-| Son 3 sezon | 2023-24 – 2025-26 resmi puan (TFF puan silmeleri dahil) ve sıra ortalaması | team_season.csv |
+| Sadakat | ortalama(10 yıllık doluluk %, sosyal medya %). Doluluk 2021-22 COVID kısıtlı sezonu hariç tutar. Sosyal %: platform başına sabit log ölçek, 1.000 takipçi = %0, 100 milyon = %100; kulübün verisi olan platformların ortalaması | seyirci + sosyal ajanları |
+| Başarı | Kazanılan kupa ÷ 10 yılda dağıtılan 30 kupa (Süper Lig + Türkiye Kupası + Süper Kupa) | kupalar ajanı |
+| Gol + xG | ortalama(gol payı = atılan ÷ (atılan + yenilen) [10 yıl], xG payı = xG ÷ (xG + xGA) [2022-26]) | matches.csv + xg ajanı |
+| Galibiyet | Galibiyet ÷ oynanan maç [10 yıl] | matches.csv |
+| Taraftara maliyet | 10 sezonun ev formalarının toplam maliyeti (bugünkü TL, TÜFE). Skor = 50 × lig ortalaması ÷ kulübün maliyeti (ortalama = 50, yarı maliyet = 100, iki kat = 25; tavan 100). Ters yönlüdür: ucuz forma yüksek skor alır | forma ajanı + `forma_panel.py` |
+| Son 3 sezon | Alınan resmi puan ÷ alınabilecek puan, 2023-24 – 2025-26 (TFF puan silmeleri dahil) | team_season.csv |
 
-Her boyut 19 kulüp arasında min-max ile 0-100'e ölçeklenir. **Genel skor 6 boyutun ortalamasıdır**; forma ters yönlü
-olduğu için pahalı forma genel skoru düşürür. Verisi olmayan boyut (forma fiyatı bulunamayan 3 kulüp) ortalamaya
-girmez. Son 3 sezonda hiç ligde olmayan kulübün o ekseni 0'dır.
+**Forma fiyatları aynı sezonda karşılaştırılır.** Gerçek fiyatı olmayan sezonlar, kulübün zamanca en yakın gerçek
+fiyatının, fiyatı bilinen kulüplerin sezondan sezona medyan artışıyla (zincir endeks, `data/forma_endeks.csv`)
+o sezona taşınmasıyla tamamlanır. Böylece her kulübün maliyeti aynı 10 sezon üzerinden hesaplanır. Panel:
+`data/forma_panel.csv` (`tur` = gerçek / tahmin). Geriye dönük test (59 gerçek fiyat): medyan hata %9, ortalama %14.
+Hiç gerçek fiyatı olmayan kulüpler (Başakşehir, Kasımpaşa, Gaziantep FK) tamamlanmaz.
+
+**Genel skor 6 yüzdenin ortalamasıdır** (verisi olmayan boyut hariç). Son 3 sezonda hiç ligde olmayan kulübün o
+ekseni 0'dır.
 Sınırlamalar: forma fiyatı 66/190 hücre (Başakşehir, Kasımpaşa, Gaziantep FK'da hiç yok; tek sezonluk değerler
 düşük güvenli olarak işaretli), xG yalnızca son 4 sezon, Fatih Karagümrük doluluğu stat kapasitesi belirsizliği
 nedeniyle güvenilir değil.

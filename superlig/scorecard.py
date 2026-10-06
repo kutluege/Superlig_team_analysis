@@ -1,15 +1,18 @@
 """19 kulüp için 6 boyutlu skor kartı (Instagram görselleri bunu kullanır).
 
-Boyutlar:
- 1. Sadakat   : 10 yıllık ortalama doluluk (seyirci/kapasite) + sosyal medya takipçisi (log, normalize)
- 2. Başarı    : 10 yılda Süper Lig + Türkiye Kupası + Süper Kupa sayısı
- 3. Gol + xG  : 10 yılda lig golü toplamı + maç başı xG (2022-26), eşit ağırlık
- 4. Galibiyet : 10 yılda lig galibiyeti toplamı
- 5. Forma     : 10 yıllık ev forması reel ortalama fiyatı — TERS yönlü (ucuz = yüksek skor)
- 6. Form      : son 3 sezon puan ortalaması + sıralama ortalaması
-
-Alt ajan çıktıları data/agents/<ad>/ altından okunur; dosya yoksa ilgili kolonlar boş kalır.
-Her boyut 19 takım arasında 0-100'e ölçeklenir (min-max); radar bu skorları çizer.
+Tüm boyutlar GERÇEK yüzdelerdir (kulüpler arası min-max ölçekleme yok):
+ 1. Sadakat          : ortalama( 10 yıllık doluluk %, sosyal medya % )
+                       sosyal %: platform başına sabit log ölçek (1.000 takipçi = 0, 100 milyon = 100),
+                       kulübün verisi olan platformların ortalaması
+ 2. Başarı           : kazanılan kupa ÷ 10 yılda dağıtılan kupa (Süper Lig + Türkiye Kupası + Süper Kupa = 30)
+ 3. Gol + xG         : ortalama( gol payı = atılan ÷ (atılan + yenilen) [10 yıl],
+                                  xG payı = xG ÷ (xG + xGA) [2022-23 – 2025-26] )
+ 4. Galibiyet        : galibiyet ÷ oynanan maç [10 yıl]
+ 5. Taraftara maliyet: forma uygunluğu = 50 × lig ortalaması ÷ kulübün 10 sezonluk ortalama forma fiyatı
+                       (lig ortalaması = 50, yarı fiyat = 100, iki kat = 25; tavan 100). Fiyatlar aynı
+                       sezonda karşılaştırılır: eksik sezonlar zincir endeksle tamamlanır (forma_panel.py)
+ 6. Son 3 sezon      : alınan resmi puan ÷ alınabilecek puan [2023-24 – 2025-26]
+Genel skor: 6 boyutun ortalaması (verisi olmayan boyut hariç).
 """
 from __future__ import annotations
 
@@ -26,7 +29,9 @@ AG = config.DATA / "agents"
 LAST3 = config.SEASONS[-3:]
 PLATFORMS = ["Instagram", "X", "Facebook", "TikTok", "YouTube"]
 AXES = [("sadakat", "Sadakat"), ("basari", "Başarı"), ("gol", "Gol + xG"), ("galibiyet", "Galibiyet"),
-        ("forma", "Forma uygunluğu"), ("form", "Son 3 sezon")]
+        ("forma", "Taraftara maliyet"), ("form", "Son 3 sezon")]
+TOTAL_TROPHIES = 30  # 10 sezon × 3 kupa
+SOCIAL_LO, SOCIAL_HI = 3.0, 8.0  # log10 takipçi: 1.000 → %0, 100 milyon → %100
 
 
 def _read(path, **kw):
@@ -50,12 +55,14 @@ def build() -> pd.DataFrame:
 
     # 3-4: gol ve galibiyet (lig maçları, matches.csv'den)
     g = lg.groupby("takim").agg(sezon_sayisi=("sezon", "size"), mac=("oynanan", "sum"),
-                                gol_10y=("atilan_gol", "sum"), galibiyet_10y=("galibiyet", "sum"))
+                                gol_10y=("atilan_gol", "sum"), yenilen_10y=("yenilen_gol", "sum"),
+                                galibiyet_10y=("galibiyet", "sum"))
     df = df.join(g)
 
     # 6: son 3 sezon
     l3 = lg[lg.sezon.isin(LAST3)].groupby("takim").agg(son3_sezon=("sezon", "size"),
-                                                       son3_puan_ort=("resmi_puan", "mean"), son3_sira_ort=("resmi_sira", "mean"))
+                                                       son3_puan_ort=("resmi_puan", "mean"), son3_sira_ort=("resmi_sira", "mean"),
+                                                       son3_puan=("resmi_puan", "sum"), son3_mac=("oynanan", "sum"))
     df = df.join(l3)
 
     # 2: kupalar
@@ -84,73 +91,61 @@ def build() -> pd.DataFrame:
         for c in piv.columns:
             df[f"takipci_{c.lower()}"] = piv[c]
         # platform başına log10 → 0-100, kulübün verisi olan platformların ortalaması
-        df["sosyal_skor"] = pd.concat([_minmax(np.log10(piv[c])) for c in piv.columns], axis=1).mean(axis=1)
+        pct = ((np.log10(piv) - SOCIAL_LO) / (SOCIAL_HI - SOCIAL_LO) * 100).clip(0, 100)
+        df["sosyal_yuzde"] = pct.mean(axis=1)
 
-    # 5: forma fiyatı + TÜFE
-    f = _read("forma/forma_fiyat.csv")
-    cpi = _read("forma/tufe.csv")
-    if f is not None:
-        # ürün tipi belirsiz hücreler "yetişkin ev forması" tanımını karşılamadığı için dışarıda
-        f = f.dropna(subset=["fiyat_TL"])
-        f = f[~f["not"].fillna("").str.contains("BELİRSİZ_ÜRÜN")].copy()
-        f["fiyat_TL"] = pd.to_numeric(f.fiyat_TL, errors="coerce")
-        f = f.dropna(subset=["fiyat_TL"])
+    # 5: forma — aynı sezonda karşılaştırılabilir panel (gerçek + zincir endeks tahmini) ve taraftara maliyet
+    from . import forma_panel
+    if forma_panel.SRC.exists():
+        panel, _ = forma_panel.build_panel()
+        cpi = _read("forma/tufe.csv")
         if cpi is not None and not cpi.empty:
             cpi = cpi.dropna(subset=["tufe_2003_100"]).sort_values(["yil", "ay"])
             base = float(cpi.tufe_2003_100.iloc[-1])
-            base_lbl = f"{int(cpi.yil.iloc[-1])}-{int(cpi.ay.iloc[-1]):02d}"
-            # sezon fiyatı lansman ayına (Temmuz) göre deflate edilir; Temmuz yoksa o yılın son ayı
-            def deflator(season):
+            df.attrs["reel_baz"] = f"{int(cpi.yil.iloc[-1])}-{int(cpi.ay.iloc[-1]):02d}"
+
+            def deflator(season):  # lansman ayı Temmuz
                 y = int(season[:4])
                 c = cpi[(cpi.yil == y) & (cpi.ay == 7)]
-                if c.empty:
-                    c = cpi[cpi.yil == y]
-                return float(c.tufe_2003_100.iloc[-1]) if not c.empty else np.nan
-            f["reel_fiyat_TL"] = f.fiyat_TL * base / f.sezon.map(deflator)
-            df.attrs["reel_baz"] = base_lbl
-        # Dönem yanlılığını gidermek için: fiyat / aynı sezondaki tüm kulüplerin medyan fiyatı
-        f["sezon_endeksi"] = f.fiyat_TL / f.groupby("sezon").fiyat_TL.transform("median")
-        agg = f.groupby("takim").agg(forma_sezon=("sezon", "size"), forma_ort_TL=("fiyat_TL", "mean"),
-                                     forma_endeks=("sezon_endeksi", "mean"),
-                                     forma_ilk_sezon=("sezon", "min"), forma_son_sezon=("sezon", "max"))
-        first = f.sort_values("sezon").groupby("takim").fiyat_TL.first()
-        last = f.sort_values("sezon").groupby("takim").fiyat_TL.last()
+                return float((c if not c.empty else cpi[cpi.yil == y]).tufe_2003_100.iloc[-1])
+            panel["reel_TL"] = panel.fiyat_TL * base / panel.sezon.map(deflator)
+        p = panel.dropna(subset=["fiyat_TL"])
+        agg = p.groupby("takim").agg(forma_ort_TL=("fiyat_TL", "mean"), forma_maliyet_10y_TL=("fiyat_TL", "sum"),
+                                     forma_gercek_sezon=("tur", lambda x: (x == "gerçek").sum()))
+        if "reel_TL" in p:
+            agg["forma_maliyet_10y_reel_TL"] = p.groupby("takim").reel_TL.sum()
+            agg["forma_reel_ort_TL"] = p.groupby("takim").reel_TL.mean()
+        first = p[p.sezon == config.SEASONS[0]].set_index("takim").fiyat_TL
+        last = p[p.sezon == config.SEASONS[-1]].set_index("takim").fiyat_TL
         agg["forma_ilk_TL"], agg["forma_son_TL"] = first, last
-        agg["forma_artis_yuzde"] = np.where(agg.forma_sezon >= 2, (last / first - 1) * 100, np.nan)
-        if "reel_fiyat_TL" in f:
-            rf = f.sort_values("sezon").groupby("takim").reel_fiyat_TL
-            agg["forma_reel_artis_yuzde"] = np.where(agg.forma_sezon >= 2, (rf.last() / rf.first() - 1) * 100, np.nan)
-        if "reel_fiyat_TL" in f:
-            agg["forma_reel_ort_TL"] = f.groupby("takim").reel_fiyat_TL.mean()
+        agg["forma_artis_yuzde"] = (last / first - 1) * 100
+        # taraftara maliyet: 10 sezonun toplamı bugünkü TL ile; lig ortalamasına oranı
+        cost = agg.forma_maliyet_10y_reel_TL if "forma_maliyet_10y_reel_TL" in agg else agg.forma_maliyet_10y_TL
+        agg["forma_lig_orani"] = cost / cost.mean()
         df = df.join(agg)
 
     # xG (ek bilgi; radarda yok)
     x = _read("xg/xg_10yil.csv")
     if x is not None:
-        df = df.join(x.set_index("takim")[["xg_mac_basi", "xga_mac_basi"]])
+        df = df.join(x.set_index("takim")[["xg_mac_basi", "xga_mac_basi", "xg_toplam", "xga_toplam"]])
 
-    # ---- 0-100 skorlar
+    # ---- gerçek yüzdeler (0-100)
     sc = pd.DataFrame(index=df.index)
-    parts = []
-    if "doluluk_10y" in df:
-        parts.append(_minmax(df.doluluk_10y))
-    if "sosyal_skor" in df:
-        parts.append(df.sosyal_skor)
-    sc["sadakat"] = pd.concat(parts, axis=1).mean(axis=1) if parts else np.nan
-    sc["basari"] = _minmax(df.kupa_10y) if "kupa_10y" in df else np.nan
-    # Gol: 10 yıllık lig golü + maç başı xG (2022-23 – 2025-26) eşit ağırlık; xG yoksa yalnız gol
-    sc["gol_ham"] = _minmax(df.gol_10y)
-    sc["xg_ham"] = _minmax(df.xg_mac_basi) if "xg_mac_basi" in df else np.nan
-    sc["gol"] = sc[["gol_ham", "xg_ham"]].mean(axis=1)
-    sc = sc.drop(columns=["gol_ham", "xg_ham"])
-    sc["galibiyet"] = _minmax(df.galibiyet_10y)
-    # Forma ters yönlü: sezon medyanına göre ucuz forma = yüksek skor
-    sc["forma"] = _minmax(df.forma_endeks, invert=True) if "forma_endeks" in df else np.nan
-    sc["form"] = pd.concat([_minmax(df.son3_puan_ort), _minmax(df.son3_sira_ort, invert=True)], axis=1).mean(axis=1)
-    sc.loc[df.son3_sezon.isna(), "form"] = 0.0  # son 3 sezonda hiç Süper Lig'de değil
+    df["doluluk_yuzde"] = df.get("doluluk_10y") * 100 if "doluluk_10y" in df else np.nan
+    sc["sadakat"] = df[[c for c in ("doluluk_yuzde", "sosyal_yuzde") if c in df]].mean(axis=1)
+    sc["basari"] = df.kupa_10y / TOTAL_TROPHIES * 100 if "kupa_10y" in df else np.nan
+    df["gol_payi"] = df.gol_10y / (df.gol_10y + df.yenilen_10y) * 100
+    if "xg_toplam" in df:
+        df["xg_payi"] = df.xg_toplam / (df.xg_toplam + df.xga_toplam) * 100
+    sc["gol"] = df[[c for c in ("gol_payi", "xg_payi") if c in df]].mean(axis=1)
+    df["galibiyet_yuzde"] = df.galibiyet_10y / df.mac * 100
+    sc["galibiyet"] = df.galibiyet_yuzde
+    sc["forma"] = (50 / df.forma_lig_orani).clip(upper=100) if "forma_lig_orani" in df else np.nan
+    df["son3_puan_yuzde"] = df.son3_puan / (3 * df.son3_mac) * 100
+    sc["form"] = df.son3_puan_yuzde.fillna(0.0)  # son 3 sezonda hiç Süper Lig'de değilse 0
     sc.columns = [f"skor_{c}" for c in sc.columns]
     out = df.join(sc)
-    # Genel skor: 6 boyutun ortalaması (forma ters yönlü: pahalı forma skoru düşürür).
+    # Genel skor: 6 boyutun ortalaması (taraftara maliyet ters yönlü: pahalı forma skoru düşürür).
     # Verisi olmayan boyut (ör. forma fiyatı bulunamayan kulüp) ortalamaya girmez.
     out["genel_skor"] = out[[f"skor_{k}" for k, _ in AXES]].mean(axis=1)
     out["genel_boyut_sayisi"] = out[[f"skor_{k}" for k, _ in AXES]].notna().sum(axis=1)

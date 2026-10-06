@@ -137,13 +137,9 @@ def radar(ax, scores, color, avg=None, labels=None, label_vals=None, lw=2.4, lab
 
 
 def _forma_sub(row):
-    n = row.get("forma_sezon")
-    if pd.isna(n):
+    if pd.isna(row.get("forma_maliyet_10y_TL")):
         return "fiyat verisi bulunamadı"
-    if n < 2:
-        return f"sezon medyanı ×{_tr(row.forma_endeks, 2)} · yalnız {row.forma_ilk_sezon}"
-    return (f"medyan ×{_tr(row.forma_endeks, 2)} · {row.forma_ilk_sezon[:4]}–{row.forma_son_sezon[2:4]}: "
-            f"{_pct(row.forma_artis_yuzde)} (reel {_pct(row.get('forma_reel_artis_yuzde'))})")
+    return f"10 forma, bugünkü TL · lig ort. ×{_tr(row.forma_lig_orani, 2)} · {int(row.forma_gercek_sezon)}/10 gerçek"
 
 
 def _pct(x):
@@ -171,21 +167,22 @@ def team_card(row, avg, rank, n, path):
     vals = ["veri yok" if pd.isna(v) else _tr(v) for v in scores]
     radar(ax, scores, col, avg=avg, labels=[l for _, l in scorecard.AXES], label_vals=vals)
     fig.add_artist(plt.Line2D([0.235, 0.275], [0.338, 0.338], color=MUTED, lw=1.1, ls=(0, (3, 2.5))))
-    _text(fig, 0.285, 0.338, "lig ortalaması (19 kulüp)  ·  skorlar 0-100  ·  forma: ucuz = yüksek skor", 7.2, MUTED,
+    _text(fig, 0.285, 0.338, "lig ortalaması  ·  gerçek yüzdeler  ·  maliyet: ucuz forma = yüksek skor", 7.2, MUTED,
           va="center")
 
+    g = row.get
     tiles = [
-        ("SADAKAT", f"%{_tr(row.get('doluluk_10y', np.nan) * 100)}" if pd.notna(row.get("doluluk_10y")) else "—",
-         f"doluluk · {_compact(row.get('takipci_toplam'))} takipçi ({_tr(row.get('takipci_platform'))} platform)"),
-        ("BAŞARI", _tr(row.get("kupa_10y")) + (" kupa" if pd.notna(row.get("kupa_10y")) else ""),
-         f"Lig {_tr(row.get('super_lig'))} · Kupa {_tr(row.get('turkiye_kupasi'))} · Süper K. {_tr(row.get('super_kupa'))}"),
-        ("GOL + xG", _tr(row.gol_10y), f"maç başı {_tr(row.gol_10y / row.mac, 2)}"
-         + (f" · xG {_tr(row.xg_mac_basi, 2)} (22-26)" if pd.notna(row.get("xg_mac_basi")) else f" · {_tr(row.sezon_sayisi)} sezon")),
-        ("GALİBİYET", _tr(row.galibiyet_10y), f"{_tr(row.mac)} maçta · %{_tr(row.galibiyet_10y / row.mac * 100)}"),
-        ("FORMA", (_tr(row.get("forma_reel_ort_TL")) + " TL") if pd.notna(row.get("forma_reel_ort_TL")) else "—",
+        ("SADAKAT", f"%{_tr(g('doluluk_yuzde'))} doluluk" if pd.notna(g("doluluk_yuzde")) else "—",
+         f"sosyal medya %{_tr(g('sosyal_yuzde'))} · {_compact(g('takipci_toplam'))} takipçi"),
+        ("BAŞARI", f"{_tr(g('kupa_10y'))} / 30 kupa",
+         f"Lig {_tr(g('super_lig'))} · Türkiye K. {_tr(g('turkiye_kupasi'))} · Süper K. {_tr(g('super_kupa'))}"),
+        ("GOL + xG", f"{_tr(row.gol_10y)} gol",
+         f"gol payı %{_tr(g('gol_payi'))}" + (f" · xG payı %{_tr(g('xg_payi'))} (22-26)" if pd.notna(g("xg_payi")) else "")),
+        ("GALİBİYET", f"%{_tr(g('galibiyet_yuzde'))}", f"{_tr(row.galibiyet_10y)} galibiyet / {_tr(row.mac)} maç"),
+        ("TARAFTARA MALİYET", (_tr(g("forma_maliyet_10y_reel_TL")) + " TL") if pd.notna(g("forma_maliyet_10y_reel_TL")) else "—",
          _forma_sub(row)),
-        ("SON 3 SEZON", (_tr(row.son3_puan_ort, 1) + " puan") if pd.notna(row.son3_puan_ort) else "ligde değil",
-         (f"ort. sıra {_tr(row.son3_sira_ort, 1)} · {int(row.son3_sezon)}/3 sezon" if pd.notna(row.son3_sezon) else "")),
+        ("SON 3 SEZON", f"%{_tr(g('son3_puan_yuzde'))} puan" if pd.notna(g("son3_puan_yuzde")) else "ligde değil",
+         (f"{_tr(row.son3_puan_ort, 1)} puan/sezon · ort. sıra {_tr(row.son3_sira_ort, 1)}" if pd.notna(row.son3_sezon) else "son 3 sezonda Süper Lig'de yok")),
     ]
     x0, y0, tw, th, gx, gy = 0.06, 0.075, 0.28, 0.115, 0.02, 0.018
     for i, (lab, big, small) in enumerate(tiles):
@@ -206,7 +203,7 @@ def cover(df, avg, path):
     fig = _fig()
     _text(fig, 0.06, 0.93, "SÜPER LİG'İN", 15, GOLD, COND, "bold")
     _text(fig, 0.06, 0.865, "ALTI YÜZÜ", 44, INK, COND, "bold")
-    _text(fig, 0.06, 0.835, "19 kulüp · 10 sezon · 6 boyut: sadakat, başarı, gol+xG, galibiyet, forma uygunluğu, son 3 sezon",
+    _text(fig, 0.06, 0.835, "19 kulüp · 10 sezon · 6 boyut: sadakat, başarı, gol+xG, galibiyet, taraftara maliyet, son 3 sezon",
           8.4, INK2)
     cols, rows = 4, 5
     gx0, gy0, cw, ch = 0.04, 0.07, 0.23, 0.148
@@ -220,27 +217,30 @@ def cover(df, avg, path):
     # son hücre: eksen açıklaması
     x, y = gx0 + 3 * cw, gy0
     ax = fig.add_axes([x, y + 0.012, cw, ch - 0.02])
-    radar(ax, [100] * 6, MUTED, lw=0.8, labels=["Sadakat", "Başarı", "Gol+xG", "Galibiyet", "Forma (ucuz)", "Son 3"],
+    radar(ax, [100] * 6, MUTED, lw=0.8, labels=["Sadakat", "Başarı", "Gol+xG", "Galibiyet", "Maliyet (ucuz)", "Son 3"],
           label_size=7.5)
-    _footer(fig, "Sıralama: genel skor (6 boyut; ucuz forma = yüksek skor)")
+    _footer(fig, "Sıralama: genel skor = 6 gerçek yüzdenin ortalaması")
     fig.savefig(path, dpi=DPI, facecolor=BG)
     plt.close(fig)
 
 
 # ------------------------------------------------------------------ metrik sıralaması
 METRIC_SLIDES = [
-    ("sadakat", "SADAKAT", "Doluluk oranı (10 yıl, 2021-22 hariç) + 5 platform takipçi (log ölçek)", "skor_sadakat",
-     lambda r: f"%{_tr(r.get("doluluk_10y", float("nan")) * 100)} doluluk · {_compact(r.get("takipci_toplam"))} takipçi" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
-    ("basari", "BAŞARI", "10 yılda Süper Lig + Türkiye Kupası + Süper Kupa", "kupa_10y",
-     lambda r: f"{_tr(r.kupa_10y)} kupa"),
-    ("gol", "GOL + xG", "Skor: 10 yıllık lig golü + maç başı xG (2022-26), eşit ağırlık", "skor_gol",
-     lambda r: f"{_tr(r.gol_10y)} gol · xG/maç {_tr(r.get('xg_mac_basi'), 2)}"),
-    ("galibiyet", "GALİBİYET", "10 yılda Süper Lig galibiyeti", "galibiyet_10y",
-     lambda r: f"{_tr(r.galibiyet_10y)}  ({int(r.sezon_sayisi)} sz)"),
-    ("forma", "FORMA UYGUNLUĞU", "Ucuzdan pahalıya: ev forması fiyatı ÷ aynı sezonun medyan fiyatı (ortalama)", "skor_forma",
-     lambda r: f"medyan ×{_tr(r.forma_endeks, 2)} · reel {_tr(r.forma_reel_ort_TL)} TL · {int(r.forma_sezon)} sz"),
-    ("form", "SON 3 SEZON", "2023-24 – 2025-26 puan ortalaması", "son3_puan_ort",
-     lambda r: f"{_tr(r.son3_puan_ort, 1)} p · ort. sıra {_tr(r.son3_sira_ort, 1)}"),
+    ("sadakat", "SADAKAT", "ortalama(10 yıllık doluluk %, sosyal medya %) · sosyal: 1 bin takipçi = %0, 100 Mn = %100 (log)",
+     "skor_sadakat",
+     lambda r: f"%{_tr(r.skor_sadakat)} · doluluk %{_tr(r.get('doluluk_yuzde'))} · sosyal %{_tr(r.get('sosyal_yuzde'))}"),
+    ("basari", "BAŞARI", "10 yılda dağıtılan 30 kupadan alınan pay (Süper Lig + Türkiye Kupası + Süper Kupa)",
+     "skor_basari", lambda r: f"%{_tr(r.skor_basari)} · {_tr(r.kupa_10y)} kupa"),
+    ("gol", "GOL + xG", "ortalama(gol payı: atılan ÷ atılan+yenilen [10 yıl], xG payı [2022-26])", "skor_gol",
+     lambda r: f"%{_tr(r.skor_gol)} · {_tr(r.gol_10y)} gol" + (f" · xG payı %{_tr(r.get('xg_payi'))}" if pd.notna(r.get('xg_payi')) else "")),
+    ("galibiyet", "GALİBİYET", "10 yılda galibiyet yüzdesi (Süper Lig maçları)", "skor_galibiyet",
+     lambda r: f"%{_tr(r.skor_galibiyet)} · {_tr(r.galibiyet_10y)}/{_tr(r.mac)}"),
+    ("forma", "TARAFTARA MALİYET", "10 sezonun ev formalarının toplam maliyeti, bugünkü TL (TÜFE) · ucuzdan pahalıya",
+     "skor_forma",
+     lambda r: f"{_tr(r.forma_maliyet_10y_reel_TL)} TL · nominal {_tr(r.forma_maliyet_10y_TL)} · uygunluk %{_tr(r.skor_forma)}"),
+    ("form", "SON 3 SEZON", "2023-24 – 2025-26: alınan puan ÷ alınabilecek puan (TFF puan silmeleri dahil)", "skor_form",
+     lambda r: f"%{_tr(r.skor_form)} · {_tr(r.son3_puan_ort, 1)} p/sezon · ort. sıra {_tr(r.son3_sira_ort, 1)}"
+     if pd.notna(r.son3_sezon) else "ligde değil"),
 ]
 
 
@@ -255,7 +255,7 @@ def metric_slide(df, key, title, subtitle, col, fmt, path, page, weak=None, weak
     n = len(d)
     top, bottom = 0.86, 0.105 if (missing or weak_label) else 0.075
     rowh = (top - bottom) / max(n, 1)
-    vmax = d[col].max()
+    vmax = 100.0  # tüm skorlar gerçek yüzde
     for i, r in d.iterrows():
         y = top - (i + 0.5) * rowh
         _text(fig, 0.075, y, str(i + 1), 13, GOLD if i < 3 else MUTED, COND, "bold", ha="right", va="center")
@@ -299,7 +299,8 @@ def render_all():
         page += 1
         weak, wl = None, None
         if key == "forma":
-            weak, wl = (lambda r: r.forma_sezon < 2), "Soluk çubuk: yalnız 1 sezonun fiyatı bulundu (düşük güven) · sz = fiyatı bulunan sezon sayısı"
+            weak, wl = (lambda r: r.forma_gercek_sezon < 2), ("Soluk: 10 sezondan yalnız birinin gerçek fiyatı var. Eksik sezonlar diğer kulüplerin"
+                                                             " sezonluk artışıyla tamamlandı (test: medyan hata %9).")
         elif key == "sadakat":
             weak, wl = (lambda r: r.get("takipci_platform", 5) < 3), "Soluk çubuk: 3'ten az platformda takipçi verisi · Karagümrük doluluğu belirsiz (hangi stadın kapasitesi esas alınacağı net değil)"
         metric_slide(df, key, title, sub, col, fmt, OUT / f"metrik_{page}_{key}.png", f"{page}/6", weak, wl)
