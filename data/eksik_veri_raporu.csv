@@ -180,120 +180,24 @@ Yeni Malatyaspor,2025-26,tümü,ligde değil,Takım bu sezon Süper Lig'de deği
 İstanbulspor,2021-22,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
 İstanbulspor,2024-25,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
 İstanbulspor,2025-26,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
-Adana Demirspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Adana Demirspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Akhisarspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Alanyaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Alanyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Alanyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Alanyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Alanyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Alanyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Altay,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Ankaragücü,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Ankaragücü,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Ankaragücü,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Antalyaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Antalyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Antalyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Antalyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Antalyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Antalyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Beşiktaş,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Beşiktaş,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Beşiktaş,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Beşiktaş,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Beşiktaş,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Beşiktaş,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Bursaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 2/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Denizlispor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Denizlispor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Erzurumspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Eyüpspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fatih Karagümrük,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Fatih Karagümrük,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fatih Karagümrük,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fatih Karagümrük,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fenerbahçe,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Fenerbahçe,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 2/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Fenerbahçe,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Fenerbahçe,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fenerbahçe,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Fenerbahçe,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Galatasaray,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Galatasaray,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Galatasaray,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Galatasaray,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Galatasaray,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Galatasaray,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Gaziantep FK,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gaziantep FK,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gaziantep FK,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Gaziantep FK,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gaziantep FK,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Gençlerbirliği,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gençlerbirliği,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gençlerbirliği,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Gençlerbirliği,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Giresunspor,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Göztepe,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Göztepe,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Göztepe,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Göztepe,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Göztepe,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Hatayspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Hatayspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Hatayspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Karabükspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kasımpaşa,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kasımpaşa,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Kasımpaşa,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Kasımpaşa,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kasımpaşa,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kasımpaşa,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kayserispor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kayserispor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Kayserispor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Kayserispor,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Kayserispor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kayserispor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Kocaelispor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Konyaspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Konyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Konyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Konyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Konyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Konyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Osmanlıspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Pendikspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Samsunspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Samsunspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Sivasspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Sivasspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Sivasspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Sivasspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Sivasspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Trabzonspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Trabzonspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Trabzonspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Trabzonspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Trabzonspor,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Trabzonspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Yeni Malatyaspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Yeni Malatyaspor,2018-19,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Yeni Malatyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Yeni Malatyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Yeni Malatyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Çaykur Rizespor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Çaykur Rizespor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Çaykur Rizespor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Çaykur Rizespor,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 2/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-Çaykur Rizespor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-Ümraniyespor,2022-23,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-İstanbul Başakşehir,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-İstanbul Başakşehir,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-İstanbul Başakşehir,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
-İstanbul Başakşehir,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-İstanbul Başakşehir,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-İstanbul Başakşehir,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
-İstanbulspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Alanyaspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Ankaragücü,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Antalyaspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Beşiktaş,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Denizlispor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Erzurumspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Fatih Karagümrük,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Fenerbahçe,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Galatasaray,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Gaziantep FK,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Gençlerbirliği,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Göztepe,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Hatayspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Kasımpaşa,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Kayserispor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Konyaspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Sivasspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Trabzonspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Yeni Malatyaspor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+Çaykur Rizespor,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.
+İstanbul Başakşehir,2020-21,ort_seyirci,eksik,Maçlar COVID-19 nedeniyle seyircisiz oynandı.

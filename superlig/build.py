@@ -228,6 +228,48 @@ def attendance(ss_att: pd.DataFrame, wiki: pd.DataFrame, in_league: dict[str, se
     return a
 
 
+AGENT_ATT = config.DATA / "agents" / "seyirci" / "seyirci_sezonluk.csv"
+
+
+def apply_agent_attendance(att: pd.DataFrame) -> pd.DataFrame:
+    """Seyirci araştırma ajanının çok kaynaklı sezon tablosunu birincil kaynak yapar.
+
+    Ajan; EFS sezon ortalamaları, Transfermarkt/ESPN maç bazlı ortalamalar ve Wikipedia'yı birleştirip
+    o sezon gerçekten oynanan stada göre kapasiteyi düzeltti (data/agents/seyirci/RAPOR.md).
+    Ajan değeri olmayan hücrelerde mevcut değer (Wikipedia/Sofascore) korunur.
+    """
+    if not AGENT_ATT.exists():
+        return att
+    ag = pd.read_csv(AGENT_ATT).set_index(["takim", "sezon"])
+    att = att.copy()
+    att["mac_kapsami"] = ""
+    att["kaynak_url"] = ""
+    for i, r in att[att.ligde].iterrows():
+        key = (r.takim, r.sezon)
+        if key not in ag.index:
+            continue
+        g = ag.loc[key]
+        src = f"seyirci ajanı ({g.secilen_kaynak})"
+        if pd.notna(g.ort_seyirci):
+            att.at[i, "ort_seyirci"] = round(float(g.ort_seyirci))
+        if pd.notna(g.kapasite):
+            att.at[i, "kapasite"] = round(float(g.kapasite))
+        att.at[i, "kaynak"] = src
+        att.at[i, "mac_kapsami"] = g.mac_kapsami if pd.notna(g.mac_kapsami) else ""
+        att.at[i, "kaynak_url"] = g.kaynak_url if pd.notna(g.kaynak_url) else ""
+        notes = []
+        if g.secilen_kaynak == "seyircisiz":
+            notes.append("Maçlar COVID-19 nedeniyle seyircisiz oynandı.")
+        elif "kısmi" in str(g.secilen_kaynak):
+            notes.append(f"Kısmi sezon: {g.mac_kapsami} iç saha maçının seyircisi biliniyor.")
+        if r.sezon == "2021-22":
+            notes.append("COVID kısıtlı sezon.")
+        att.at[i, "not"] = " ".join(notes)
+    for c in ["ort_seyirci", "kapasite"]:
+        att[c] = att[c].astype("Int64")
+    return att
+
+
 # ---------------------------------------------------------------- eksik veri
 def missing_report(m, ts, att, coverage) -> pd.DataFrame:
     rows = []
@@ -247,7 +289,7 @@ def missing_report(m, ts, att, coverage) -> pd.DataFrame:
             if pd.isna(r[field]):
                 why = coverage["attendance_reason"]
                 if field == "ort_seyirci" and r["not"]:
-                    why = f"{r['not']} Wikipedia sezon sayfasında da bu takım için seyirci yok."
+                    why = r["not"]
                 elif field == "kapasite":
                     why = "Ne Wikipedia sezon tablosunda ne Sofascore maç detayında kapasite var."
                 rows.append({"takim": r.takim, "sezon": r.sezon, "alan": label, "durum": "eksik",
@@ -285,6 +327,7 @@ def run() -> dict:
     if not wiki.empty:
         wiki = wiki[wiki.apply(lambda r: r.takim in in_league.get(config.season_label(r.sezon_yil), set()), axis=1)]
     att = attendance(ss_att, wiki, in_league, conflict_rows, matches)
+    att = apply_agent_attendance(att)
     if not ss_att.empty:
         ss_att.to_csv(config.RAW / "sofascore_mac_seyirci.csv", index=False)
 

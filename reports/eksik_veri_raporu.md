@@ -1,6 +1,6 @@
 # Süper Lig veri hattı — eksik veri ve kaynak raporu
 
-Oluşturulma: 2026-10-06 21:48 UTC · Kapsam: 2016-17 → 2025-26
+Oluşturulma: 2026-10-06 22:33 UTC · Kapsam: 2016-17 → 2025-26
 
 ## 1. Kaynaklara erişim
 
@@ -54,47 +54,47 @@ Gösterim: `✓` tam · `—` takım o sezon Süper Lig'de değil (tüm değerle
 
 | takim | 2016-17 | 2017-18 | 2018-19 | 2019-20 | 2020-21 | 2021-22 | 2022-23 | 2023-24 | 2024-25 | 2025-26 |
 |---|---|---|---|---|---|---|---|---|---|---|
-| Alanyaspor | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Fenerbahçe | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Galatasaray | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Beşiktaş | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Antalyaspor | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| İstanbul Başakşehir | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Konyaspor | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Kasımpaşa | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Kayserispor | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Trabzonspor | ✓ | S | ✓ | S | S | S | ✓ | S | ✓ | S |
-| Çaykur Rizespor | ✓ | — | ✓ | S | S | S | — | S | ✓ | S |
-| Sivasspor | — | S | ✓ | S | S | S | ✓ | S | ✓ | — |
-| Göztepe | — | S | ✓ | S | S | S | — | — | ✓ | S |
-| Gaziantep FK | — | — | — | S | S | S | ✓ | S | ✓ | S |
-| Hatayspor | — | — | — | — | S | S | ✓ | S | ✓ | — |
-| Ankaragücü | — | — | ✓ | S | S | — | ✓ | S | — | — |
-| Fatih Karagümrük | — | — | — | — | S | S | ✓ | S | — | S |
-| Yeni Malatyaspor | — | S | S | S | S | S | — | — | — | — |
-| Gençlerbirliği | ✓ | S | — | S | S | — | — | — | — | S |
-| Adana Demirspor | — | — | — | — | — | S | ✓ | S | ✓ | — |
-| Akhisarspor | ✓ | S | ✓ | — | — | — | — | — | — | — |
-| Bursaspor | ✓ | S | ✓ | — | — | — | — | — | — | — |
-| Samsunspor | — | — | — | — | — | — | — | S | ✓ | S |
-| İstanbulspor | — | — | — | — | — | — | ✓ | S | — | — |
-| Karabükspor | ✓ | S | — | — | — | — | — | — | — | — |
+| Alanyaspor | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Fenerbahçe | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Galatasaray | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Beşiktaş | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Antalyaspor | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| İstanbul Başakşehir | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Konyaspor | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Kasımpaşa | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Kayserispor | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Trabzonspor | ✓ | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Çaykur Rizespor | ✓ | — | ✓ | ✓ | S | ✓ | — | ✓ | ✓ | ✓ |
+| Sivasspor | — | ✓ | ✓ | ✓ | S | ✓ | ✓ | ✓ | ✓ | — |
+| Göztepe | — | ✓ | ✓ | ✓ | S | ✓ | — | — | ✓ | ✓ |
+| Gaziantep FK | — | — | — | ✓ | S | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Hatayspor | — | — | — | — | S | ✓ | ✓ | ✓ | ✓ | — |
+| Ankaragücü | — | — | ✓ | ✓ | S | — | ✓ | ✓ | — | — |
+| Fatih Karagümrük | — | — | — | — | S | ✓ | ✓ | ✓ | — | ✓ |
+| Yeni Malatyaspor | — | ✓ | ✓ | ✓ | S | ✓ | — | — | — | — |
+| Gençlerbirliği | ✓ | ✓ | — | ✓ | S | — | — | — | — | ✓ |
+| Adana Demirspor | — | — | — | — | — | ✓ | ✓ | ✓ | ✓ | — |
+| Akhisarspor | ✓ | ✓ | ✓ | — | — | — | — | — | — | — |
+| Bursaspor | ✓ | ✓ | ✓ | — | — | — | — | — | — | — |
+| Samsunspor | — | — | — | — | — | — | — | ✓ | ✓ | ✓ |
+| İstanbulspor | — | — | — | — | — | — | ✓ | ✓ | — | — |
+| Karabükspor | ✓ | ✓ | — | — | — | — | — | — | — | — |
 | Erzurumspor | — | — | ✓ | — | S | — | — | — | — | — |
-| Denizlispor | — | — | — | S | S | — | — | — | — | — |
-| Eyüpspor | — | — | — | — | — | — | — | — | ✓ | S |
-| Giresunspor | — | — | — | — | — | S | ✓ | — | — | — |
-| Osmanlıspor | ✓ | S | — | — | — | — | — | — | — | — |
+| Denizlispor | — | — | — | ✓ | S | — | — | — | — | — |
+| Eyüpspor | — | — | — | — | — | — | — | — | ✓ | ✓ |
+| Giresunspor | — | — | — | — | — | ✓ | ✓ | — | — | — |
+| Osmanlıspor | ✓ | ✓ | — | — | — | — | — | — | — | — |
 | Adanaspor | ✓ | — | — | — | — | — | — | — | — | — |
-| Altay | — | — | — | — | — | S | — | — | — | — |
+| Altay | — | — | — | — | — | ✓ | — | — | — | — |
 | Bodrum FK | — | — | — | — | — | — | — | — | ✓ | — |
 | Gaziantepspor | ✓ | — | — | — | — | — | — | — | — | — |
-| Kocaelispor | — | — | — | — | — | — | — | — | — | S |
-| Pendikspor | — | — | — | — | — | — | — | S | — | — |
-| Ümraniyespor | — | — | — | — | — | — | S | — | — | — |
+| Kocaelispor | — | — | — | — | — | — | — | — | — | ✓ |
+| Pendikspor | — | — | — | — | — | — | — | ✓ | — | — |
+| Ümraniyespor | — | — | — | — | — | — | ✓ | — | — | — |
 
 - Ligde olunan takım-sezon sayısı: **189**
 - Maç skoru eksik takım-sezon: **0**
-- Ortalama seyirci eksik: **117 / 189**
+- Ortalama seyirci eksik: **21 / 189**
 - Stadyum kapasitesi eksik: **0 / 189**
 
 ## 5. Takım adı standardizasyonu

@@ -6,7 +6,7 @@ takımları amblemleriyle sıralayan görseller üreten veri hattı.
 
 ```bash
 pip install -r requirements.txt
-python run_pipeline.py          # veri + rapor + görseller + pano
+python run_pipeline.py          # veri + rapor + görseller + pano + Instagram seti
 python run_pipeline.py --no-viz # yalnızca veri ve rapor
 ```
 
@@ -15,8 +15,8 @@ python run_pipeline.py --no-viz # yalnızca veri ve rapor
 | Dosya | İçerik |
 |---|---|
 | `data/matches.csv` | sezon, tarih, ev, deplasman, ev_gol, dep_gol, kaynak + doğrulayan kaynaklar, çelişki ve hükmen işaretleri |
-| `data/team_season.csv` | takım × sezon paneli: oynanan, galibiyet, beraberlik, mağlubiyet, atılan/yenilen gol, averaj, puan, sıra, iç/dış saha puanı. Takım o sezon ligde değilse değerler boş (NaN) |
-| `data/attendance.csv` | takım × sezon: ort_seyirci, kapasite, kaynak (aşağıdaki nota bakın) |
+| `data/team_season.csv` | takım × sezon paneli: oynanan, galibiyet, beraberlik, mağlubiyet, atılan/yenilen gol, averaj, puan, sıra, puan silme, resmî puan/sıra, iç/dış saha puanı. Takım o sezon ligde değilse değerler boş (NaN) |
+| `data/attendance.csv` | takım × sezon: ort_seyirci, kapasite, kaynak, maç kapsamı, kaynak URL'si, not |
 | `data/team_mapping.csv` | her kaynaktaki ad yazımı → standart ad, kısa kod |
 | `data/celiskiler.csv` | kaynakların farklı değer verdiği maçlar; her kaynağın değeri ve seçim kuralı |
 | `data/eksik_veri_raporu.csv` | takım/sezon/alan bazında eksik veri listesi |
@@ -50,20 +50,14 @@ football-data > sofascore > openfootball > transfermarkt; tüm değerler `celisk
 
 - Maç sonuçlarının tamamı resmi football-data.co.uk dosyalarından geliyor; 3.394 maçın hepsi en az iki
   kaynakla karşılaştırıldı ve yalnızca 2 maçta skor çelişkisi var (`data/celiskiler.csv`).
-- **Seyirci:** Sofascore'da maç bazında seyirci kaydı çok seyrek (ör. 2016-17'de 306 maçın 43'ünde, 2024-25'te
-  hiç yok). Bu yüzden ortalamalar Wikipedia sezon tablolarından alındı. 2016-17, 2018-19, 2022-23 ve 2024-25
-  dolu; diğer sezonlar boş. 2020-21 COVID-19 nedeniyle seyircisiz oynandı. Veri uydurulmadı.
-- **Kapasite:** 189 takım-sezonun hepsinde var. Wikipedia sezon tablosu önce, yoksa Sofascore kullanıldı;
-  Sofascore bazı kulüplerde o sezonki değil güncel stadı gösteriyor.
-
-### Seyirci tahmini (eksik sezonlar)
-
-`data/attendance_tahmini.csv` eksik sezonları tahmin eder; gözlenen değerler `attendance.csv`'de değişmeden kalır.
-Tahmin = takımın gözlenen sezonlardaki ortalama doluluk oranı × o sezonun stadyum kapasitesi (takımın hiç gözlenen
-sezonu yoksa lig medyanı, %33). `yontem` sütunu her satırın gözlenen mi tahmin mi olduğunu söyler. 2020-21
-seyircisiz olduğu için tahmin edilmez. Gözlenen 60 değer üzerinde geriye dönük test: medyan sapma %21, ortalama
-sapma %34. Stat kapasitesi dayanak sezonlardan çok farklı olan tahminler `not` sütununda "güvenilmez" olarak
-işaretlidir. Görseller: `seyirci_tahminli_isi_haritasi.png`, `seyirci_tahminli_siralama.png`.
+- **Resmî puan tablosu:** doğrulama ajanının bulduğu 4 TFF puan silme cezası (`data/puan_silme.csv`) uygulanır;
+  `team_season.csv`'de `resmi_puan` / `resmi_sira`. Görseller resmî tabloyu kullanır; maç skorundan hesaplanan
+  `puan` / `sira` da dosyada durur.
+- **Seyirci ve kapasite:** seyirci araştırma ajanının çok kaynaklı tablosu birincil kaynaktır
+  (`data/agents/seyirci/`): european-football-statistics sezon ortalamaları, yoksa Transfermarkt/ESPN maç bazlı
+  ortalamalar. Seyircili 168 takım-sezonun hepsi dolu (151 tam sezon, 17 kısmi 2025-26); 21 takım-sezon 2020-21'de
+  seyircisiz. Kapasite o sezon gerçekten oynanan stada göre düzeltildi. 10 yıllık ortalamalarda 2021-22 (COVID
+  kısıtlı) hariç tutulur.
 
 ## Görseller
 
@@ -76,8 +70,9 @@ için kulüp renklerinde, kısa kodlu bir yer tutucu rozet üretildi (`assets/lo
 | ![Podyum](reports/figures/podyum.png) | ![Sıra ısı haritası](reports/figures/sira_isi_haritasi.png) |
 | ![Toplam puan](reports/figures/toplam_puan.png) | ![Maç başı puan](reports/figures/mac_basi_puan.png) |
 
-Ayrıca: her sezon için amblemli puan durumu (`puan_durumu_<sezon>.png`), toplam galibiyet, toplam atılan gol,
-maç başına gol ve iç sahada maç başına puan sıralamaları.
+Ayrıca: her sezon için amblemli resmî puan durumu (`puan_durumu_<sezon>.png`), toplam galibiyet, toplam atılan gol,
+maç başına gol, iç sahada maç başına puan, seyirci ısı haritası, 10 yıllık ortalama seyirci ve doluluk sıralamaları.
+Instagram seti (`reports/instagram/`, 1080×1350): kapak, genel sıralama, 19 takım kartı, 6 metrik slaytı.
 
 ## Yöntem notları
 

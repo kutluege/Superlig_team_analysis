@@ -78,7 +78,7 @@ def _clean(ax):
 
 
 SOURCE_NOTE = ("Kaynak: football-data.co.uk · Sofascore, openfootball ve Transfermarkt ile çapraz kontrol\n"
-               "Puanlar matches.csv'den hesaplanmıştır; TFF puan silme cezaları dahil değildir.")
+               "Puan ve sıralar resmîdir: maç skorlarından hesaplanıp TFF puan silme cezaları uygulanmıştır.")
 
 
 # ---------------------------------------------------------------- yatay sıralama
@@ -145,14 +145,15 @@ def season_table_figure(t: pd.DataFrame, season: str):
                 color=INK, fontsize=11, fontweight="bold")
         add_logo(ax, r.takim, -0.59, i, px=26, xycoords=trans)
         ax.text(-0.53, i, r.takim, transform=trans, ha="left", va="center", color=INK, fontsize=11)
-        ax.text(r.puan + t.puan.max() * 0.012, i, f"{int(r.puan)}", va="center", ha="left",
-                color=INK, fontsize=10, fontweight="bold")
+        ded = int(r.get("puan_silme", 0) or 0)
+        ax.text(r.puan + t.puan.max() * 0.012, i, f"{int(r.puan)}" + (f"  (−{ded} ceza)" if ded else ""),
+                va="center", ha="left", color=INK, fontsize=10, fontweight="bold")
         for x, (_, c) in zip(xs, cols):
             v = int(r[c])
             fig.text(x, i, f"{v:+d}" if c == "averaj" and v else f"{v}", ha="center",
                      va="center", color=INK_2, fontsize=10, transform=blend)
     _title(fig, f"Süper Lig {season} puan durumu",
-           "Sıralama: puan → ikili averaj → genel averaj → atılan gol")
+           "Resmî puan (TFF puan silmeleri dahil) · sıralama: puan → ikili averaj → genel averaj → atılan gol")
     _footer(fig, SOURCE_NOTE)
     fname = f"puan_durumu_{season}.png"
     fig.savefig(config.FIGURES / fname, dpi=150)
@@ -232,7 +233,7 @@ def podium_strip(ts: pd.DataFrame):
     for k, lab in [(1, "Şampiyon"), (2, "2."), (3, "3.")]:
         ax.text(-0.62, ys[k] - 0.12, lab, ha="right", va="center", fontsize=11, color=INK_2, fontweight="bold")
     fig.text(0.02, 0.97, "Sezon sezon ilk üç", fontsize=18, fontweight="bold", color=INK, va="top")
-    fig.text(0.02, 0.905, "matches.csv'den hesaplanan puan tablosuna göre şampiyon ve podyum", fontsize=11,
+    fig.text(0.02, 0.905, "Resmî puan tablosuna göre şampiyon ve podyum", fontsize=11,
              color=INK_2, va="top")
     fig.savefig(config.FIGURES / "podyum.png", dpi=150)
     plt.close(fig)
@@ -254,12 +255,6 @@ def dashboard(ts: pd.DataFrame, att: pd.DataFrame, matches: pd.DataFrame, confli
     a = att[att.ligde][["takim", "sezon", "ort_seyirci", "kapasite", "kaynak"]]
     rows = rows.merge(a, on=["takim", "sezon"], how="left")
     rows["doluluk"] = rows.ort_seyirci / rows.kapasite
-    est_path = config.DATA / "attendance_tahmini.csv"
-    if est_path.exists():
-        e = pd.read_csv(est_path)[["takim", "sezon", "seyirci", "yontem"]]
-        e["tahmin"] = e.yontem.str.startswith("tahmin")
-        rows = rows.merge(e.rename(columns={"seyirci": "seyirci_t"})[["takim", "sezon", "seyirci_t", "tahmin"]],
-                          on=["takim", "sezon"], how="left")
     recs = json.loads(rows.drop(columns=["ligde"]).to_json(orient="records"))
     teams_used = sorted(rows.takim.unique())
     payload = {
@@ -283,7 +278,12 @@ def dashboard(ts: pd.DataFrame, att: pd.DataFrame, matches: pd.DataFrame, confli
 # ---------------------------------------------------------------- hepsi
 def render_all():
     config.FIGURES.mkdir(parents=True, exist_ok=True)
+    for old in config.FIGURES.glob("*.png"):  # eski/artık üretilmeyen görseller kalmasın
+        old.unlink()
     ts = pd.read_csv(config.DATA / "team_season.csv")
+    # görsellerde resmî tablo: puan ve sıra TFF puan silmeleri uygulanmış hâli
+    if "resmi_puan" in ts:
+        ts = ts.assign(puan_hesap=ts.puan, sira_hesap=ts.sira, puan=ts.resmi_puan, sira=ts.resmi_sira)
     att = pd.read_csv(config.DATA / "attendance.csv")
     matches = pd.read_csv(config.DATA / "matches.csv")
     conflicts = pd.read_csv(config.DATA / "celiskiler.csv")
@@ -317,22 +317,7 @@ def render_all():
     ranking_bar(q, "ic_mbp", "İç sahada maç başına puan sıralaması",
                 f"En az 3 sezon Süper Lig'de oynayan {len(q)} takım", "ic_saha_mac_basi_puan.png", fmt="{:.2f}")
 
-    a = att[att.ligde & att.ort_seyirci.notna()]
-    if not a.empty:
-        aa = a.groupby("takim").agg(ort_seyirci=("ort_seyirci", "mean"), sezon=("sezon", "size")).reset_index()
-        seasons = ", ".join(sorted(a.sezon.unique()))
-        srcs = ", ".join(sorted(set(";".join(a.kaynak.dropna()).split(";"))))
-        ranking_bar(aa, "ort_seyirci", "Ortalama seyirci sıralaması",
-                    f"Verisi olan sezonlar: {seasons} · parantezde takımın bu sezonlardan kaçında ligde olduğu",
-                    "ortalama_seyirci.png", fmt="{:,.0f}", extra=lambda r: f"({r.sezon} sz)",
-                    note=f"Kaynak: {srcs} (sezon ortalamalarının ortalaması). Diğer sezonlarda güvenilir seyirci "
-                         "verisi bulunamadı;\n2020-21 COVID-19 nedeniyle seyircisiz. Ayrıntı: data/attendance.csv")
-    else:
-        log.warning("Seyirci verisi yok; seyirci görselleri üretilmedi.")
-
-    from . import estimate
-    estimate.run()
-    attendance_estimate_figures()
+    attendance_figures()
 
     miss = pd.read_csv(config.DATA / "eksik_veri_raporu.csv")
     summary = {
@@ -345,21 +330,24 @@ def render_all():
     dashboard(ts, att, matches, conflicts, summary)
 
 
-# ---------------------------------------------------------------- seyirci (tahmin dahil)
-def attendance_estimate_figures():
-    from . import estimate
-    df = pd.read_csv(config.DATA / "attendance_tahmini.csv")
-    if df.seyirci.notna().sum() == 0:
+# ---------------------------------------------------------------- seyirci (gerçek veri)
+def attendance_figures():
+    att = pd.read_csv(config.DATA / "attendance.csv")
+    a = att[att.ligde]
+    if a.ort_seyirci.notna().sum() == 0:
+        log.warning("Seyirci verisi yok; seyirci görselleri üretilmedi.")
         return
-    stats = estimate.estimate(pd.read_csv(config.DATA / "attendance.csv"))[1]
-    obs_mask = df.yontem.eq(estimate.M_OBS)
-    est_mask = df.yontem.str.startswith("tahmin")
+    note = ("Kaynak: european-football-statistics.co.uk sezon ortalamaları; yoksa Transfermarkt/ESPN maç bazlı "
+            "ortalama. 2020-21 seyircisiz.\n2021-22 COVID kısıtlı sezon 10 yıllık ortalamaya katılmadı. Ayrıntı: "
+            "data/attendance.csv, data/agents/seyirci/RAPOR.md")
 
-    # ---- ısı haritası: takım × sezon, değer = seyirci; tahmin hücreleri taralı
-    piv = df.pivot(index="takim", columns="sezon", values="seyirci").reindex(columns=config.SEASONS)
-    kind = df.pivot(index="takim", columns="sezon", values="yontem").reindex(columns=config.SEASONS)
-    order = piv.mean(axis=1).sort_values(ascending=False).index
-    piv, kind = piv.loc[order], kind.loc[order]
+    # ---- ısı haritası: takım × sezon ortalama seyirci
+    piv = a.pivot(index="takim", columns="sezon", values="ort_seyirci").reindex(columns=config.SEASONS)
+    lig = att.pivot(index="takim", columns="sezon", values="ligde").reindex(index=piv.index, columns=config.SEASONS)
+    part = a.assign(k=a["not"].fillna("").str.contains("ısmi sezon")).pivot(index="takim", columns="sezon", values="k") \
+        .reindex(index=piv.index, columns=config.SEASONS)
+    piv = piv.loc[piv.mean(axis=1).sort_values(ascending=False).index]
+    lig, part = lig.loc[piv.index], part.loc[piv.index]
     n, m = piv.shape
     h = 0.36 * n + 2.6
     fig = plt.figure(figsize=(12, h))
@@ -368,28 +356,22 @@ def attendance_estimate_figures():
     vmax = np.nanmax(piv.values.astype(float))
     cmap = LinearSegmentedColormap.from_list("att", SEQ)
     for i, team in enumerate(piv.index):
-        for j, s in enumerate(piv.columns):
-            v, k = piv.at[team, s], kind.at[team, s]
+        for j, s_ in enumerate(piv.columns):
+            v = piv.at[team, s_]
             x, y = j + 0.04, i + 0.07
-            if pd.isna(k):  # ligde değil
+            if not bool(lig.at[team, s_]):
                 ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="none", edgecolor=GRID, lw=0.8))
                 continue
-            if k == "yok":
+            if pd.isna(v):
                 ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="#efeeea", lw=0))
                 ax.text(j + 0.5, i + 0.5, "seyircisiz", ha="center", va="center", fontsize=7, color=MUTED)
                 continue
             col = cmap(0.08 + 0.92 * float(v) / vmax)
-            est = str(k).startswith("tahmin")
-            ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor=col, lw=0, alpha=0.55 if est else 1))
-            if est:
-                ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="none", hatch="////",
-                                           edgecolor="white", lw=0))
+            ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor=col, lw=0))
             lum = 0.299 * col[0] + 0.587 * col[1] + 0.114 * col[2]
-            dark = lum < 0.55 and not est
-            label = f"{v / 1000:.1f}".replace(".", ",") + "b"
-            ax.text(j + 0.5, i + 0.5, ("~" if est else "") + label, ha="center", va="center", fontsize=8.5,
-                    color="white" if dark else INK, fontweight="normal" if est else "bold",
-                    fontstyle="italic" if est else "normal")
+            lab = f"{v / 1000:.1f}".replace(".", ",") + "b" + ("*" if bool(part.at[team, s_]) else "")
+            ax.text(j + 0.5, i + 0.5, lab, ha="center", va="center", fontsize=8.5,
+                    color="white" if lum < 0.55 else INK)
     ax.set_xlim(0, m)
     ax.set_ylim(n, 0)
     ax.set_xticks(np.arange(m) + 0.5)
@@ -403,25 +385,24 @@ def attendance_estimate_figures():
         add_logo(ax, team, -0.03, i + 0.5, px=20, xycoords=("axes fraction", "data"))
         ax.text(-0.06, i + 0.5, team, transform=ax.get_yaxis_transform(), ha="right", va="center",
                 fontsize=9.5, color=INK)
-    _title(fig, "Ortalama seyirci: gözlenen ve tahmini değerler",
-           "Koyu, kalın = gözlenen (Wikipedia) · açık, taralı, ~ = tahmin (takımın doluluk oranı × o sezonun "
-           "kapasitesi) · b = bin kişi")
-    _footer(fig, f"Tahmin: gözlenen sezonlardaki ortalama doluluk oranı × o sezonun stadyum kapasitesi; gözlenen "
-                 f"sezonu olmayan takımda lig medyanı (%{stats['league_occ'] * 100:.0f}).\n"
-                 f"Geriye dönük test ({stats['n_test']} gözlenen değer): ortalama sapma %{stats['mape'] * 100:.0f}, "
-                 f"medyan sapma %{stats['median_ape'] * 100:.0f}. Tahminler gerçek veri değildir; "
-                 "data/attendance_tahmini.csv içinde ayrı işaretlidir.")
-    fig.savefig(config.FIGURES / "seyirci_tahminli_isi_haritasi.png", dpi=150)
+    _title(fig, "Sezon bazında ortalama seyirci",
+           "b = bin kişi · koyu = kalabalık · boş kutu = o sezon Süper Lig'de değil · * = kısmi sezon (2025-26)")
+    _footer(fig, note)
+    fig.savefig(config.FIGURES / "seyirci_isi_haritasi.png", dpi=150)
     plt.close(fig)
-    log.info("görsel: seyirci_tahminli_isi_haritasi.png")
+    log.info("görsel: seyirci_isi_haritasi.png")
 
-    # ---- sıralama: tüm sezonların ortalaması (tahmin dahil)
-    d = df[obs_mask | est_mask]
-    agg = d.groupby("takim").agg(seyirci=("seyirci", "mean"), gozlenen=("yontem", lambda s: (s == estimate.M_OBS).sum()),
-                                 sezon=("yontem", "size")).reset_index()
-    ranking_bar(agg, "seyirci", "Ortalama seyirci sıralaması (tahmin dahil)",
-                "Seyircili tüm sezonların ortalaması · parantezde: gözlenen sezon / toplam sezon",
-                "seyirci_tahminli_siralama.png", fmt="{:,.0f}", extra=lambda r: f"({r.gozlenen}/{r.sezon} gözlenen)",
-                note="Eksik sezonlar takımın doluluk oranı × o sezonun kapasitesi ile tahmin edildi "
-                     f"(geriye dönük medyan sapma %{stats['median_ape'] * 100:.0f}).\n"
-                     "2020-21 seyircisiz olduğu için dahil değil. Kaynak: Wikipedia sezon tabloları; kapasite Wikipedia/Sofascore.")
+    # ---- 10 yıllık ortalama seyirci ve doluluk (2021-22 hariç)
+    s10_path = config.DATA / "agents" / "seyirci" / "seyirci_10yil.csv"
+    if s10_path.exists():
+        s10 = pd.read_csv(s10_path)
+        s10["ort"] = s10.ort_seyirci_10y_2122_haric.fillna(s10.ort_seyirci_10y)
+        s10["dol"] = s10.doluluk_10y_2122_haric.fillna(s10.doluluk_10y) * 100
+        s10["sezon"] = s10.sezon_sayisi_seyircili
+        sub = "Seyircili sezonların ortalaması (2020-21 seyircisiz, 2021-22 COVID kısıtlı: hariç) · parantez: sezon sayısı"
+        ranking_bar(s10, "ort", "Ortalama seyirci sıralaması (10 yıl)", sub, "ortalama_seyirci.png",
+                    fmt="{:,.0f}", extra=lambda r: f"({int(r.sezon)} sz)", note=note)
+        ranking_bar(s10, "dol", "Stadyum doluluk oranı sıralaması (10 yıl)",
+                    "Ortalama seyirci ÷ o sezon oynanan stadın kapasitesi", "doluluk_orani.png",
+                    fmt="%{:.0f}", extra=lambda r: f"({int(r.sezon)} sz)",
+                    note=note + "\nFatih Karagümrük: hangi stadın kapasitesinin esas alınacağı belirsiz.")

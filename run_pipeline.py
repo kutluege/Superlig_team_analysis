@@ -31,8 +31,11 @@ def main():
     report.write(res)
     if not args.no_viz:
         from superlig import logos, viz
+        from superlig import forma_panel, insta
         logos.ensure_all()
         viz.render_all()
+        forma_panel.run()
+        insta.render_all()
 
 
 if __name__ == "__main__":
