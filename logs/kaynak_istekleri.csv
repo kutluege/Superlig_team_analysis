@@ -1,0 +1,36 @@
+kaynak,url,durum,mesaj
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/1617/T1.csv,hata,"ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1617/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed"
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/1718/T1.csv,hata,"ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1718/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed"
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/1819/T1.csv,hata,"ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1819/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed"
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/1920/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2021/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2122/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2223/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2324/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2425/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk,https://www.football-data.co.uk/mmz4281/2526/T1.csv,atlandi,www.football-data.co.uk erişilemez olarak işaretli
+football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025),https://raw.githubusercontent.com/xgabora/Club-Football-Match-Data-2000-2025/25882a58a736daf7ece3781940eac17ae1117a66/data/Matches.csv,cache,
+sofascore,https://api.sofascore.com/api/v1/unique-tournament/52/seasons,hata,APIError: HTTP 0 for URL: https://api.sofascore.com/api/v1/unique-tournament/52/seasons — All 3 attempts failed
+sofascore (ayna: c0ze/super-lig),https://raw.githubusercontent.com/c0ze/super-lig/0550f8713e8fba88eff68025c424b700e7b45dc3/data/site.db,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2016-17_tr1.txt,hata,HTTP 404
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2017-18_tr1.txt,hata,HTTP 404
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2018-19_tr1.txt,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2019-20_tr1.txt,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2020-21_tr1.txt,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2021-22_tr1.txt,hata,HTTP 404
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2022-23_tr1.txt,hata,HTTP 404
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2023-24_tr1.txt,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2024-25_tr1.txt,cache,
+openfootball,https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2025-26_tr1.txt,cache,
+transfermarkt (ayna: c0ze/super-lig),https://raw.githubusercontent.com/c0ze/super-lig/0550f8713e8fba88eff68025c424b700e7b45dc3/data/super_lig.db,cache,
+sofascore,https://api.sofascore.com/api/v1/event/{id},atlandi,3365 maç atlandı: host erişilemez
+wikipedia,https://en.wikipedia.org/wiki/2016%E2%80%9317_S%C3%BCper_Lig,hata,"ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2016%E2%80%9317_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti"
+wikipedia,https://en.wikipedia.org/wiki/2017%E2%80%9318_S%C3%BCper_Lig,hata,"ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2017%E2%80%9318_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti"
+wikipedia,https://en.wikipedia.org/wiki/2018%E2%80%9319_S%C3%BCper_Lig,hata,"ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2018%E2%80%9319_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti"
+wikipedia,https://en.wikipedia.org/wiki/2019%E2%80%9320_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2020%E2%80%9321_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2021%E2%80%9322_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2022%E2%80%9323_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2023%E2%80%9324_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2024%E2%80%9325_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli
+wikipedia,https://en.wikipedia.org/wiki/2025%E2%80%9326_S%C3%BCper_Lig,atlandi,en.wikipedia.org erişilemez olarak işaretli

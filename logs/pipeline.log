@@ -1,0 +1,48 @@
+2026-10-06 13:46:45,987 INFO    superlig.build: === Süper Lig veri hattı başladı (2026-10-06T13:46:45.987090+00:00) ===
+2026-10-06 13:46:46,333 WARNING superlig.net: İstek başarısız [football-data.co.uk] https://www.football-data.co.uk/mmz4281/1617/T1.csv -> ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1617/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed
+2026-10-06 13:46:48,364 WARNING superlig.net: İstek başarısız [football-data.co.uk] https://www.football-data.co.uk/mmz4281/1718/T1.csv -> ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1718/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed
+2026-10-06 13:46:50,314 WARNING superlig.net: İstek başarısız [football-data.co.uk] https://www.football-data.co.uk/mmz4281/1819/T1.csv -> ProxyError: HTTPSConnectionPool(host='www.football-data.co.uk', port=443): Max retries exceeded with url: /mmz4281/1819/T1.csv (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed
+2026-10-06 13:46:50,315 ERROR   superlig.net: www.football-data.co.uk art arda 3 kez erişilemedi; bu host için kalan istekler atlanacak.
+2026-10-06 13:46:50,315 WARNING superlig.footballdata: football-data.co.uk resmi siteden alınamayan sezonlar: ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24', '2024-25', '2025-26'] -> GitHub aynası deneniyor
+2026-10-06 13:46:51,388 WARNING datafc.utils._client: Request failed (attempt 1/3): Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-10-06 13:46:53,657 WARNING datafc.utils._client: Request failed (attempt 2/3): Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-10-06 13:46:58,010 WARNING datafc.utils._client: Request failed (attempt 3/3): Failed to perform, curl: (7) CONNECT tunnel failed, response 403. See https://curl.se/libcurl/c/libcurl-errors.html first for more details.
+2026-10-06 13:47:06,011 WARNING superlig.sofascore: Sofascore seasons_data başarısız: APIError: HTTP 0 for URL: https://api.sofascore.com/api/v1/unique-tournament/52/seasons — All 3 attempts failed
+2026-10-06 13:47:06,012 WARNING superlig.sofascore: Sofascore API'den alınamayan sezonlar: ['2016-17', '2017-18', '2018-19', '2019-20', '2020-21', '2021-22', '2022-23', '2023-24', '2024-25', '2025-26'] -> GitHub aynası
+2026-10-06 13:47:06,558 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2016-17_tr1.txt -> HTTP 404
+2026-10-06 13:47:06,558 INFO    superlig.openfootball: openfootball'da 2016-17 sezonu yok
+2026-10-06 13:47:07,199 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2017-18_tr1.txt -> HTTP 404
+2026-10-06 13:47:07,199 INFO    superlig.openfootball: openfootball'da 2017-18 sezonu yok
+2026-10-06 13:47:08,214 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2021-22_tr1.txt -> HTTP 404
+2026-10-06 13:47:08,214 INFO    superlig.openfootball: openfootball'da 2021-22 sezonu yok
+2026-10-06 13:47:09,199 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2022-23_tr1.txt -> HTTP 404
+2026-10-06 13:47:09,199 INFO    superlig.openfootball: openfootball'da 2022-23 sezonu yok
+2026-10-06 13:47:09,272 INFO    superlig.build: football-data: 3366 maç
+2026-10-06 13:47:09,302 INFO    superlig.build: sofascore: 3365 maç
+2026-10-06 13:47:09,321 INFO    superlig.build: openfootball: 2060 maç
+2026-10-06 13:47:09,354 INFO    superlig.build: transfermarkt: 3353 maç
+2026-10-06 13:47:11,705 ERROR   superlig.sofascore: Sofascore event detayları alınamadı: 3365 maç için seyirci/kapasite okunamadı (host erişilemez).
+2026-10-06 13:47:12,122 WARNING superlig.net: İstek başarısız [wikipedia] https://en.wikipedia.org/wiki/2016%E2%80%9317_S%C3%BCper_Lig -> ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2016%E2%80%9317_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti
+2026-10-06 13:47:13,464 WARNING superlig.net: İstek başarısız [wikipedia] https://en.wikipedia.org/wiki/2017%E2%80%9318_S%C3%BCper_Lig -> ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2017%E2%80%9318_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti
+2026-10-06 13:47:14,976 WARNING superlig.net: İstek başarısız [wikipedia] https://en.wikipedia.org/wiki/2018%E2%80%9319_S%C3%BCper_Lig -> ProxyError: HTTPSConnectionPool(host='en.wikipedia.org', port=443): Max retries exceeded with url: /wiki/2018%E2%80%9319_S%C3%BCper_Lig (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connecti
+2026-10-06 13:47:14,976 ERROR   superlig.net: en.wikipedia.org art arda 3 kez erişilemedi; bu host için kalan istekler atlanacak.
+2026-10-06 13:47:16,266 INFO    superlig.viz: görsel: puan_durumu_2016-17.png
+2026-10-06 13:47:16,638 INFO    superlig.viz: görsel: puan_durumu_2017-18.png
+2026-10-06 13:47:17,070 INFO    superlig.viz: görsel: puan_durumu_2018-19.png
+2026-10-06 13:47:17,423 INFO    superlig.viz: görsel: puan_durumu_2019-20.png
+2026-10-06 13:47:17,814 INFO    superlig.viz: görsel: puan_durumu_2020-21.png
+2026-10-06 13:47:18,188 INFO    superlig.viz: görsel: puan_durumu_2021-22.png
+2026-10-06 13:47:18,630 INFO    superlig.viz: görsel: puan_durumu_2022-23.png
+2026-10-06 13:47:19,010 INFO    superlig.viz: görsel: puan_durumu_2023-24.png
+2026-10-06 13:47:19,413 INFO    superlig.viz: görsel: puan_durumu_2024-25.png
+2026-10-06 13:47:19,830 INFO    superlig.viz: görsel: puan_durumu_2025-26.png
+2026-10-06 13:47:20,661 INFO    superlig.viz: görsel: sira_isi_haritasi.png
+2026-10-06 13:47:21,084 INFO    superlig.viz: görsel: podyum.png
+2026-10-06 13:47:21,656 INFO    superlig.viz: görsel: toplam_puan.png
+2026-10-06 13:47:22,081 INFO    superlig.viz: görsel: toplam_galibiyet.png
+2026-10-06 13:47:22,545 INFO    superlig.viz: görsel: toplam_atilan_gol.png
+2026-10-06 13:47:22,846 INFO    superlig.viz: görsel: mac_basi_puan.png
+2026-10-06 13:47:23,131 INFO    superlig.viz: görsel: mac_basi_gol.png
+2026-10-06 13:47:23,403 INFO    superlig.viz: görsel: ic_saha_mac_basi_puan.png
+2026-10-06 13:47:23,404 WARNING superlig.viz: Seyirci verisi yok; seyirci görselleri üretilmedi.
+2026-10-06 13:47:23,645 INFO    superlig.viz: pano: /home/user/Superlig_team_analysis/reports/pano.html (388 KB)
