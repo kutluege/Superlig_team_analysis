@@ -3,9 +3,9 @@
 Boyutlar:
  1. Sadakat   : 10 yıllık ortalama doluluk (seyirci/kapasite) + sosyal medya takipçisi (log, normalize)
  2. Başarı    : 10 yılda Süper Lig + Türkiye Kupası + Süper Kupa sayısı
- 3. Gol       : 10 yılda lig golü toplamı
+ 3. Gol + xG  : 10 yılda lig golü toplamı + maç başı xG (2022-26), eşit ağırlık
  4. Galibiyet : 10 yılda lig galibiyeti toplamı
- 5. Forma     : 10 yıllık ev forması ortalama fiyatı, ilk→son artış %, TÜFE ile reel fiyat
+ 5. Forma     : 10 yıllık ev forması reel ortalama fiyatı — TERS yönlü (ucuz = yüksek skor)
  6. Form      : son 3 sezon puan ortalaması + sıralama ortalaması
 
 Alt ajan çıktıları data/agents/<ad>/ altından okunur; dosya yoksa ilgili kolonlar boş kalır.
@@ -25,8 +25,8 @@ TEAMS19 = ["Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "İstanbul
 AG = config.DATA / "agents"
 LAST3 = config.SEASONS[-3:]
 PLATFORMS = ["Instagram", "X", "Facebook", "TikTok", "YouTube"]
-AXES = [("sadakat", "Sadakat"), ("basari", "Başarı"), ("gol", "Gol"), ("galibiyet", "Galibiyet"),
-        ("forma", "Forma fiyatı"), ("form", "Son 3 sezon")]
+AXES = [("sadakat", "Sadakat"), ("basari", "Başarı"), ("gol", "Gol + xG"), ("galibiyet", "Galibiyet"),
+        ("forma", "Forma uygunluğu"), ("form", "Son 3 sezon")]
 
 
 def _read(path, **kw):
@@ -108,7 +108,10 @@ def build() -> pd.DataFrame:
                 return float(c.tufe_2003_100.iloc[-1]) if not c.empty else np.nan
             f["reel_fiyat_TL"] = f.fiyat_TL * base / f.sezon.map(deflator)
             df.attrs["reel_baz"] = base_lbl
+        # Dönem yanlılığını gidermek için: fiyat / aynı sezondaki tüm kulüplerin medyan fiyatı
+        f["sezon_endeksi"] = f.fiyat_TL / f.groupby("sezon").fiyat_TL.transform("median")
         agg = f.groupby("takim").agg(forma_sezon=("sezon", "size"), forma_ort_TL=("fiyat_TL", "mean"),
+                                     forma_endeks=("sezon_endeksi", "mean"),
                                      forma_ilk_sezon=("sezon", "min"), forma_son_sezon=("sezon", "max"))
         first = f.sort_values("sezon").groupby("takim").fiyat_TL.first()
         last = f.sort_values("sezon").groupby("takim").fiyat_TL.last()
@@ -135,16 +138,22 @@ def build() -> pd.DataFrame:
         parts.append(df.sosyal_skor)
     sc["sadakat"] = pd.concat(parts, axis=1).mean(axis=1) if parts else np.nan
     sc["basari"] = _minmax(df.kupa_10y) if "kupa_10y" in df else np.nan
-    sc["gol"] = _minmax(df.gol_10y)
+    # Gol: 10 yıllık lig golü + maç başı xG (2022-23 – 2025-26) eşit ağırlık; xG yoksa yalnız gol
+    sc["gol_ham"] = _minmax(df.gol_10y)
+    sc["xg_ham"] = _minmax(df.xg_mac_basi) if "xg_mac_basi" in df else np.nan
+    sc["gol"] = sc[["gol_ham", "xg_ham"]].mean(axis=1)
+    sc = sc.drop(columns=["gol_ham", "xg_ham"])
     sc["galibiyet"] = _minmax(df.galibiyet_10y)
-    col = "forma_reel_ort_TL" if "forma_reel_ort_TL" in df else ("forma_ort_TL" if "forma_ort_TL" in df else None)
-    sc["forma"] = _minmax(df[col]) if col else np.nan
+    # Forma ters yönlü: sezon medyanına göre ucuz forma = yüksek skor
+    sc["forma"] = _minmax(df.forma_endeks, invert=True) if "forma_endeks" in df else np.nan
     sc["form"] = pd.concat([_minmax(df.son3_puan_ort), _minmax(df.son3_sira_ort, invert=True)], axis=1).mean(axis=1)
     sc.loc[df.son3_sezon.isna(), "form"] = 0.0  # son 3 sezonda hiç Süper Lig'de değil
     sc.columns = [f"skor_{c}" for c in sc.columns]
     out = df.join(sc)
-    # Genel skor: forma fiyatı hariç 5 boyutun ortalaması (pahalı forma bir başarı ölçüsü değildir)
-    out["genel_skor"] = out[[f"skor_{k}" for k, _ in AXES if k != "forma"]].mean(axis=1)
+    # Genel skor: 6 boyutun ortalaması (forma ters yönlü: pahalı forma skoru düşürür).
+    # Verisi olmayan boyut (ör. forma fiyatı bulunamayan kulüp) ortalamaya girmez.
+    out["genel_skor"] = out[[f"skor_{k}" for k, _ in AXES]].mean(axis=1)
+    out["genel_boyut_sayisi"] = out[[f"skor_{k}" for k, _ in AXES]].notna().sum(axis=1)
     out = out.reset_index()
     out.to_csv(config.DATA / "skor_karti.csv", index=False)
     return out
