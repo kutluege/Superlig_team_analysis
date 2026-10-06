@@ -1,6 +1,6 @@
 # Süper Lig veri hattı — eksik veri ve kaynak raporu
 
-Oluşturulma: 2026-10-06 16:04 UTC · Kapsam: 2016-17 → 2025-26
+Oluşturulma: 2026-10-06 21:48 UTC · Kapsam: 2016-17 → 2025-26
 
 ## 1. Kaynaklara erişim
 

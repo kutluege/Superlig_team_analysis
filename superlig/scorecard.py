@@ -54,7 +54,7 @@ def build() -> pd.DataFrame:
 
     # 6: son 3 sezon
     l3 = lg[lg.sezon.isin(LAST3)].groupby("takim").agg(son3_sezon=("sezon", "size"),
-                                                       son3_puan_ort=("puan", "mean"), son3_sira_ort=("sira", "mean"))
+                                                       son3_puan_ort=("resmi_puan", "mean"), son3_sira_ort=("resmi_sira", "mean"))
     df = df.join(l3)
 
     # 2: kupalar

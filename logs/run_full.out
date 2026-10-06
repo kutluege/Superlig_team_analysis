@@ -1,45 +1,25 @@
-2026-10-06 16:01:25,690 INFO    superlig.build: === Süper Lig veri hattı başladı (2026-10-06T16:01:25.690478+00:00) ===
-2026-10-06 16:01:25,704 INFO    superlig.footballdata: football-data.co.uk 2016-17 indirildi
-2026-10-06 16:01:25,717 INFO    superlig.footballdata: football-data.co.uk 2017-18 indirildi
-2026-10-06 16:01:25,723 INFO    superlig.footballdata: football-data.co.uk 2018-19 indirildi
-2026-10-06 16:01:25,733 INFO    superlig.footballdata: football-data.co.uk 2019-20 indirildi
-2026-10-06 16:01:25,743 INFO    superlig.footballdata: football-data.co.uk 2020-21 indirildi
-2026-10-06 16:01:25,754 INFO    superlig.footballdata: football-data.co.uk 2021-22 indirildi
-2026-10-06 16:01:25,763 INFO    superlig.footballdata: football-data.co.uk 2022-23 indirildi
-2026-10-06 16:01:25,773 INFO    superlig.footballdata: football-data.co.uk 2023-24 indirildi
-2026-10-06 16:01:25,783 INFO    superlig.footballdata: football-data.co.uk 2024-25 indirildi
-2026-10-06 16:01:25,792 INFO    superlig.footballdata: football-data.co.uk 2025-26 indirildi
-2026-10-06 16:04:33,660 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2016-17_tr1.txt -> HTTP 404
-2026-10-06 16:04:33,660 INFO    superlig.openfootball: openfootball'da 2016-17 sezonu yok
-2026-10-06 16:04:34,547 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2017-18_tr1.txt -> HTTP 404
-2026-10-06 16:04:34,547 INFO    superlig.openfootball: openfootball'da 2017-18 sezonu yok
-2026-10-06 16:04:35,534 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2021-22_tr1.txt -> HTTP 404
-2026-10-06 16:04:35,535 INFO    superlig.openfootball: openfootball'da 2021-22 sezonu yok
-2026-10-06 16:04:36,531 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2022-23_tr1.txt -> HTTP 404
-2026-10-06 16:04:36,532 INFO    superlig.openfootball: openfootball'da 2022-23 sezonu yok
-2026-10-06 16:04:36,667 INFO    superlig.build: football-data: 3394 maç
-2026-10-06 16:04:36,700 INFO    superlig.build: sofascore: 3363 maç
-2026-10-06 16:04:36,729 INFO    superlig.build: openfootball: 2060 maç
-2026-10-06 16:04:36,760 INFO    superlig.build: transfermarkt: 3353 maç
-2026-10-06 16:04:39,875 INFO    superlig.wikipedia: Wikipedia 2017-18 sayfasında seyirci/kapasite tablosu bulunamadı
-2026-10-06 16:04:40,059 INFO    superlig.wikipedia: Wikipedia 2020-21 sayfasında seyirci/kapasite tablosu bulunamadı
-2026-10-06 16:04:42,038 INFO    superlig.viz: görsel: puan_durumu_2016-17.png
-2026-10-06 16:04:42,413 INFO    superlig.viz: görsel: puan_durumu_2017-18.png
-2026-10-06 16:04:42,773 INFO    superlig.viz: görsel: puan_durumu_2018-19.png
-2026-10-06 16:04:43,125 INFO    superlig.viz: görsel: puan_durumu_2019-20.png
-2026-10-06 16:04:43,510 INFO    superlig.viz: görsel: puan_durumu_2020-21.png
-2026-10-06 16:04:43,950 INFO    superlig.viz: görsel: puan_durumu_2021-22.png
-2026-10-06 16:04:44,297 INFO    superlig.viz: görsel: puan_durumu_2022-23.png
-2026-10-06 16:04:44,664 INFO    superlig.viz: görsel: puan_durumu_2023-24.png
-2026-10-06 16:04:45,032 INFO    superlig.viz: görsel: puan_durumu_2024-25.png
-2026-10-06 16:04:45,384 INFO    superlig.viz: görsel: puan_durumu_2025-26.png
-2026-10-06 16:04:46,104 INFO    superlig.viz: görsel: sira_isi_haritasi.png
-2026-10-06 16:04:46,462 INFO    superlig.viz: görsel: podyum.png
-2026-10-06 16:04:47,073 INFO    superlig.viz: görsel: toplam_puan.png
-2026-10-06 16:04:47,487 INFO    superlig.viz: görsel: toplam_galibiyet.png
-2026-10-06 16:04:47,927 INFO    superlig.viz: görsel: toplam_atilan_gol.png
-2026-10-06 16:04:48,434 INFO    superlig.viz: görsel: mac_basi_puan.png
-2026-10-06 16:04:48,723 INFO    superlig.viz: görsel: mac_basi_gol.png
-2026-10-06 16:04:48,990 INFO    superlig.viz: görsel: ic_saha_mac_basi_puan.png
-2026-10-06 16:04:49,394 INFO    superlig.viz: görsel: ortalama_seyirci.png
-2026-10-06 16:04:49,673 INFO    superlig.viz: pano: /home/user/Superlig_team_analysis/reports/pano.html (408 KB)
+2026-10-06 21:45:02,658 INFO    superlig.build: === Süper Lig veri hattı başladı (2026-10-06T21:45:02.658488+00:00) ===
+2026-10-06 21:45:02,671 INFO    superlig.footballdata: football-data.co.uk 2016-17 indirildi
+2026-10-06 21:45:02,681 INFO    superlig.footballdata: football-data.co.uk 2017-18 indirildi
+2026-10-06 21:45:02,687 INFO    superlig.footballdata: football-data.co.uk 2018-19 indirildi
+2026-10-06 21:45:02,699 INFO    superlig.footballdata: football-data.co.uk 2019-20 indirildi
+2026-10-06 21:45:02,709 INFO    superlig.footballdata: football-data.co.uk 2020-21 indirildi
+2026-10-06 21:45:02,718 INFO    superlig.footballdata: football-data.co.uk 2021-22 indirildi
+2026-10-06 21:45:02,821 INFO    superlig.footballdata: football-data.co.uk 2022-23 indirildi
+2026-10-06 21:45:02,831 INFO    superlig.footballdata: football-data.co.uk 2023-24 indirildi
+2026-10-06 21:45:02,841 INFO    superlig.footballdata: football-data.co.uk 2024-25 indirildi
+2026-10-06 21:45:02,852 INFO    superlig.footballdata: football-data.co.uk 2025-26 indirildi
+2026-10-06 21:48:17,435 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2016-17_tr1.txt -> HTTP 404
+2026-10-06 21:48:17,435 INFO    superlig.openfootball: openfootball'da 2016-17 sezonu yok
+2026-10-06 21:48:18,322 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2017-18_tr1.txt -> HTTP 404
+2026-10-06 21:48:18,322 INFO    superlig.openfootball: openfootball'da 2017-18 sezonu yok
+2026-10-06 21:48:19,326 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2021-22_tr1.txt -> HTTP 404
+2026-10-06 21:48:19,326 INFO    superlig.openfootball: openfootball'da 2021-22 sezonu yok
+2026-10-06 21:48:20,348 WARNING superlig.net: İstek başarısız [openfootball] https://raw.githubusercontent.com/openfootball/europe/0bf83f88e8feb22904c5f9d93c6407574c1347e0/turkey/2022-23_tr1.txt -> HTTP 404
+2026-10-06 21:48:20,348 INFO    superlig.openfootball: openfootball'da 2022-23 sezonu yok
+2026-10-06 21:48:20,872 INFO    superlig.build: football-data: 3394 maç
+2026-10-06 21:48:20,911 INFO    superlig.build: sofascore: 3363 maç
+2026-10-06 21:48:20,927 INFO    superlig.build: openfootball: 2060 maç
+2026-10-06 21:48:20,952 INFO    superlig.build: transfermarkt: 3353 maç
+2026-10-06 21:48:25,365 INFO    superlig.wikipedia: Wikipedia 2017-18 sayfasında seyirci/kapasite tablosu bulunamadı
+2026-10-06 21:48:25,606 INFO    superlig.wikipedia: Wikipedia 2020-21 sayfasında seyirci/kapasite tablosu bulunamadı

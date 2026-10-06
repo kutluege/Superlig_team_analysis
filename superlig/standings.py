@@ -32,10 +32,13 @@ def _table(d: pd.DataFrame) -> pd.DataFrame:
     return t
 
 
-def season_table(m: pd.DataFrame) -> pd.DataFrame:
+def season_table(m: pd.DataFrame, deductions: dict | None = None) -> pd.DataFrame:
+    """deductions verilirse puan = maç puanı − silinen puan (resmi tablo)."""
     m = m.dropna(subset=["ev_gol", "dep_gol"])
     d = _long(m)
     t = _table(d)
+    if deductions:
+        t["puan"] = t["puan"] - t.index.map(lambda n: deductions.get(n, 0))
 
     def h2h_key(group: list[str]) -> dict[str, tuple]:
         sub = d[d.takim.isin(group) & d.rakip.isin(group)]

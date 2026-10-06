@@ -121,9 +121,16 @@ def season_teams(m: pd.DataFrame) -> dict[str, set]:
 
 
 def team_season(m: pd.DataFrame) -> pd.DataFrame:
+    ded_path = config.DATA / "puan_silme.csv"
+    ded = pd.read_csv(ded_path) if ded_path.exists() else pd.DataFrame(columns=["takim", "sezon", "silinen_puan"])
     tables = []
     for s, g in m.groupby("sezon"):
         t = standings.season_table(g)
+        d = dict(ded[ded.sezon == s].groupby("takim").silinen_puan.sum())
+        r = standings.season_table(g, d)[["takim", "puan", "sira"]].rename(
+            columns={"puan": "resmi_puan", "sira": "resmi_sira"})
+        t = t.merge(r, on="takim")
+        t["puan_silme"] = t.takim.map(lambda n: d.get(n, 0))
         t.insert(1, "sezon", s)
         tables.append(t)
     t = pd.concat(tables, ignore_index=True)
@@ -131,7 +138,8 @@ def team_season(m: pd.DataFrame) -> pd.DataFrame:
     t = t.set_index(["takim", "sezon"]).reindex(panel).reset_index()
     t["ligde"] = t["oynanan"].notna()
     cols = ["takim", "sezon", "oynanan", "galibiyet", "beraberlik", "maglubiyet", "atilan_gol",
-            "yenilen_gol", "averaj", "puan", "sira", "ic_saha_puan", "dis_saha_puan", "ligde"]
+            "yenilen_gol", "averaj", "puan", "sira", "puan_silme", "resmi_puan", "resmi_sira",
+            "ic_saha_puan", "dis_saha_puan", "ligde"]
     t = t[cols]
     for c in cols[2:-1]:
         t[c] = t[c].astype("Int64")
