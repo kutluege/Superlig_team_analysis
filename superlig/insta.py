@@ -134,6 +134,16 @@ def radar(ax, scores, color, avg=None, labels=None, label_vals=None, lw=2.4, lab
                         color=MUTED if miss else INK, family=COND, weight="semibold" if miss else "bold")
 
 
+def _forma_sub(row):
+    n = row.get("forma_sezon")
+    if pd.isna(n):
+        return "fiyat verisi bulunamadı"
+    if n < 2:
+        return f"reel ort. · yalnız {row.forma_ilk_sezon} ({_tr(row.forma_ort_TL)} TL)"
+    return (f"{row.forma_ilk_sezon[:4]}–{row.forma_son_sezon[2:4]}: +%{_tr(row.forma_artis_yuzde)} "
+            f"(reel +%{_tr(row.get('forma_reel_artis_yuzde'))}) · {int(n)} sz")
+
+
 # ------------------------------------------------------------------ takım kartı
 def team_card(row, avg, rank, n, path):
     team = row.takim
@@ -162,9 +172,8 @@ def team_card(row, avg, rank, n, path):
          f"Lig {_tr(row.get('super_lig'))} · Kupa {_tr(row.get('turkiye_kupasi'))} · Süper K. {_tr(row.get('super_kupa'))}"),
         ("GOL", _tr(row.gol_10y), f"{_tr(row.sezon_sayisi)} sezon · maç başı {_tr(row.gol_10y / row.mac, 2)}"),
         ("GALİBİYET", _tr(row.galibiyet_10y), f"{_tr(row.mac)} maçta · %{_tr(row.galibiyet_10y / row.mac * 100)}"),
-        ("FORMA", (_tr(row.get("forma_ort_TL")) + " TL") if pd.notna(row.get("forma_ort_TL")) else "—",
-         (f"ilk-son: +%{_tr(row.get('forma_artis_yuzde'))} artış" if pd.notna(row.get("forma_artis_yuzde"))
-          else "fiyat verisi yok")),
+        ("FORMA", (_tr(row.get("forma_reel_ort_TL")) + " TL") if pd.notna(row.get("forma_reel_ort_TL")) else "—",
+         _forma_sub(row)),
         ("SON 3 SEZON", (_tr(row.son3_puan_ort, 1) + " puan") if pd.notna(row.son3_puan_ort) else "ligde değil",
          (f"ort. sıra {_tr(row.son3_sira_ort, 1)} · {int(row.son3_sezon)}/3 sezon" if pd.notna(row.son3_sezon) else "")),
     ]
@@ -211,14 +220,14 @@ def cover(df, avg, path):
 # ------------------------------------------------------------------ metrik sıralaması
 METRIC_SLIDES = [
     ("sadakat", "SADAKAT", "Doluluk oranı (10 yıl) + sosyal medya takipçisi (log)", "skor_sadakat",
-     lambda r: f"%{_tr(r.doluluk_10y * 100)} · {_compact(r.takipci_toplam)}" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
+     lambda r: f"%{_tr(r.get("doluluk_10y", float("nan")) * 100)} · {_compact(r.get("takipci_toplam"))}" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
     ("basari", "BAŞARI", "10 yılda Süper Lig + Türkiye Kupası + Süper Kupa", "kupa_10y",
      lambda r: f"{_tr(r.kupa_10y)} kupa"),
     ("gol", "GOL", "10 yılda Süper Lig'de atılan gol", "gol_10y", lambda r: f"{_tr(r.gol_10y)}  ({int(r.sezon_sayisi)} sz)"),
     ("galibiyet", "GALİBİYET", "10 yılda Süper Lig galibiyeti", "galibiyet_10y",
      lambda r: f"{_tr(r.galibiyet_10y)}  ({int(r.sezon_sayisi)} sz)"),
     ("forma", "FORMA FİYATI", "10 yıllık ev forması ortalaması (TÜFE ile reel, güncel TL)", "forma_reel_ort_TL",
-     lambda r: f"{_tr(r.forma_reel_ort_TL)} TL · nominal ort. {_tr(r.forma_ort_TL)}"),
+     lambda r: f"{_tr(r.forma_reel_ort_TL)} TL reel · {int(r.forma_sezon)} sz"),
     ("form", "SON 3 SEZON", "2023-24 – 2025-26 puan ortalaması", "son3_puan_ort",
      lambda r: f"{_tr(r.son3_puan_ort, 1)} p · ort. sıra {_tr(r.son3_sira_ort, 1)}"),
 ]
@@ -254,6 +263,8 @@ def metric_slide(df, key, title, subtitle, col, fmt, path, page):
 
 def render_all():
     OUT.mkdir(parents=True, exist_ok=True)
+    for old in OUT.glob("*.png"):  # sıralama değişince eski numaralı dosyalar kalmasın
+        old.unlink()
     df = scorecard.build()
     sc_cols = [f"skor_{k}" for k, _ in scorecard.AXES]
     df["genel"] = df[sc_cols].mean(axis=1)

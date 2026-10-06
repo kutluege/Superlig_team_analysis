@@ -105,7 +105,10 @@ def build() -> pd.DataFrame:
         first = f.sort_values("sezon").groupby("takim").fiyat_TL.first()
         last = f.sort_values("sezon").groupby("takim").fiyat_TL.last()
         agg["forma_ilk_TL"], agg["forma_son_TL"] = first, last
-        agg["forma_artis_yuzde"] = (last / first - 1) * 100
+        agg["forma_artis_yuzde"] = np.where(agg.forma_sezon >= 2, (last / first - 1) * 100, np.nan)
+        if "reel_fiyat_TL" in f:
+            rf = f.sort_values("sezon").groupby("takim").reel_fiyat_TL
+            agg["forma_reel_artis_yuzde"] = np.where(agg.forma_sezon >= 2, (rf.last() / rf.first() - 1) * 100, np.nan)
         if "reel_fiyat_TL" in f:
             agg["forma_reel_ort_TL"] = f.groupby("takim").reel_fiyat_TL.mean()
         df = df.join(agg)
