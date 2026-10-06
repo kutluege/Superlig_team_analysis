@@ -68,7 +68,7 @@ LOGO_URL = ("https://raw.githubusercontent.com/luukhopman/football-logos/"
 
 # İstekler arası minimum bekleme (saniye), host bazında
 RATE_LIMITS = {
-    "api.sofascore.com": 2.5,
+    "api.sofascore.com": 1.5,
     "www.sofascore.com": 2.5,
     "en.wikipedia.org": 1.5,
     "www.football-data.co.uk": 2.0,
