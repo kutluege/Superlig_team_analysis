@@ -1,421 +1,421 @@
 sezon_yil,tarih,ev_raw,dep_raw,ev_gol,dep_gol,kaynak
-2020,2020-09-11,Rizespor,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-12,Karagumruk,Yeni Malatyaspor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-12,Sivasspor,Alanyaspor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-12,Galatasaray,Gaziantep,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-12,Goztep,Denizlispor,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-13,Ankaragucu,Erzurum BB,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-13,Kayserispor,Kasimpasa,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-13,Antalyaspor,Genclerbirligi,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-13,Trabzonspor,Besiktas,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-14,Hatayspor,Buyuksehyr,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-18,Yeni Malatyaspor,Goztep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-19,Genclerbirligi,Konyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-19,Denizlispor,Trabzonspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-19,Alanyaspor,Kayserispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-19,Besiktas,Antalyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-20,Erzurum BB,Sivasspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-20,Kasimpasa,Rizespor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-20,Buyuksehyr,Galatasaray,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-20,Gaziantep,Karagumruk,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-21,Fenerbahce,Hatayspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-25,Karagumruk,Buyuksehyr,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-26,Kayserispor,Erzurum BB,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-26,Goztep,Gaziantep,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-26,Hatayspor,Kasimpasa,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-26,Trabzonspor,Yeni Malatyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-27,Rizespor,Alanyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-27,Konyaspor,Besiktas,4.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-27,Sivasspor,Ankaragucu,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-27,Galatasaray,Fenerbahce,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-09-28,Antalyaspor,Denizlispor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-02,Ankaragucu,Kayserispor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-02,Gaziantep,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-03,Yeni Malatyaspor,Antalyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-03,Buyuksehyr,Goztep,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-03,Erzurum BB,Rizespor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-03,Fenerbahce,Karagumruk,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-04,Denizlispor,Konyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-04,Alanyaspor,Hatayspor,6.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-04,Besiktas,Genclerbirligi,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-04,Kasimpasa,Galatasaray,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-17,Rizespor,Ankaragucu,5.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-17,Kayserispor,Sivasspor,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-17,Konyaspor,Yeni Malatyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-17,Trabzonspor,Buyuksehyr,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-18,Antalyaspor,Gaziantep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-18,Karagumruk,Kasimpasa,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-18,Goztep,Fenerbahce,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-19,Galatasaray,Alanyaspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-19,Genclerbirligi,Denizlispor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-23,Kasimpasa,Goztep,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-24,Gaziantep,Konyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-24,Buyuksehyr,Antalyaspor,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-24,Erzurum BB,Galatasaray,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-25,Yeni Malatyaspor,Genclerbirligi,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-25,Alanyaspor,Karagumruk,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-25,Fenerbahce,Trabzonspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-26,Denizlispor,Besiktas,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-26,Sivasspor,Rizespor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-30,Karagumruk,Erzurum BB,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-30,Trabzonspor,Kasimpasa,3.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-31,Genclerbirligi,Gaziantep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-10-31,Galatasaray,Ankaragucu,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-01,Rizespor,Kayserispor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-01,Konyaspor,Buyuksehyr,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-01,Besiktas,Yeni Malatyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-02,Antalyaspor,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-02,Hatayspor,Sivasspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-06,Gaziantep,Besiktas,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-07,Kasimpasa,Antalyaspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-07,Alanyaspor,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-07,Erzurum BB,Goztep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-07,Fenerbahce,Konyaspor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-08,Ankaragucu,Karagumruk,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-08,Yeni Malatyaspor,Denizlispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-08,Buyuksehyr,Genclerbirligi,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-08,Kayserispor,Hatayspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-08,Sivasspor,Galatasaray,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-21,Karagumruk,Sivasspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-21,Denizlispor,Gaziantep,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-21,Genclerbirligi,Fenerbahce,1.0,5.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-21,Besiktas,Buyuksehyr,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-22,Hatayspor,Rizespor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-22,Goztep,Ankaragucu,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-22,Konyaspor,Kasimpasa,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-22,Antalyaspor,Alanyaspor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-22,Trabzonspor,Erzurum BB,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-23,Galatasaray,Kayserispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-27,Ankaragucu,Trabzonspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-28,Gaziantep,Yeni Malatyaspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-28,Buyuksehyr,Denizlispor,3.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-28,Rizespor,Galatasaray,0.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-29,Erzurum BB,Antalyaspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-29,Alanyaspor,Konyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-29,Kasimpasa,Genclerbirligi,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-29,Fenerbahce,Besiktas,3.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-30,Kayserispor,Karagumruk,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-11-30,Sivasspor,Goztep,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-04,Besiktas,Kasimpasa,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-05,Genclerbirligi,Alanyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-05,Goztep,Kayserispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-05,Konyaspor,Erzurum BB,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-05,Yeni Malatyaspor,Buyuksehyr,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-05,Galatasaray,Hatayspor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-06,Karagumruk,Rizespor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-06,Antalyaspor,Ankaragucu,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-06,Denizlispor,Fenerbahce,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-07,Trabzonspor,Sivasspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-09,Goztep,Alanyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-09,Hatayspor,Erzurum BB,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-11,Kasimpasa,Denizlispor,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-12,Hatayspor,Karagumruk,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-12,Kayserispor,Trabzonspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-12,Rizespor,Goztep,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-12,Ankaragucu,Konyaspor,4.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-12,Fenerbahce,Yeni Malatyaspor,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-13,Erzurum BB,Genclerbirligi,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-13,Alanyaspor,Besiktas,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-13,Buyuksehyr,Gaziantep,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-14,Sivasspor,Antalyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-15,Ankaragucu,Hatayspor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-18,Karagumruk,Galatasaray,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-19,Goztep,Hatayspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-19,Trabzonspor,Rizespor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-19,Yeni Malatyaspor,Kasimpasa,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-19,Gaziantep,Fenerbahce,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-20,Genclerbirligi,Ankaragucu,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-20,Denizlispor,Alanyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-20,Besiktas,Erzurum BB,4.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-21,Antalyaspor,Kayserispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-21,Konyaspor,Sivasspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-22,Hatayspor,Trabzonspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-22,Galatasaray,Goztep,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-23,Alanyaspor,Yeni Malatyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-23,Erzurum BB,Denizlispor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-23,Fenerbahce,Buyuksehyr,4.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-23,Kasimpasa,Gaziantep,0.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-24,Kayserispor,Konyaspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-24,Sivasspor,Genclerbirligi,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-24,Ankaragucu,Besiktas,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-24,Rizespor,Antalyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-26,Goztep,Karagumruk,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-26,Trabzonspor,Galatasaray,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-27,Gaziantep,Alanyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-27,Denizlispor,Ankaragucu,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-27,Yeni Malatyaspor,Erzurum BB,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-27,Buyuksehyr,Kasimpasa,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-28,Genclerbirligi,Kayserispor,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-28,Konyaspor,Rizespor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-28,Besiktas,Sivasspor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2020-12-29,Antalyaspor,Hatayspor,0.0,6.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Erzurum BB,Gaziantep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Sivasspor,Denizlispor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Alanyaspor,Buyuksehyr,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Ankaragucu,Yeni Malatyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Galatasaray,Antalyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-02,Hatayspor,Konyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-03,Rizespor,Genclerbirligi,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-03,Karagumruk,Trabzonspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-03,Kayserispor,Besiktas,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-04,Kasimpasa,Fenerbahce,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-05,Gaziantep,Ankaragucu,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-05,Yeni Malatyaspor,Sivasspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-05,Konyaspor,Galatasaray,4.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Denizlispor,Kayserispor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Buyuksehyr,Erzurum BB,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Genclerbirligi,Hatayspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Trabzonspor,Goztep,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Antalyaspor,Karagumruk,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-06,Besiktas,Rizespor,6.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-07,Fenerbahce,Alanyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-09,Sivasspor,Gaziantep,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-09,Goztep,Antalyaspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-09,Kayserispor,Yeni Malatyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-09,Galatasaray,Genclerbirligi,6.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-10,Karagumruk,Konyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-10,Ankaragucu,Buyuksehyr,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-10,Rizespor,Denizlispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-10,Hatayspor,Besiktas,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-11,Erzurum BB,Fenerbahce,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-11,Alanyaspor,Kasimpasa,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-15,Genclerbirligi,Karagumruk,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-16,Konyaspor,Goztep,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-16,Buyuksehyr,Sivasspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-16,Gaziantep,Kayserispor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-16,Antalyaspor,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-17,Denizlispor,Hatayspor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-17,Yeni Malatyaspor,Rizespor,4.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-17,Besiktas,Galatasaray,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-18,Fenerbahce,Ankaragucu,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-18,Kasimpasa,Erzurum BB,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-19,Goztep,Genclerbirligi,4.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-19,Kayserispor,Buyuksehyr,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-19,Trabzonspor,Konyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-20,Hatayspor,Yeni Malatyaspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-20,Rizespor,Gaziantep,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-20,Galatasaray,Denizlispor,6.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-21,Erzurum BB,Alanyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-21,Karagumruk,Besiktas,1.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-21,Ankaragucu,Kasimpasa,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-21,Sivasspor,Fenerbahce,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-23,Genclerbirligi,Trabzonspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-23,Buyuksehyr,Rizespor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-24,Konyaspor,Antalyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-24,Denizlispor,Karagumruk,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-24,Yeni Malatyaspor,Galatasaray,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-24,Besiktas,Goztep,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-24,Gaziantep,Hatayspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-25,Kasimpasa,Sivasspor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-25,Alanyaspor,Ankaragucu,4.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-25,Fenerbahce,Kayserispor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-29,Yeni Malatyaspor,Karagumruk,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-29,Gaziantep,Galatasaray,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-30,Kasimpasa,Kayserispor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-30,Buyuksehyr,Hatayspor,1.0,5.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-30,Fenerbahce,Rizespor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-31,Erzurum BB,Ankaragucu,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-31,Alanyaspor,Sivasspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-31,Denizlispor,Goztep,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-31,Genclerbirligi,Antalyaspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-01-31,Besiktas,Trabzonspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-02,Hatayspor,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-02,Galatasaray,Buyuksehyr,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-02,Rizespor,Kasimpasa,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-03,Sivasspor,Erzurum BB,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-03,Karagumruk,Gaziantep,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-03,Kayserispor,Alanyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-03,Antalyaspor,Besiktas,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-03,Konyaspor,Genclerbirligi,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-04,Goztep,Yeni Malatyaspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-04,Trabzonspor,Denizlispor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-06,Kasimpasa,Hatayspor,1.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-06,Alanyaspor,Rizespor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-06,Buyuksehyr,Karagumruk,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-06,Fenerbahce,Galatasaray,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-07,Erzurum BB,Kayserispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-07,Ankaragucu,Sivasspor,1.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-07,Denizlispor,Antalyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-07,Besiktas,Konyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-08,Gaziantep,Goztep,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-08,Yeni Malatyaspor,Trabzonspor,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-12,Rizespor,Erzurum BB,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-13,Kayserispor,Ankaragucu,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-13,Trabzonspor,Gaziantep,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-13,Karagumruk,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-14,Konyaspor,Denizlispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-14,Galatasaray,Kasimpasa,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-14,Goztep,Buyuksehyr,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-14,Hatayspor,Alanyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-15,Genclerbirligi,Besiktas,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-15,Antalyaspor,Yeni Malatyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-19,Buyuksehyr,Trabzonspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-20,Kasimpasa,Karagumruk,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-20,Denizlispor,Genclerbirligi,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-20,Yeni Malatyaspor,Konyaspor,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-20,Alanyaspor,Galatasaray,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-21,Erzurum BB,Hatayspor,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-21,Gaziantep,Antalyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-21,Sivasspor,Kayserispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-21,Fenerbahce,Goztep,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-22,Ankaragucu,Rizespor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-26,Genclerbirligi,Yeni Malatyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-26,Konyaspor,Gaziantep,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-26,Besiktas,Denizlispor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-27,Hatayspor,Ankaragucu,4.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-27,Karagumruk,Alanyaspor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-27,Antalyaspor,Buyuksehyr,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-27,Rizespor,Sivasspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-27,Galatasaray,Erzurum BB,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-28,Goztep,Kasimpasa,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-02-28,Trabzonspor,Fenerbahce,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-02,Gaziantep,Genclerbirligi,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-02,Yeni Malatyaspor,Besiktas,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-03,Erzurum BB,Karagumruk,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-03,Buyuksehyr,Konyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-03,Sivasspor,Hatayspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-03,Ankaragucu,Galatasaray,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-03,Kayserispor,Rizespor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-04,Alanyaspor,Goztep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-04,Kasimpasa,Trabzonspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-04,Fenerbahce,Antalyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-06,Denizlispor,Yeni Malatyaspor,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-06,Besiktas,Gaziantep,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-07,Karagumruk,Ankaragucu,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-07,Genclerbirligi,Buyuksehyr,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-07,Hatayspor,Kayserispor,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-07,Galatasaray,Sivasspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-08,Antalyaspor,Kasimpasa,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-08,Trabzonspor,Alanyaspor,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-08,Goztep,Erzurum BB,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-08,Konyaspor,Fenerbahce,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-12,Buyuksehyr,Besiktas,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-13,Sivasspor,Karagumruk,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-13,Alanyaspor,Antalyaspor,4.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-13,Rizespor,Hatayspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-13,Kayserispor,Galatasaray,0.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-14,Ankaragucu,Goztep,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-14,Erzurum BB,Trabzonspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-14,Gaziantep,Denizlispor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-14,Fenerbahce,Genclerbirligi,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-15,Kasimpasa,Konyaspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-19,Karagumruk,Kayserispor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-19,Galatasaray,Rizespor,3.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-20,Genclerbirligi,Kasimpasa,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-20,Goztep,Sivasspor,3.0,5.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-20,Yeni Malatyaspor,Gaziantep,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-20,Trabzonspor,Ankaragucu,4.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-21,Antalyaspor,Erzurum BB,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-21,Konyaspor,Alanyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-21,Denizlispor,Buyuksehyr,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-03-21,Besiktas,Fenerbahce,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-03,Kayserispor,Goztep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-03,Rizespor,Karagumruk,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-03,Sivasspor,Trabzonspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-03,Hatayspor,Galatasaray,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-04,Erzurum BB,Konyaspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-04,Alanyaspor,Genclerbirligi,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-04,Ankaragucu,Antalyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-04,Buyuksehyr,Yeni Malatyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-04,Kasimpasa,Besiktas,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-05,Fenerbahce,Denizlispor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-06,Goztep,Rizespor,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-06,Karagumruk,Hatayspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-06,Trabzonspor,Kayserispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-07,Genclerbirligi,Erzurum BB,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-07,Konyaspor,Ankaragucu,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-07,Antalyaspor,Sivasspor,2.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-07,Besiktas,Alanyaspor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-08,Denizlispor,Kasimpasa,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-08,Gaziantep,Buyuksehyr,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-08,Yeni Malatyaspor,Fenerbahce,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-10,Hatayspor,Goztep,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-10,Rizespor,Trabzonspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-10,Galatasaray,Karagumruk,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-11,Sivasspor,Konyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-11,Ankaragucu,Genclerbirligi,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-11,Kayserispor,Antalyaspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-11,Erzurum BB,Besiktas,2.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-12,Kasimpasa,Yeni Malatyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-12,Alanyaspor,Denizlispor,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-12,Fenerbahce,Gaziantep,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-16,Genclerbirligi,Sivasspor,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-16,Konyaspor,Kayserispor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-16,Antalyaspor,Rizespor,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-16,Besiktas,Ankaragucu,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-17,Denizlispor,Erzurum BB,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-17,Trabzonspor,Hatayspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-17,Yeni Malatyaspor,Alanyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-17,Goztep,Galatasaray,1.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-18,Gaziantep,Kasimpasa,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-18,Buyuksehyr,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-20,Karagumruk,Goztep,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-20,Kayserispor,Genclerbirligi,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-20,Rizespor,Konyaspor,5.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-20,Hatayspor,Antalyaspor,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-20,Sivasspor,Besiktas,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-21,Ankaragucu,Denizlispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-21,Erzurum BB,Yeni Malatyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-21,Galatasaray,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-22,Alanyaspor,Gaziantep,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-22,Kasimpasa,Buyuksehyr,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-23,Genclerbirligi,Rizespor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-24,Konyaspor,Hatayspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-24,Trabzonspor,Karagumruk,2.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-24,Antalyaspor,Galatasaray,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-24,Besiktas,Kayserispor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-24,Denizlispor,Sivasspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-25,Yeni Malatyaspor,Ankaragucu,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-25,Buyuksehyr,Alanyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-25,Gaziantep,Erzurum BB,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-25,Fenerbahce,Kasimpasa,3.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-27,Hatayspor,Genclerbirligi,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-28,Goztep,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-28,Karagumruk,Antalyaspor,2.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-28,Kayserispor,Denizlispor,6.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-28,Galatasaray,Konyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-28,Rizespor,Besiktas,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-29,Erzurum BB,Buyuksehyr,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-29,Sivasspor,Yeni Malatyaspor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-29,Alanyaspor,Fenerbahce,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-04-29,Ankaragucu,Gaziantep,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-01,Besiktas,Hatayspor,7.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-02,Antalyaspor,Goztep,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-02,Denizlispor,Rizespor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-02,Konyaspor,Karagumruk,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-02,Genclerbirligi,Galatasaray,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-03,Buyuksehyr,Ankaragucu,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-03,Kasimpasa,Alanyaspor,3.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-03,Yeni Malatyaspor,Kayserispor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-03,Fenerbahce,Erzurum BB,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-03,Gaziantep,Sivasspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Ankaragucu,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Erzurum BB,Kasimpasa,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Galatasaray,Besiktas,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Goztep,Konyaspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Hatayspor,Denizlispor,1.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Karagumruk,Genclerbirligi,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Kayserispor,Gaziantep,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Rizespor,Yeni Malatyaspor,0.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Sivasspor,Buyuksehyr,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-08,Trabzonspor,Antalyaspor,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Konyaspor,Trabzonspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Alanyaspor,Erzurum BB,2.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Besiktas,Karagumruk,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Buyuksehyr,Kayserispor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Denizlispor,Galatasaray,1.0,4.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Fenerbahce,Sivasspor,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Gaziantep,Rizespor,4.0,5.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Genclerbirligi,Goztep,5.0,3.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Kasimpasa,Ankaragucu,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-11,Yeni Malatyaspor,Hatayspor,1.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Ankaragucu,Alanyaspor,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Antalyaspor,Konyaspor,0.0,0.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Hatayspor,Gaziantep,0.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Karagumruk,Denizlispor,5.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Rizespor,Buyuksehyr,0.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Sivasspor,Kasimpasa,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Galatasaray,Yeni Malatyaspor,3.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Goztep,Besiktas,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Kayserispor,Fenerbahce,1.0,2.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
-2020,2021-05-15,Trabzonspor,Genclerbirligi,2.0,1.0,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025)
+2020,2020-09-11,Rizespor,Fenerbahce,1,2,football-data.co.uk
+2020,2020-09-12,Karagumruk,Yeni Malatyaspor,3,0,football-data.co.uk
+2020,2020-09-12,Sivasspor,Alanyaspor,0,2,football-data.co.uk
+2020,2020-09-12,Galatasaray,Gaziantep,3,1,football-data.co.uk
+2020,2020-09-12,Goztep,Denizlispor,5,1,football-data.co.uk
+2020,2020-09-13,Ankaragucu,Erzurum BB,1,2,football-data.co.uk
+2020,2020-09-13,Kayserispor,Kasimpasa,1,0,football-data.co.uk
+2020,2020-09-13,Antalyaspor,Genclerbirligi,2,0,football-data.co.uk
+2020,2020-09-13,Trabzonspor,Besiktas,1,3,football-data.co.uk
+2020,2020-09-14,Hatayspor,Buyuksehyr,2,0,football-data.co.uk
+2020,2020-09-18,Yeni Malatyaspor,Goztep,1,1,football-data.co.uk
+2020,2020-09-19,Genclerbirligi,Konyaspor,0,0,football-data.co.uk
+2020,2020-09-19,Denizlispor,Trabzonspor,0,0,football-data.co.uk
+2020,2020-09-19,Alanyaspor,Kayserispor,2,0,football-data.co.uk
+2020,2020-09-19,Besiktas,Antalyaspor,1,1,football-data.co.uk
+2020,2020-09-20,Erzurum BB,Sivasspor,1,2,football-data.co.uk
+2020,2020-09-20,Kasimpasa,Rizespor,2,0,football-data.co.uk
+2020,2020-09-20,Buyuksehyr,Galatasaray,0,2,football-data.co.uk
+2020,2020-09-20,Gaziantep,Karagumruk,2,2,football-data.co.uk
+2020,2020-09-21,Fenerbahce,Hatayspor,0,0,football-data.co.uk
+2020,2020-09-25,Karagumruk,Buyuksehyr,2,0,football-data.co.uk
+2020,2020-09-26,Kayserispor,Erzurum BB,1,3,football-data.co.uk
+2020,2020-09-26,Goztep,Gaziantep,2,2,football-data.co.uk
+2020,2020-09-26,Hatayspor,Kasimpasa,1,0,football-data.co.uk
+2020,2020-09-26,Trabzonspor,Yeni Malatyaspor,3,1,football-data.co.uk
+2020,2020-09-27,Rizespor,Alanyaspor,1,1,football-data.co.uk
+2020,2020-09-27,Konyaspor,Besiktas,4,1,football-data.co.uk
+2020,2020-09-27,Sivasspor,Ankaragucu,0,0,football-data.co.uk
+2020,2020-09-27,Galatasaray,Fenerbahce,0,0,football-data.co.uk
+2020,2020-09-28,Antalyaspor,Denizlispor,1,0,football-data.co.uk
+2020,2020-10-02,Ankaragucu,Kayserispor,0,1,football-data.co.uk
+2020,2020-10-02,Gaziantep,Trabzonspor,1,1,football-data.co.uk
+2020,2020-10-03,Yeni Malatyaspor,Antalyaspor,1,0,football-data.co.uk
+2020,2020-10-03,Buyuksehyr,Goztep,0,0,football-data.co.uk
+2020,2020-10-03,Erzurum BB,Rizespor,0,0,football-data.co.uk
+2020,2020-10-03,Fenerbahce,Karagumruk,2,1,football-data.co.uk
+2020,2020-10-04,Denizlispor,Konyaspor,0,0,football-data.co.uk
+2020,2020-10-04,Alanyaspor,Hatayspor,6,0,football-data.co.uk
+2020,2020-10-04,Besiktas,Genclerbirligi,0,1,football-data.co.uk
+2020,2020-10-04,Kasimpasa,Galatasaray,1,0,football-data.co.uk
+2020,2020-10-17,Rizespor,Ankaragucu,5,3,football-data.co.uk
+2020,2020-10-17,Kayserispor,Sivasspor,1,3,football-data.co.uk
+2020,2020-10-17,Konyaspor,Yeni Malatyaspor,1,1,football-data.co.uk
+2020,2020-10-17,Trabzonspor,Buyuksehyr,0,2,football-data.co.uk
+2020,2020-10-18,Antalyaspor,Gaziantep,1,1,football-data.co.uk
+2020,2020-10-18,Karagumruk,Kasimpasa,1,1,football-data.co.uk
+2020,2020-10-18,Goztep,Fenerbahce,2,3,football-data.co.uk
+2020,2020-10-19,Galatasaray,Alanyaspor,1,2,football-data.co.uk
+2020,2020-10-19,Genclerbirligi,Denizlispor,1,2,football-data.co.uk
+2020,2020-10-23,Kasimpasa,Goztep,0,0,football-data.co.uk
+2020,2020-10-24,Gaziantep,Konyaspor,1,0,football-data.co.uk
+2020,2020-10-24,Buyuksehyr,Antalyaspor,5,1,football-data.co.uk
+2020,2020-10-24,Erzurum BB,Galatasaray,1,2,football-data.co.uk
+2020,2020-10-25,Yeni Malatyaspor,Genclerbirligi,2,1,football-data.co.uk
+2020,2020-10-25,Alanyaspor,Karagumruk,2,0,football-data.co.uk
+2020,2020-10-25,Fenerbahce,Trabzonspor,3,1,football-data.co.uk
+2020,2020-10-26,Denizlispor,Besiktas,2,3,football-data.co.uk
+2020,2020-10-26,Sivasspor,Rizespor,0,2,football-data.co.uk
+2020,2020-10-30,Karagumruk,Erzurum BB,5,1,football-data.co.uk
+2020,2020-10-30,Trabzonspor,Kasimpasa,3,4,football-data.co.uk
+2020,2020-10-31,Genclerbirligi,Gaziantep,1,1,football-data.co.uk
+2020,2020-10-31,Galatasaray,Ankaragucu,1,0,football-data.co.uk
+2020,2020-11-01,Rizespor,Kayserispor,1,0,football-data.co.uk
+2020,2020-11-01,Konyaspor,Buyuksehyr,1,2,football-data.co.uk
+2020,2020-11-01,Besiktas,Yeni Malatyaspor,1,0,football-data.co.uk
+2020,2020-11-02,Antalyaspor,Fenerbahce,1,2,football-data.co.uk
+2020,2020-11-02,Hatayspor,Sivasspor,1,1,football-data.co.uk
+2020,2020-11-06,Gaziantep,Besiktas,3,1,football-data.co.uk
+2020,2020-11-07,Kasimpasa,Antalyaspor,2,2,football-data.co.uk
+2020,2020-11-07,Alanyaspor,Trabzonspor,1,1,football-data.co.uk
+2020,2020-11-07,Erzurum BB,Goztep,1,1,football-data.co.uk
+2020,2020-11-07,Fenerbahce,Konyaspor,0,2,football-data.co.uk
+2020,2020-11-08,Ankaragucu,Karagumruk,2,2,football-data.co.uk
+2020,2020-11-08,Yeni Malatyaspor,Denizlispor,2,0,football-data.co.uk
+2020,2020-11-08,Buyuksehyr,Genclerbirligi,2,1,football-data.co.uk
+2020,2020-11-08,Kayserispor,Hatayspor,0,1,football-data.co.uk
+2020,2020-11-08,Sivasspor,Galatasaray,1,2,football-data.co.uk
+2020,2020-11-21,Karagumruk,Sivasspor,1,1,football-data.co.uk
+2020,2020-11-21,Denizlispor,Gaziantep,0,1,football-data.co.uk
+2020,2020-11-21,Genclerbirligi,Fenerbahce,1,5,football-data.co.uk
+2020,2020-11-21,Besiktas,Buyuksehyr,3,2,football-data.co.uk
+2020,2020-11-22,Hatayspor,Rizespor,2,2,football-data.co.uk
+2020,2020-11-22,Goztep,Ankaragucu,3,1,football-data.co.uk
+2020,2020-11-22,Konyaspor,Kasimpasa,2,1,football-data.co.uk
+2020,2020-11-22,Antalyaspor,Alanyaspor,0,2,football-data.co.uk
+2020,2020-11-22,Trabzonspor,Erzurum BB,1,0,football-data.co.uk
+2020,2020-11-23,Galatasaray,Kayserispor,1,1,football-data.co.uk
+2020,2020-11-27,Ankaragucu,Trabzonspor,0,1,football-data.co.uk
+2020,2020-11-28,Gaziantep,Yeni Malatyaspor,2,2,football-data.co.uk
+2020,2020-11-28,Buyuksehyr,Denizlispor,3,3,football-data.co.uk
+2020,2020-11-28,Rizespor,Galatasaray,0,4,football-data.co.uk
+2020,2020-11-29,Erzurum BB,Antalyaspor,2,2,football-data.co.uk
+2020,2020-11-29,Alanyaspor,Konyaspor,1,0,football-data.co.uk
+2020,2020-11-29,Kasimpasa,Genclerbirligi,2,0,football-data.co.uk
+2020,2020-11-29,Fenerbahce,Besiktas,3,4,football-data.co.uk
+2020,2020-11-30,Kayserispor,Karagumruk,0,0,football-data.co.uk
+2020,2020-11-30,Sivasspor,Goztep,0,1,football-data.co.uk
+2020,2020-12-04,Besiktas,Kasimpasa,3,0,football-data.co.uk
+2020,2020-12-05,Genclerbirligi,Alanyaspor,2,1,football-data.co.uk
+2020,2020-12-05,Goztep,Kayserispor,1,1,football-data.co.uk
+2020,2020-12-05,Konyaspor,Erzurum BB,2,0,football-data.co.uk
+2020,2020-12-05,Yeni Malatyaspor,Buyuksehyr,1,1,football-data.co.uk
+2020,2020-12-05,Galatasaray,Hatayspor,3,0,football-data.co.uk
+2020,2020-12-06,Karagumruk,Rizespor,2,1,football-data.co.uk
+2020,2020-12-06,Antalyaspor,Ankaragucu,1,0,football-data.co.uk
+2020,2020-12-06,Denizlispor,Fenerbahce,0,2,football-data.co.uk
+2020,2020-12-07,Trabzonspor,Sivasspor,1,1,football-data.co.uk
+2020,2020-12-09,Goztep,Alanyaspor,1,0,football-data.co.uk
+2020,2020-12-09,Hatayspor,Erzurum BB,3,0,football-data.co.uk
+2020,2020-12-11,Kasimpasa,Denizlispor,3,2,football-data.co.uk
+2020,2020-12-12,Hatayspor,Karagumruk,3,1,football-data.co.uk
+2020,2020-12-12,Kayserispor,Trabzonspor,0,0,football-data.co.uk
+2020,2020-12-12,Rizespor,Goztep,3,2,football-data.co.uk
+2020,2020-12-12,Ankaragucu,Konyaspor,4,3,football-data.co.uk
+2020,2020-12-12,Fenerbahce,Yeni Malatyaspor,0,3,football-data.co.uk
+2020,2020-12-13,Erzurum BB,Genclerbirligi,0,1,football-data.co.uk
+2020,2020-12-13,Alanyaspor,Besiktas,2,1,football-data.co.uk
+2020,2020-12-13,Buyuksehyr,Gaziantep,1,2,football-data.co.uk
+2020,2020-12-14,Sivasspor,Antalyaspor,0,0,football-data.co.uk
+2020,2020-12-15,Ankaragucu,Hatayspor,2,0,football-data.co.uk
+2020,2020-12-18,Karagumruk,Galatasaray,2,1,football-data.co.uk
+2020,2020-12-19,Goztep,Hatayspor,0,1,football-data.co.uk
+2020,2020-12-19,Trabzonspor,Rizespor,2,1,football-data.co.uk
+2020,2020-12-19,Yeni Malatyaspor,Kasimpasa,2,0,football-data.co.uk
+2020,2020-12-19,Gaziantep,Fenerbahce,3,1,football-data.co.uk
+2020,2020-12-20,Genclerbirligi,Ankaragucu,1,1,football-data.co.uk
+2020,2020-12-20,Denizlispor,Alanyaspor,1,0,football-data.co.uk
+2020,2020-12-20,Besiktas,Erzurum BB,4,0,football-data.co.uk
+2020,2020-12-21,Antalyaspor,Kayserispor,2,0,football-data.co.uk
+2020,2020-12-21,Konyaspor,Sivasspor,0,1,football-data.co.uk
+2020,2020-12-22,Hatayspor,Trabzonspor,0,1,football-data.co.uk
+2020,2020-12-22,Galatasaray,Goztep,3,1,football-data.co.uk
+2020,2020-12-23,Alanyaspor,Yeni Malatyaspor,1,1,football-data.co.uk
+2020,2020-12-23,Erzurum BB,Denizlispor,1,2,football-data.co.uk
+2020,2020-12-23,Fenerbahce,Buyuksehyr,4,1,football-data.co.uk
+2020,2020-12-23,Kasimpasa,Gaziantep,0,4,football-data.co.uk
+2020,2020-12-24,Kayserispor,Konyaspor,1,2,football-data.co.uk
+2020,2020-12-24,Sivasspor,Genclerbirligi,3,1,football-data.co.uk
+2020,2020-12-24,Ankaragucu,Besiktas,0,1,football-data.co.uk
+2020,2020-12-24,Rizespor,Antalyaspor,2,1,football-data.co.uk
+2020,2020-12-26,Goztep,Karagumruk,1,1,football-data.co.uk
+2020,2020-12-26,Trabzonspor,Galatasaray,0,2,football-data.co.uk
+2020,2020-12-27,Gaziantep,Alanyaspor,3,1,football-data.co.uk
+2020,2020-12-27,Denizlispor,Ankaragucu,1,2,football-data.co.uk
+2020,2020-12-27,Yeni Malatyaspor,Erzurum BB,1,3,football-data.co.uk
+2020,2020-12-27,Buyuksehyr,Kasimpasa,2,2,football-data.co.uk
+2020,2020-12-28,Genclerbirligi,Kayserispor,3,2,football-data.co.uk
+2020,2020-12-28,Konyaspor,Rizespor,1,1,football-data.co.uk
+2020,2020-12-28,Besiktas,Sivasspor,3,0,football-data.co.uk
+2020,2020-12-29,Antalyaspor,Hatayspor,0,6,football-data.co.uk
+2020,2021-01-02,Erzurum BB,Gaziantep,1,1,football-data.co.uk
+2020,2021-01-02,Sivasspor,Denizlispor,2,2,football-data.co.uk
+2020,2021-01-02,Alanyaspor,Buyuksehyr,3,0,football-data.co.uk
+2020,2021-01-02,Ankaragucu,Yeni Malatyaspor,3,1,football-data.co.uk
+2020,2021-01-02,Galatasaray,Antalyaspor,0,0,football-data.co.uk
+2020,2021-01-02,Hatayspor,Konyaspor,2,1,football-data.co.uk
+2020,2021-01-03,Rizespor,Genclerbirligi,1,1,football-data.co.uk
+2020,2021-01-03,Karagumruk,Trabzonspor,1,2,football-data.co.uk
+2020,2021-01-03,Kayserispor,Besiktas,0,2,football-data.co.uk
+2020,2021-01-04,Kasimpasa,Fenerbahce,0,3,football-data.co.uk
+2020,2021-01-05,Gaziantep,Ankaragucu,2,0,football-data.co.uk
+2020,2021-01-05,Yeni Malatyaspor,Sivasspor,2,2,football-data.co.uk
+2020,2021-01-05,Konyaspor,Galatasaray,4,3,football-data.co.uk
+2020,2021-01-06,Denizlispor,Kayserispor,0,1,football-data.co.uk
+2020,2021-01-06,Buyuksehyr,Erzurum BB,1,0,football-data.co.uk
+2020,2021-01-06,Genclerbirligi,Hatayspor,3,1,football-data.co.uk
+2020,2021-01-06,Trabzonspor,Goztep,1,0,football-data.co.uk
+2020,2021-01-06,Antalyaspor,Karagumruk,3,1,football-data.co.uk
+2020,2021-01-06,Besiktas,Rizespor,6,0,football-data.co.uk
+2020,2021-01-07,Fenerbahce,Alanyaspor,2,1,football-data.co.uk
+2020,2021-01-09,Sivasspor,Gaziantep,2,1,football-data.co.uk
+2020,2021-01-09,Goztep,Antalyaspor,0,1,football-data.co.uk
+2020,2021-01-09,Kayserispor,Yeni Malatyaspor,1,0,football-data.co.uk
+2020,2021-01-09,Galatasaray,Genclerbirligi,6,0,football-data.co.uk
+2020,2021-01-10,Karagumruk,Konyaspor,2,1,football-data.co.uk
+2020,2021-01-10,Ankaragucu,Buyuksehyr,1,2,football-data.co.uk
+2020,2021-01-10,Rizespor,Denizlispor,1,1,football-data.co.uk
+2020,2021-01-10,Hatayspor,Besiktas,2,2,football-data.co.uk
+2020,2021-01-11,Erzurum BB,Fenerbahce,0,3,football-data.co.uk
+2020,2021-01-11,Alanyaspor,Kasimpasa,1,2,football-data.co.uk
+2020,2021-01-15,Genclerbirligi,Karagumruk,1,3,football-data.co.uk
+2020,2021-01-16,Konyaspor,Goztep,2,3,football-data.co.uk
+2020,2021-01-16,Buyuksehyr,Sivasspor,1,1,football-data.co.uk
+2020,2021-01-16,Gaziantep,Kayserispor,2,1,football-data.co.uk
+2020,2021-01-16,Antalyaspor,Trabzonspor,1,1,football-data.co.uk
+2020,2021-01-17,Denizlispor,Hatayspor,0,2,football-data.co.uk
+2020,2021-01-17,Yeni Malatyaspor,Rizespor,4,1,football-data.co.uk
+2020,2021-01-17,Besiktas,Galatasaray,2,0,football-data.co.uk
+2020,2021-01-18,Fenerbahce,Ankaragucu,3,1,football-data.co.uk
+2020,2021-01-18,Kasimpasa,Erzurum BB,1,2,football-data.co.uk
+2020,2021-01-19,Goztep,Genclerbirligi,4,0,football-data.co.uk
+2020,2021-01-19,Kayserispor,Buyuksehyr,2,0,football-data.co.uk
+2020,2021-01-19,Trabzonspor,Konyaspor,3,1,football-data.co.uk
+2020,2021-01-20,Hatayspor,Yeni Malatyaspor,1,2,football-data.co.uk
+2020,2021-01-20,Rizespor,Gaziantep,3,0,football-data.co.uk
+2020,2021-01-20,Galatasaray,Denizlispor,6,1,football-data.co.uk
+2020,2021-01-21,Erzurum BB,Alanyaspor,1,1,football-data.co.uk
+2020,2021-01-21,Karagumruk,Besiktas,1,4,football-data.co.uk
+2020,2021-01-21,Ankaragucu,Kasimpasa,1,0,football-data.co.uk
+2020,2021-01-21,Sivasspor,Fenerbahce,1,1,football-data.co.uk
+2020,2021-01-23,Genclerbirligi,Trabzonspor,1,2,football-data.co.uk
+2020,2021-01-23,Buyuksehyr,Rizespor,1,1,football-data.co.uk
+2020,2021-01-24,Konyaspor,Antalyaspor,0,0,football-data.co.uk
+2020,2021-01-24,Denizlispor,Karagumruk,1,2,football-data.co.uk
+2020,2021-01-24,Yeni Malatyaspor,Galatasaray,0,1,football-data.co.uk
+2020,2021-01-24,Besiktas,Goztep,2,1,football-data.co.uk
+2020,2021-01-24,Gaziantep,Hatayspor,1,1,football-data.co.uk
+2020,2021-01-25,Kasimpasa,Sivasspor,2,0,football-data.co.uk
+2020,2021-01-25,Alanyaspor,Ankaragucu,4,3,football-data.co.uk
+2020,2021-01-25,Fenerbahce,Kayserispor,3,0,football-data.co.uk
+2020,2021-01-29,Yeni Malatyaspor,Karagumruk,0,0,football-data.co.uk
+2020,2021-01-29,Gaziantep,Galatasaray,1,2,football-data.co.uk
+2020,2021-01-30,Kasimpasa,Kayserispor,0,1,football-data.co.uk
+2020,2021-01-30,Buyuksehyr,Hatayspor,1,5,football-data.co.uk
+2020,2021-01-30,Fenerbahce,Rizespor,1,0,football-data.co.uk
+2020,2021-01-31,Erzurum BB,Ankaragucu,1,0,football-data.co.uk
+2020,2021-01-31,Alanyaspor,Sivasspor,3,1,football-data.co.uk
+2020,2021-01-31,Denizlispor,Goztep,2,1,football-data.co.uk
+2020,2021-01-31,Genclerbirligi,Antalyaspor,0,1,football-data.co.uk
+2020,2021-01-31,Besiktas,Trabzonspor,1,2,football-data.co.uk
+2020,2021-02-02,Hatayspor,Fenerbahce,1,2,football-data.co.uk
+2020,2021-02-02,Galatasaray,Buyuksehyr,3,0,football-data.co.uk
+2020,2021-02-02,Rizespor,Kasimpasa,1,1,football-data.co.uk
+2020,2021-02-03,Sivasspor,Erzurum BB,0,0,football-data.co.uk
+2020,2021-02-03,Karagumruk,Gaziantep,2,0,football-data.co.uk
+2020,2021-02-03,Kayserispor,Alanyaspor,1,1,football-data.co.uk
+2020,2021-02-03,Antalyaspor,Besiktas,1,1,football-data.co.uk
+2020,2021-02-03,Konyaspor,Genclerbirligi,0,0,football-data.co.uk
+2020,2021-02-04,Goztep,Yeni Malatyaspor,2,2,football-data.co.uk
+2020,2021-02-04,Trabzonspor,Denizlispor,1,0,football-data.co.uk
+2020,2021-02-06,Kasimpasa,Hatayspor,1,4,football-data.co.uk
+2020,2021-02-06,Alanyaspor,Rizespor,2,1,football-data.co.uk
+2020,2021-02-06,Buyuksehyr,Karagumruk,0,1,football-data.co.uk
+2020,2021-02-06,Fenerbahce,Galatasaray,0,1,football-data.co.uk
+2020,2021-02-07,Erzurum BB,Kayserispor,1,1,football-data.co.uk
+2020,2021-02-07,Ankaragucu,Sivasspor,1,4,football-data.co.uk
+2020,2021-02-07,Denizlispor,Antalyaspor,1,1,football-data.co.uk
+2020,2021-02-07,Besiktas,Konyaspor,1,0,football-data.co.uk
+2020,2021-02-08,Gaziantep,Goztep,2,0,football-data.co.uk
+2020,2021-02-08,Yeni Malatyaspor,Trabzonspor,0,2,football-data.co.uk
+2020,2021-02-12,Rizespor,Erzurum BB,0,2,football-data.co.uk
+2020,2021-02-13,Kayserispor,Ankaragucu,0,0,football-data.co.uk
+2020,2021-02-13,Trabzonspor,Gaziantep,1,0,football-data.co.uk
+2020,2021-02-13,Karagumruk,Fenerbahce,1,2,football-data.co.uk
+2020,2021-02-14,Konyaspor,Denizlispor,2,0,football-data.co.uk
+2020,2021-02-14,Galatasaray,Kasimpasa,2,1,football-data.co.uk
+2020,2021-02-14,Goztep,Buyuksehyr,2,1,football-data.co.uk
+2020,2021-02-14,Hatayspor,Alanyaspor,0,0,football-data.co.uk
+2020,2021-02-15,Genclerbirligi,Besiktas,0,3,football-data.co.uk
+2020,2021-02-15,Antalyaspor,Yeni Malatyaspor,1,1,football-data.co.uk
+2020,2021-02-19,Buyuksehyr,Trabzonspor,0,1,football-data.co.uk
+2020,2021-02-20,Kasimpasa,Karagumruk,3,2,football-data.co.uk
+2020,2021-02-20,Denizlispor,Genclerbirligi,1,0,football-data.co.uk
+2020,2021-02-20,Yeni Malatyaspor,Konyaspor,2,3,football-data.co.uk
+2020,2021-02-20,Alanyaspor,Galatasaray,0,1,football-data.co.uk
+2020,2021-02-21,Erzurum BB,Hatayspor,1,3,football-data.co.uk
+2020,2021-02-21,Gaziantep,Antalyaspor,0,0,football-data.co.uk
+2020,2021-02-21,Sivasspor,Kayserispor,2,0,football-data.co.uk
+2020,2021-02-21,Fenerbahce,Goztep,0,1,football-data.co.uk
+2020,2021-02-22,Ankaragucu,Rizespor,1,1,football-data.co.uk
+2020,2021-02-26,Genclerbirligi,Yeni Malatyaspor,1,1,football-data.co.uk
+2020,2021-02-26,Konyaspor,Gaziantep,0,0,football-data.co.uk
+2020,2021-02-26,Besiktas,Denizlispor,3,0,football-data.co.uk
+2020,2021-02-27,Hatayspor,Ankaragucu,4,1,football-data.co.uk
+2020,2021-02-27,Karagumruk,Alanyaspor,2,0,football-data.co.uk
+2020,2021-02-27,Antalyaspor,Buyuksehyr,0,0,football-data.co.uk
+2020,2021-02-27,Rizespor,Sivasspor,0,0,football-data.co.uk
+2020,2021-02-27,Galatasaray,Erzurum BB,2,0,football-data.co.uk
+2020,2021-02-28,Goztep,Kasimpasa,1,0,football-data.co.uk
+2020,2021-02-28,Trabzonspor,Fenerbahce,0,1,football-data.co.uk
+2020,2021-03-02,Gaziantep,Genclerbirligi,2,1,football-data.co.uk
+2020,2021-03-02,Yeni Malatyaspor,Besiktas,0,1,football-data.co.uk
+2020,2021-03-03,Erzurum BB,Karagumruk,2,2,football-data.co.uk
+2020,2021-03-03,Buyuksehyr,Konyaspor,1,1,football-data.co.uk
+2020,2021-03-03,Sivasspor,Hatayspor,1,1,football-data.co.uk
+2020,2021-03-03,Ankaragucu,Galatasaray,2,1,football-data.co.uk
+2020,2021-03-03,Kayserispor,Rizespor,2,1,football-data.co.uk
+2020,2021-03-04,Alanyaspor,Goztep,1,1,football-data.co.uk
+2020,2021-03-04,Kasimpasa,Trabzonspor,1,2,football-data.co.uk
+2020,2021-03-04,Fenerbahce,Antalyaspor,1,1,football-data.co.uk
+2020,2021-03-06,Denizlispor,Yeni Malatyaspor,3,2,football-data.co.uk
+2020,2021-03-06,Besiktas,Gaziantep,2,1,football-data.co.uk
+2020,2021-03-07,Karagumruk,Ankaragucu,0,1,football-data.co.uk
+2020,2021-03-07,Genclerbirligi,Buyuksehyr,0,1,football-data.co.uk
+2020,2021-03-07,Hatayspor,Kayserispor,1,3,football-data.co.uk
+2020,2021-03-07,Galatasaray,Sivasspor,2,2,football-data.co.uk
+2020,2021-03-08,Antalyaspor,Kasimpasa,1,1,football-data.co.uk
+2020,2021-03-08,Trabzonspor,Alanyaspor,1,3,football-data.co.uk
+2020,2021-03-08,Goztep,Erzurum BB,3,1,football-data.co.uk
+2020,2021-03-08,Konyaspor,Fenerbahce,0,3,football-data.co.uk
+2020,2021-03-12,Buyuksehyr,Besiktas,2,3,football-data.co.uk
+2020,2021-03-13,Sivasspor,Karagumruk,1,0,football-data.co.uk
+2020,2021-03-13,Alanyaspor,Antalyaspor,4,0,football-data.co.uk
+2020,2021-03-13,Rizespor,Hatayspor,1,0,football-data.co.uk
+2020,2021-03-13,Kayserispor,Galatasaray,0,3,football-data.co.uk
+2020,2021-03-14,Ankaragucu,Goztep,3,0,football-data.co.uk
+2020,2021-03-14,Erzurum BB,Trabzonspor,0,0,football-data.co.uk
+2020,2021-03-14,Gaziantep,Denizlispor,2,0,football-data.co.uk
+2020,2021-03-14,Fenerbahce,Genclerbirligi,1,2,football-data.co.uk
+2020,2021-03-15,Kasimpasa,Konyaspor,1,1,football-data.co.uk
+2020,2021-03-19,Karagumruk,Kayserispor,3,0,football-data.co.uk
+2020,2021-03-19,Galatasaray,Rizespor,3,4,football-data.co.uk
+2020,2021-03-20,Genclerbirligi,Kasimpasa,2,1,football-data.co.uk
+2020,2021-03-20,Goztep,Sivasspor,3,5,football-data.co.uk
+2020,2021-03-20,Yeni Malatyaspor,Gaziantep,2,2,football-data.co.uk
+2020,2021-03-20,Trabzonspor,Ankaragucu,4,1,football-data.co.uk
+2020,2021-03-21,Antalyaspor,Erzurum BB,3,1,football-data.co.uk
+2020,2021-03-21,Konyaspor,Alanyaspor,1,0,football-data.co.uk
+2020,2021-03-21,Denizlispor,Buyuksehyr,0,0,football-data.co.uk
+2020,2021-03-21,Besiktas,Fenerbahce,1,1,football-data.co.uk
+2020,2021-04-03,Kayserispor,Goztep,1,1,football-data.co.uk
+2020,2021-04-03,Rizespor,Karagumruk,0,0,football-data.co.uk
+2020,2021-04-03,Sivasspor,Trabzonspor,0,0,football-data.co.uk
+2020,2021-04-03,Hatayspor,Galatasaray,3,0,football-data.co.uk
+2020,2021-04-04,Erzurum BB,Konyaspor,1,2,football-data.co.uk
+2020,2021-04-04,Alanyaspor,Genclerbirligi,1,2,football-data.co.uk
+2020,2021-04-04,Ankaragucu,Antalyaspor,1,0,football-data.co.uk
+2020,2021-04-04,Buyuksehyr,Yeni Malatyaspor,3,1,football-data.co.uk
+2020,2021-04-04,Kasimpasa,Besiktas,1,0,football-data.co.uk
+2020,2021-04-05,Fenerbahce,Denizlispor,1,0,football-data.co.uk
+2020,2021-04-06,Goztep,Rizespor,2,0,football-data.co.uk
+2020,2021-04-06,Karagumruk,Hatayspor,1,0,football-data.co.uk
+2020,2021-04-06,Trabzonspor,Kayserispor,1,1,football-data.co.uk
+2020,2021-04-07,Genclerbirligi,Erzurum BB,1,1,football-data.co.uk
+2020,2021-04-07,Konyaspor,Ankaragucu,1,1,football-data.co.uk
+2020,2021-04-07,Antalyaspor,Sivasspor,2,4,football-data.co.uk
+2020,2021-04-07,Besiktas,Alanyaspor,3,0,football-data.co.uk
+2020,2021-04-08,Denizlispor,Kasimpasa,1,1,football-data.co.uk
+2020,2021-04-08,Gaziantep,Buyuksehyr,2,0,football-data.co.uk
+2020,2021-04-08,Yeni Malatyaspor,Fenerbahce,1,1,football-data.co.uk
+2020,2021-04-10,Hatayspor,Goztep,2,3,football-data.co.uk
+2020,2021-04-10,Rizespor,Trabzonspor,0,0,football-data.co.uk
+2020,2021-04-10,Galatasaray,Karagumruk,1,1,football-data.co.uk
+2020,2021-04-11,Sivasspor,Konyaspor,3,1,football-data.co.uk
+2020,2021-04-11,Ankaragucu,Genclerbirligi,2,1,football-data.co.uk
+2020,2021-04-11,Kayserispor,Antalyaspor,0,1,football-data.co.uk
+2020,2021-04-11,Erzurum BB,Besiktas,2,4,football-data.co.uk
+2020,2021-04-12,Kasimpasa,Yeni Malatyaspor,0,0,football-data.co.uk
+2020,2021-04-12,Alanyaspor,Denizlispor,3,2,football-data.co.uk
+2020,2021-04-12,Fenerbahce,Gaziantep,3,1,football-data.co.uk
+2020,2021-04-16,Genclerbirligi,Sivasspor,2,3,football-data.co.uk
+2020,2021-04-16,Konyaspor,Kayserispor,0,0,football-data.co.uk
+2020,2021-04-16,Antalyaspor,Rizespor,2,3,football-data.co.uk
+2020,2021-04-16,Besiktas,Ankaragucu,2,2,football-data.co.uk
+2020,2021-04-17,Denizlispor,Erzurum BB,2,3,football-data.co.uk
+2020,2021-04-17,Trabzonspor,Hatayspor,1,1,football-data.co.uk
+2020,2021-04-17,Yeni Malatyaspor,Alanyaspor,1,0,football-data.co.uk
+2020,2021-04-17,Goztep,Galatasaray,1,3,football-data.co.uk
+2020,2021-04-18,Gaziantep,Kasimpasa,2,2,football-data.co.uk
+2020,2021-04-18,Buyuksehyr,Fenerbahce,1,2,football-data.co.uk
+2020,2021-04-20,Karagumruk,Goztep,1,1,football-data.co.uk
+2020,2021-04-20,Kayserispor,Genclerbirligi,2,2,football-data.co.uk
+2020,2021-04-20,Rizespor,Konyaspor,5,3,football-data.co.uk
+2020,2021-04-20,Hatayspor,Antalyaspor,3,2,football-data.co.uk
+2020,2021-04-20,Sivasspor,Besiktas,0,0,football-data.co.uk
+2020,2021-04-21,Ankaragucu,Denizlispor,1,1,football-data.co.uk
+2020,2021-04-21,Erzurum BB,Yeni Malatyaspor,1,0,football-data.co.uk
+2020,2021-04-21,Galatasaray,Trabzonspor,1,1,football-data.co.uk
+2020,2021-04-22,Alanyaspor,Gaziantep,3,2,football-data.co.uk
+2020,2021-04-22,Kasimpasa,Buyuksehyr,0,1,football-data.co.uk
+2020,2021-04-23,Genclerbirligi,Rizespor,2,1,football-data.co.uk
+2020,2021-04-24,Konyaspor,Hatayspor,0,0,football-data.co.uk
+2020,2021-04-24,Trabzonspor,Karagumruk,2,0,football-data.co.uk
+2020,2021-04-24,Antalyaspor,Galatasaray,0,1,football-data.co.uk
+2020,2021-04-24,Besiktas,Kayserispor,3,1,football-data.co.uk
+2020,2021-04-24,Denizlispor,Sivasspor,1,1,football-data.co.uk
+2020,2021-04-25,Yeni Malatyaspor,Ankaragucu,2,1,football-data.co.uk
+2020,2021-04-25,Buyuksehyr,Alanyaspor,0,0,football-data.co.uk
+2020,2021-04-25,Gaziantep,Erzurum BB,2,3,football-data.co.uk
+2020,2021-04-25,Fenerbahce,Kasimpasa,3,2,football-data.co.uk
+2020,2021-04-27,Hatayspor,Genclerbirligi,3,1,football-data.co.uk
+2020,2021-04-28,Goztep,Trabzonspor,1,1,football-data.co.uk
+2020,2021-04-28,Karagumruk,Antalyaspor,2,2,football-data.co.uk
+2020,2021-04-28,Kayserispor,Denizlispor,6,3,football-data.co.uk
+2020,2021-04-28,Galatasaray,Konyaspor,1,0,football-data.co.uk
+2020,2021-04-28,Rizespor,Besiktas,2,3,football-data.co.uk
+2020,2021-04-29,Erzurum BB,Buyuksehyr,1,2,football-data.co.uk
+2020,2021-04-29,Sivasspor,Yeni Malatyaspor,1,0,football-data.co.uk
+2020,2021-04-29,Alanyaspor,Fenerbahce,0,0,football-data.co.uk
+2020,2021-04-29,Ankaragucu,Gaziantep,0,1,football-data.co.uk
+2020,2021-05-01,Besiktas,Hatayspor,7,0,football-data.co.uk
+2020,2021-05-02,Antalyaspor,Goztep,2,3,football-data.co.uk
+2020,2021-05-02,Denizlispor,Rizespor,0,1,football-data.co.uk
+2020,2021-05-02,Konyaspor,Karagumruk,5,1,football-data.co.uk
+2020,2021-05-02,Genclerbirligi,Galatasaray,0,2,football-data.co.uk
+2020,2021-05-03,Buyuksehyr,Ankaragucu,2,1,football-data.co.uk
+2020,2021-05-03,Kasimpasa,Alanyaspor,3,0,football-data.co.uk
+2020,2021-05-03,Yeni Malatyaspor,Kayserispor,1,1,football-data.co.uk
+2020,2021-05-03,Fenerbahce,Erzurum BB,3,1,football-data.co.uk
+2020,2021-05-03,Gaziantep,Sivasspor,0,1,football-data.co.uk
+2020,2021-05-08,Ankaragucu,Fenerbahce,1,2,football-data.co.uk
+2020,2021-05-08,Erzurum BB,Kasimpasa,0,1,football-data.co.uk
+2020,2021-05-08,Galatasaray,Besiktas,3,1,football-data.co.uk
+2020,2021-05-08,Goztep,Konyaspor,0,1,football-data.co.uk
+2020,2021-05-08,Hatayspor,Denizlispor,1,0,football-data.co.uk
+2020,2021-05-08,Karagumruk,Genclerbirligi,5,1,football-data.co.uk
+2020,2021-05-08,Kayserispor,Gaziantep,0,0,football-data.co.uk
+2020,2021-05-08,Rizespor,Yeni Malatyaspor,0,4,football-data.co.uk
+2020,2021-05-08,Sivasspor,Buyuksehyr,0,0,football-data.co.uk
+2020,2021-05-08,Trabzonspor,Antalyaspor,2,1,football-data.co.uk
+2020,2021-05-11,Konyaspor,Trabzonspor,1,1,football-data.co.uk
+2020,2021-05-11,Alanyaspor,Erzurum BB,2,3,football-data.co.uk
+2020,2021-05-11,Besiktas,Karagumruk,1,2,football-data.co.uk
+2020,2021-05-11,Buyuksehyr,Kayserispor,0,0,football-data.co.uk
+2020,2021-05-11,Denizlispor,Galatasaray,1,4,football-data.co.uk
+2020,2021-05-11,Fenerbahce,Sivasspor,1,2,football-data.co.uk
+2020,2021-05-11,Gaziantep,Rizespor,4,5,football-data.co.uk
+2020,2021-05-11,Genclerbirligi,Goztep,5,3,football-data.co.uk
+2020,2021-05-11,Kasimpasa,Ankaragucu,3,1,football-data.co.uk
+2020,2021-05-11,Yeni Malatyaspor,Hatayspor,1,1,football-data.co.uk
+2020,2021-05-15,Ankaragucu,Alanyaspor,0,1,football-data.co.uk
+2020,2021-05-15,Antalyaspor,Konyaspor,0,0,football-data.co.uk
+2020,2021-05-15,Hatayspor,Gaziantep,0,1,football-data.co.uk
+2020,2021-05-15,Karagumruk,Denizlispor,5,1,football-data.co.uk
+2020,2021-05-15,Rizespor,Buyuksehyr,0,2,football-data.co.uk
+2020,2021-05-15,Sivasspor,Kasimpasa,2,1,football-data.co.uk
+2020,2021-05-15,Galatasaray,Yeni Malatyaspor,3,1,football-data.co.uk
+2020,2021-05-15,Goztep,Besiktas,1,2,football-data.co.uk
+2020,2021-05-15,Kayserispor,Fenerbahce,1,2,football-data.co.uk
+2020,2021-05-15,Trabzonspor,Genclerbirligi,2,1,football-data.co.uk

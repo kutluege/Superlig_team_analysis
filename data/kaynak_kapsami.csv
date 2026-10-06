@@ -1,11 +1,11 @@
 sezon,football-data,sofascore,openfootball,transfermarkt,matches.csv,kullanilan_kaynak
-2016-17,306,306,0,306,306,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 305; sofascore (ayna: c0ze/super-lig): 1
-2017-18,306,306,0,306,306,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 306
-2018-19,306,306,306,306,306,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 305; sofascore (ayna: c0ze/super-lig): 1
-2019-20,306,306,306,306,306,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 306
-2020-21,420,420,420,420,420,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 420
-2021-22,380,380,0,380,380,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 380
-2022-23,342,313,0,342,342,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 342
-2023-24,380,380,380,380,380,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 380
-2024-25,314,342,342,342,342,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 314; sofascore (ayna: c0ze/super-lig): 28
-2025-26,306,306,306,265,306,football-data.co.uk (ayna: xgabora/Club-Football-Match-Data-2000-2025): 306
+2016-17,306,306,0,306,306,football-data.co.uk: 305; sofascore: 1
+2017-18,306,306,0,306,306,football-data.co.uk: 306
+2018-19,306,306,306,306,306,football-data.co.uk: 305; sofascore: 1
+2019-20,306,306,306,306,306,football-data.co.uk: 306
+2020-21,420,420,420,420,420,football-data.co.uk: 420
+2021-22,380,380,0,380,380,football-data.co.uk: 380
+2022-23,342,313,0,342,342,football-data.co.uk: 342
+2023-24,380,379,380,380,380,football-data.co.uk: 380
+2024-25,342,341,342,342,342,football-data.co.uk: 342
+2025-26,306,306,306,265,306,football-data.co.uk: 306

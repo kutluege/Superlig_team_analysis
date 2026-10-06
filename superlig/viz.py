@@ -77,7 +77,7 @@ def _clean(ax):
     ax.set_axisbelow(True)
 
 
-SOURCE_NOTE = ("Kaynak: football-data.co.uk (GitHub aynası) · Sofascore, openfootball ve Transfermarkt ile çapraz kontrol\n"
+SOURCE_NOTE = ("Kaynak: football-data.co.uk · Sofascore, openfootball ve Transfermarkt ile çapraz kontrol\n"
                "Puanlar matches.csv'den hesaplanmıştır; TFF puan silme cezaları dahil değildir.")
 
 
@@ -103,7 +103,7 @@ def ranking_bar(df, value, title, subtitle, fname, fmt="{:.0f}", extra=None, not
                 color=MUTED, fontsize=9.5, fontweight="bold")
         ax.text(0.06, i, r.takim, transform=blend, ha="left", va="center", color=INK, fontsize=10)
         add_logo(ax, r.takim, -0.035, i, px=22, xycoords=ax.get_yaxis_transform())
-        label = fmt.format(r[value]).replace(".", ",")
+        label = fmt.format(r[value]).replace(",", "\u2009").replace(".", ",").replace("\u2009", ".")
         if extra is not None:
             label += f"  {extra(r)}"
         ax.text(r[value] + vmax * 0.01, i, label, va="center", ha="left", color=INK_2, fontsize=9)
@@ -313,9 +313,14 @@ def render_all():
 
     a = att[att.ligde & att.ort_seyirci.notna()]
     if not a.empty:
-        aa = a.groupby("takim").agg(ort_seyirci=("ort_seyirci", "mean")).reset_index()
-        ranking_bar(aa, "ort_seyirci", "Ortalama seyirci sıralaması", "Sezon ortalamalarının ortalaması",
-                    "ortalama_seyirci.png", fmt="{:,.0f}")
+        aa = a.groupby("takim").agg(ort_seyirci=("ort_seyirci", "mean"), sezon=("sezon", "size")).reset_index()
+        seasons = ", ".join(sorted(a.sezon.unique()))
+        srcs = ", ".join(sorted(set(";".join(a.kaynak.dropna()).split(";"))))
+        ranking_bar(aa, "ort_seyirci", "Ortalama seyirci sıralaması",
+                    f"Verisi olan sezonlar: {seasons} · parantezde takımın bu sezonlardan kaçında ligde olduğu",
+                    "ortalama_seyirci.png", fmt="{:,.0f}", extra=lambda r: f"({r.sezon} sz)",
+                    note=f"Kaynak: {srcs} (sezon ortalamalarının ortalaması). Diğer sezonlarda güvenilir seyirci "
+                         "verisi bulunamadı;\n2020-21 COVID-19 nedeniyle seyircisiz. Ayrıntı: data/attendance.csv")
     else:
         log.warning("Seyirci verisi yok; seyirci görselleri üretilmedi.")
 

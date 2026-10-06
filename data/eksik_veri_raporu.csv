@@ -180,381 +180,120 @@ Yeni Malatyaspor,2025-26,tümü,ligde değil,Takım bu sezon Süper Lig'de deği
 İstanbulspor,2021-22,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
 İstanbulspor,2024-25,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
 İstanbulspor,2025-26,tümü,ligde değil,Takım bu sezon Süper Lig'de değil; değerler NaN bırakıldı.
-Adana Demirspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adana Demirspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adanaspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Adanaspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Akhisarspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Alanyaspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Altay,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Altay,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ankaragücü,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Antalyaspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Beşiktaş,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bodrum FK,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bodrum FK,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Bursaspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Denizlispor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Denizlispor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Denizlispor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Denizlispor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Erzurumspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Erzurumspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Erzurumspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Erzurumspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Eyüpspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Eyüpspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Eyüpspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Eyüpspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fatih Karagümrük,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Fenerbahçe,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Galatasaray,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantep FK,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantepspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gaziantepspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Gençlerbirliği,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Giresunspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Giresunspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Giresunspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Giresunspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Göztepe,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Hatayspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Karabükspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Karabükspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Karabükspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Karabükspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kasımpaşa,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kayserispor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kocaelispor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Kocaelispor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Konyaspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Osmanlıspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Osmanlıspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Osmanlıspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Osmanlıspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Pendikspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Pendikspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Samsunspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Sivasspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Trabzonspor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Yeni Malatyaspor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Çaykur Rizespor,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ümraniyespor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-Ümraniyespor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2016-17,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2016-17,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2017-18,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2017-18,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2018-19,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2018-19,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2019-20,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2019-20,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2020-21,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2020-21,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2021-22,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2021-22,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2024-25,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2024-25,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2025-26,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbul Başakşehir,2025-26,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbulspor,2022-23,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbulspor,2022-23,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbulspor,2023-24,ort_seyirci,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
-İstanbulspor,2023-24,kapasite,eksik,"Seyirci/kapasite bulunamadı: bu çalıştırmada Sofascore ve Wikipedia'ya bağlanılamadı (api.sofascore.com, en.wikipedia.org); GitHub aynalarında seyirci verisi yok."
+Adana Demirspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Adana Demirspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Akhisarspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Alanyaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Alanyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Alanyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Alanyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Alanyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Alanyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Altay,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Ankaragücü,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Ankaragücü,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Ankaragücü,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Antalyaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Antalyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Antalyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Antalyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Antalyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Antalyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Beşiktaş,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Beşiktaş,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Beşiktaş,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Beşiktaş,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Beşiktaş,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Beşiktaş,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Bursaspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 2/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Denizlispor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Denizlispor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Erzurumspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Eyüpspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fatih Karagümrük,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Fatih Karagümrük,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fatih Karagümrük,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fatih Karagümrük,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fenerbahçe,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Fenerbahçe,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 2/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Fenerbahçe,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Fenerbahçe,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fenerbahçe,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Fenerbahçe,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Galatasaray,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Galatasaray,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Galatasaray,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Galatasaray,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Galatasaray,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Galatasaray,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Gaziantep FK,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gaziantep FK,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gaziantep FK,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Gaziantep FK,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gaziantep FK,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Gençlerbirliği,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gençlerbirliği,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gençlerbirliği,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Gençlerbirliği,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Giresunspor,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Göztepe,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Göztepe,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Göztepe,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Göztepe,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Göztepe,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Hatayspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Hatayspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Hatayspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Karabükspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kasımpaşa,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kasımpaşa,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Kasımpaşa,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Kasımpaşa,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kasımpaşa,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kasımpaşa,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kayserispor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kayserispor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Kayserispor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Kayserispor,2021-22,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Kayserispor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kayserispor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Kocaelispor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Konyaspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Konyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Konyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Konyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Konyaspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Konyaspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Osmanlıspor,2017-18,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Pendikspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Samsunspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Samsunspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Sivasspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Sivasspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Sivasspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Sivasspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Sivasspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Trabzonspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Trabzonspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Trabzonspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Trabzonspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Trabzonspor,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 1/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Trabzonspor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Yeni Malatyaspor,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Yeni Malatyaspor,2018-19,ort_seyirci,eksik,Sofascore'da yalnızca 1/17 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Yeni Malatyaspor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Yeni Malatyaspor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Yeni Malatyaspor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Çaykur Rizespor,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Çaykur Rizespor,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Çaykur Rizespor,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Çaykur Rizespor,2023-24,ort_seyirci,eksik,Sofascore'da yalnızca 2/19 iç saha maçında seyirci var; ortalama için yetersiz sayıldı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+Çaykur Rizespor,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+Ümraniyespor,2022-23,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+İstanbul Başakşehir,2017-18,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+İstanbul Başakşehir,2019-20,ort_seyirci,eksik,Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+İstanbul Başakşehir,2020-21,ort_seyirci,eksik,Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı. Wikipedia sezon sayfasında da bu takım için seyirci yok.
+İstanbul Başakşehir,2021-22,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+İstanbul Başakşehir,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+İstanbul Başakşehir,2025-26,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.
+İstanbulspor,2023-24,ort_seyirci,eksik,Seyirci/kapasite kaynaklarda bu takım-sezon için yer almıyor.

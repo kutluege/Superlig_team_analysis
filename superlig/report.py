@@ -129,6 +129,13 @@ def write(res: dict):
              "bu nedenle bazı sezonlarda resmi puan tablosundan sapma olabilir.")
     L.append("- Sıralama ölçütü: puan → ikili maçlarda puan → ikili averaj → ikili atılan gol → genel averaj → atılan gol.")
     L.append("- Sezon ataması: 15 Temmuz kesim tarihi; 2020'de COVID nedeniyle 15 Ağustos.")
+    L.append("- Seyirci: Sofascore ortalaması yalnızca takımın iç saha maçlarının en az yarısında seyirci kaydı "
+             "varsa kullanılır (`seyirci_mac` / `ev_mac`); aksi halde Wikipedia sezon tablosu. Sofascore'da "
+             "seyirci kaydı çok seyrek olduğu için bu dönemde tüm değerler Wikipedia'dan geldi. "
+             "Ham maç bazında Sofascore verisi: `data/raw/sofascore_mac_seyirci.csv`.")
+    L.append("- Kapasite: Wikipedia sezon tablosu önce gelir. Sofascore'un etkinlik stadı bazı kulüplerde o sezon "
+             "oynanan stadı değil güncel stadı gösteriyor (ör. Fatih Karagümrük 2021-22: Sofascore 6.500 / "
+             "Wikipedia 76.761; Altay 2021-22: 58.008 / 14.000). İki değer de `celiskiler.csv`'de.")
     wd = m[(m.sezon == "2022-23") & (pd.to_datetime(m.tarih) >= "2023-02-06")
            & (m.ev.isin(["Gaziantep FK", "Hatayspor"]) | m.deplasman.isin(["Gaziantep FK", "Hatayspor"]))]
     if len(wd):

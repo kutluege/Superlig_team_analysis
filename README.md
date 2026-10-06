@@ -48,14 +48,13 @@ football-data > sofascore > openfootball > transfermarkt; tüm değerler `celisk
 
 ### Bu sürümün durumu
 
-Bu veri seti, `www.football-data.co.uk`, `api.sofascore.com` ve `en.wikipedia.org`'a ağ politikası
-nedeniyle bağlanılamayan bir ortamda üretildi. Bu nedenle:
-
-- Maç sonuçları GitHub aynalarından geldi ve **3.394 maçın hepsi en az iki kaynakla** doğrulandı
-  (1.821 maç dört, 1.503 maç üç kaynakla). Yalnızca 3 maçta skor çelişkisi var.
-- **Seyirci ve stadyum kapasitesi boş.** Erişilebilen hiçbir aynada bu alanlar yok ve veri uydurulmadı.
-  Bu hostlara erişim açıldığında `python run_pipeline.py` yeniden çalıştırılınca resmi kaynaklar
-  kullanılır, `attendance.csv` dolar ve seyirci sıralamaları panoda ve görsellerde kendiliğinden belirir.
+- Maç sonuçlarının tamamı resmi football-data.co.uk dosyalarından geliyor; 3.394 maçın hepsi en az iki
+  kaynakla karşılaştırıldı ve yalnızca 2 maçta skor çelişkisi var (`data/celiskiler.csv`).
+- **Seyirci:** Sofascore'da maç bazında seyirci kaydı çok seyrek (ör. 2016-17'de 306 maçın 43'ünde, 2024-25'te
+  hiç yok). Bu yüzden ortalamalar Wikipedia sezon tablolarından alındı. 2016-17, 2018-19, 2022-23 ve 2024-25
+  dolu; diğer sezonlar boş. 2020-21 COVID-19 nedeniyle seyircisiz oynandı. Veri uydurulmadı.
+- **Kapasite:** 189 takım-sezonun hepsinde var. Wikipedia sezon tablosu önce, yoksa Sofascore kullanıldı;
+  Sofascore bazı kulüplerde o sezonki değil güncel stadı gösteriyor.
 
 ## Görseller
 

@@ -153,7 +153,7 @@ table.mini th { color: var(--muted); font-weight: 500; }
   <section aria-labelledby="h-q">
     <div class="sec-head"><h2 id="h-q">Veri kalitesi</h2></div>
     <div class="quality" id="quality"></div>
-    <p class="foot">Kaynaklar: football-data.co.uk (GitHub aynası xgabora/Club-Football-Match-Data), Sofascore (GitHub aynası c0ze/super-lig), openfootball/europe ve Transfermarkt (c0ze/super-lig) ile çapraz kontrol. Puanlar maç skorlarından hesaplanmıştır; TFF puan silme cezaları dahil değildir. Amblemler: luukhopman/football-logos; 2021 öncesi düşen yedi kulüp için kulüp renklerinde kısa kodlu yer tutucu rozet kullanılmıştır.</p>
+    <p class="foot">Kaynaklar: maç sonuçları football-data.co.uk; Sofascore, openfootball/europe ve Transfermarkt (c0ze/super-lig) ile çapraz kontrol. Seyirci ve stadyum kapasitesi Wikipedia sezon sayfaları ve Sofascore. Puanlar maç skorlarından hesaplanmıştır; TFF puan silme cezaları dahil değildir. Amblemler: luukhopman/football-logos; 2021 öncesi düşen yedi kulüp için kulüp renklerinde kısa kodlu yer tutucu rozet kullanılmıştır.</p>
   </section>
 </div>
 <div class="tip" id="tip" hidden></div>
@@ -311,8 +311,8 @@ function quality() {
   const conflictRows = sc.map(c => `<tr><td>${c.sezon}</td><td>${c.ev} – ${c.deplasman}</td><td>${c["football-data"] || "–"}</td><td>${c.sofascore || "–"}</td><td>${c.openfootball || "–"}</td><td>${c.transfermarkt || "–"}</td><td><b>${c.secilen}</b></td></tr>`).join("");
   document.getElementById("quality").innerHTML = `
     <div class="card"><h3>Seyirci ve kapasite</h3>
-      <div class="notice">${D.summary.att_missing} takım-sezon için ortalama seyirci, ${D.summary.cap_missing} takım-sezon için stadyum kapasitesi yok.</div>
-      <p>${D.summary.att_reason}</p></div>
+      <div class="notice">${D.summary.att_missing} takım-sezon için ortalama seyirci yok; stadyum kapasitesi eksik takım-sezon: ${D.summary.cap_missing}.</div>
+      <p>Seyirci ortalaması Wikipedia sezon tablolarından geliyor. Sofascore yalnızca takımın iç saha maçlarının en az yarısında seyirci kaydı varsa kullanılıyor; bu dönemde hiçbir takım-sezonda bu eşik aşılmadı. 2020-21 COVID-19 nedeniyle seyircisiz oynandı. Kapasite tüm takım-sezonlarda var.</p></div>
     <div class="card"><h3>Maç skorları</h3>
       <p>${nf.format(D.n_matches)} maçın tamamı en az iki kaynakla karşılaştırıldı. ${sc.length} maçta kaynaklar farklı skor veriyor; çoğunluğun skoru kullanıldı ve hepsi celiskiler.csv dosyasında duruyor. ${tc.length ? tc.length + " maçta yalnızca tarih farkı var." : ""}</p>
       <p>Eksik maç skoru olan takım-sezon sayısı: ${D.summary.match_missing}.</p></div>
