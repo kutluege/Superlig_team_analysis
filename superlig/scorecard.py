@@ -90,7 +90,9 @@ def build() -> pd.DataFrame:
     f = _read("forma/forma_fiyat.csv")
     cpi = _read("forma/tufe.csv")
     if f is not None:
-        f = f.dropna(subset=["fiyat_TL"]).copy()
+        # ürün tipi belirsiz hücreler "yetişkin ev forması" tanımını karşılamadığı için dışarıda
+        f = f.dropna(subset=["fiyat_TL"])
+        f = f[~f["not"].fillna("").str.contains("BELİRSİZ_ÜRÜN")].copy()
         f["fiyat_TL"] = pd.to_numeric(f.fiyat_TL, errors="coerce")
         f = f.dropna(subset=["fiyat_TL"])
         if cpi is not None and not cpi.empty:
@@ -138,7 +140,11 @@ def build() -> pd.DataFrame:
     col = "forma_reel_ort_TL" if "forma_reel_ort_TL" in df else ("forma_ort_TL" if "forma_ort_TL" in df else None)
     sc["forma"] = _minmax(df[col]) if col else np.nan
     sc["form"] = pd.concat([_minmax(df.son3_puan_ort), _minmax(df.son3_sira_ort, invert=True)], axis=1).mean(axis=1)
+    sc.loc[df.son3_sezon.isna(), "form"] = 0.0  # son 3 sezonda hiç Süper Lig'de değil
     sc.columns = [f"skor_{c}" for c in sc.columns]
-    out = df.join(sc).reset_index()
+    out = df.join(sc)
+    # Genel skor: forma fiyatı hariç 5 boyutun ortalaması (pahalı forma bir başarı ölçüsü değildir)
+    out["genel_skor"] = out[[f"skor_{k}" for k, _ in AXES if k != "forma"]].mean(axis=1)
+    out = out.reset_index()
     out.to_csv(config.DATA / "skor_karti.csv", index=False)
     return out

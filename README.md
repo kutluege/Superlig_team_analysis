@@ -108,3 +108,28 @@ python -m pytest -q tests/                # ağ gerektirmeyen testler
 
 **Durum:** Bu ortamda `web.archive.org` ağ politikasıyla engelli olduğu için henüz hiçbir fiyat toplanamadı;
 tüm işler "hata" durumunda ve bir sonraki çalıştırmada yeniden denenecek.
+
+## Skor kartı ve Instagram görselleri
+
+```bash
+python -c "from superlig import insta; insta.render_all()"   # reports/instagram/*.png (1080×1350)
+```
+
+Alt ajan çıktıları `data/agents/<ad>/` altında (her birinde RAPOR.md var):
+`dogrulama` (resmi tablolar, seyirci, kapasite kontrolü), `seyirci` (168/168 seyircili takım-sezon),
+`xg` (2022-23 – 2025-26), `kupalar`, `sosyal` (5 platform), `forma` (66/190 fiyat + TÜFE 2003=100).
+Birleşik tablo: `data/skor_karti.csv`.
+
+| Boyut | Tanım | Kaynak |
+|---|---|---|
+| Sadakat | 10 yıllık doluluk (2021-22 COVID kısıtlı sezon hariç) ve 5 platform takipçisinin log ölçekli skoru, eşit ağırlık | seyirci + sosyal ajanları |
+| Başarı | Süper Lig + Türkiye Kupası + Süper Kupa (2016-17 – 2025-26) | kupalar ajanı |
+| Gol / Galibiyet | 10 yılda lig golü / galibiyeti toplamı | matches.csv |
+| Forma | Bulunan sezonların TÜFE ile güncel TL'ye çevrilmiş ortalaması; ilk→son nominal ve reel artış | forma ajanı |
+| Son 3 sezon | 2023-24 – 2025-26 resmi puan (TFF puan silmeleri dahil) ve sıra ortalaması | team_season.csv |
+
+Her boyut 19 kulüp arasında min-max ile 0-100'e ölçeklenir. **Genel skor forma hariç 5 boyutun ortalamasıdır**
+(pahalı forma bir başarı ölçüsü değildir). Son 3 sezonda hiç ligde olmayan kulübün o ekseni 0'dır.
+Sınırlamalar: forma fiyatı 66/190 hücre (Başakşehir, Kasımpaşa, Gaziantep FK'da hiç yok; tek sezonluk değerler
+düşük güvenli olarak işaretli), xG yalnızca son 4 sezon, Fatih Karagümrük doluluğu stat kapasitesi belirsizliği
+nedeniyle güvenilir değil.

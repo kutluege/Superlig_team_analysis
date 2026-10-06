@@ -140,8 +140,14 @@ def _forma_sub(row):
         return "fiyat verisi bulunamadı"
     if n < 2:
         return f"reel ort. · yalnız {row.forma_ilk_sezon} ({_tr(row.forma_ort_TL)} TL)"
-    return (f"{row.forma_ilk_sezon[:4]}–{row.forma_son_sezon[2:4]}: +%{_tr(row.forma_artis_yuzde)} "
-            f"(reel +%{_tr(row.get('forma_reel_artis_yuzde'))}) · {int(n)} sz")
+    return (f"{row.forma_ilk_sezon[:4]}–{row.forma_son_sezon[2:4]}: {_pct(row.forma_artis_yuzde)} "
+            f"(reel {_pct(row.get('forma_reel_artis_yuzde'))}) · {int(n)} sz")
+
+
+def _pct(x):
+    if x is None or pd.isna(x):
+        return "—"
+    return ("+%" if x >= 0 else "−%") + _tr(abs(x))
 
 
 # ------------------------------------------------------------------ takım kartı
@@ -154,7 +160,7 @@ def team_card(row, avg, rank, n, path):
     _place_logo(fig, team, 0.115, 0.9, 110)
     _text(fig, 0.2, 0.912, team.upper(), 30, INK, COND, "bold", va="center")
     _text(fig, 0.2, 0.872, "SÜPER LİG 2016–2026 KARNESİ", 9.5, INK2, COND, "semibold", va="center")
-    overall = np.nanmean([row[f"skor_{k}"] for k, _ in scorecard.AXES])
+    overall = row.genel_skor
     _text(fig, 0.94, 0.918, _tr(overall), 34, col, COND, "bold", ha="right", va="center")
     _text(fig, 0.94, 0.872, f"GENEL SKOR · {rank}/{n}", 8.5, INK2, COND, "semibold", ha="right", va="center")
 
@@ -163,7 +169,7 @@ def team_card(row, avg, rank, n, path):
     vals = ["veri yok" if pd.isna(v) else _tr(v) for v in scores]
     radar(ax, scores, col, avg=avg, labels=[l for _, l in scorecard.AXES], label_vals=vals)
     fig.add_artist(plt.Line2D([0.235, 0.275], [0.338, 0.338], color=MUTED, lw=1.1, ls=(0, (3, 2.5))))
-    _text(fig, 0.285, 0.338, "lig ortalaması (19 kulüp)  ·  skorlar 19 kulüp arasında 0-100", 7.2, MUTED,
+    _text(fig, 0.285, 0.338, "lig ortalaması (19 kulüp)  ·  skorlar 0-100  ·  genel skor forma hariç", 7.2, MUTED,
           va="center")
 
     tiles = [
@@ -214,7 +220,7 @@ def cover(df, avg, path):
     ax = fig.add_axes([x, y + 0.012, cw, ch - 0.02])
     radar(ax, [100] * 6, MUTED, lw=0.8, labels=["Sadakat", "Başarı", "Gol", "Galibiyet", "Forma", "Son 3"],
           label_size=7.5)
-    _footer(fig, "Sıralama: 6 boyutun ortalaması")
+    _footer(fig, "Sıralama: genel skor (forma hariç 5 boyut)")
     fig.savefig(path, dpi=DPI, facecolor=BG)
     plt.close(fig)
 
@@ -279,7 +285,7 @@ def render_all():
         old.unlink()
     df = scorecard.build()
     sc_cols = [f"skor_{k}" for k, _ in scorecard.AXES]
-    df["genel"] = df[sc_cols].mean(axis=1)
+    df["genel"] = df["genel_skor"]
     df = df.sort_values("genel", ascending=False).reset_index(drop=True)
     avg = df[sc_cols].mean().values
     cover(df, avg, OUT / "00_kapak.png")

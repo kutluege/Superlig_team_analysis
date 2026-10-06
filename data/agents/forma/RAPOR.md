@@ -12,11 +12,11 @@ Hazırlanma tarihi: 2026-10-06 · Klasör: `data/agents/forma/`
 
 ## A) Yetişkin iç saha forması lansman fiyatı – kapsam
 
-**64 / 190 hücre dolu.** Değerler TL, KDV dahil perakende (lansman) fiyatıdır.
+**66 / 190 hücre dolu** (1. tur 64 + 2. tur 2). Değerler TL, KDV dahil perakende (lansman) fiyatıdır.
 
 İşaretler: `g` = goal.com fiyat galerisi (2019-08-21, kulüp resmi sitelerinden 20 Ağustos 2019 fiyatları; ürün tipi belirtilmemiş) ·
 `†` = lansman penceresi dışında bir kaynaktan (sonraki indirim haberindeki liste fiyatı ya da bir sonraki sezonun haberindeki "geçen sezon" fiyatı) ·
-`?` = hangi formanın iç saha olduğu kaynakta net değil · `*` = ikincil anma (başka bir kulübün haberinde geçen fiyat) · `–` = bulunamadı.
+`?` = hangi formanın iç saha olduğu ya da ürün tipi kaynakta net değil · `*` = ikincil anma (başka bir kulübün haberinde geçen fiyat) · `–` = bulunamadı.
 
 | Takım | 2016-17 | 2017-18 | 2018-19 | 2019-20 | 2020-21 | 2021-22 | 2022-23 | 2023-24 | 2024-25 | 2025-26 | n |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|
@@ -29,7 +29,7 @@ Hazırlanma tarihi: 2026-10-06 · Klasör: `data/agents/forma/`
 | Antalyaspor | – | – | – | – | 139 | 229 | 497† | – | 1.690† | 1.966 | 5 |
 | Alanyaspor | – | 79,50 | – | – | – | – | – | – | – | – | 1 |
 | Kasımpaşa | – | – | – | – | – | – | – | – | – | – | 0 |
-| Kayserispor | – | – | – | 149g | – | – | 500? | 699 | 1.966 | – | 4 |
+| Kayserispor | – | – | 119 | 149g | – | – | 500? | 699 | 1.966 | – | 5 |
 | Sivasspor | – | – | – | – | – | – | – | 558 | 1.058 | 1.458 | 3 |
 | Çaykur Rizespor | 120 | – | – | 189,90g | 149 | – | – | 500 | – | – | 4 |
 | Gaziantep FK | – | – | – | – | – | – | – | – | – | – | 0 |
@@ -37,14 +37,14 @@ Hazırlanma tarihi: 2026-10-06 · Klasör: `data/agents/forma/`
 | Gençlerbirliği | – | – | – | – | – | – | – | – | 1.350 | – | 1 |
 | Fatih Karagümrük | – | – | – | – | – | – | – | 699,90 | – | – | 1 |
 | Ankaragücü | – | – | – | – | – | – | – | 749 | 1.399 | – | 2 |
-| Hatayspor | – | – | – | – | – | – | – | 1.000 | – | – | 1 |
+| Hatayspor | – | – | – | 49,90? | – | – | – | 1.000 | – | – | 2 |
 | Yeni Malatyaspor | – | – | – | 130g | – | 170 | – | – | – | – | 2 |
-| **Dolu hücre** | 3 | 4 | 3 | 8 | 5 | 7 | 6 | 11 | 10 | 7 | **64** |
+| **Dolu hücre** | 3 | 4 | 4 | 9 | 5 | 7 | 6 | 11 | 10 | 7 | **66** |
 
 ### Takım bazında durum
 - **En iyi kapsam:** Fenerbahçe (10/10), Beşiktaş (10/10), Galatasaray (9/10; yalnızca 2016-17 eksik), Trabzonspor (6/10).
-- **Orta:** Antalyaspor (5), Konyaspor (4), Kayserispor (4), Çaykur Rizespor (4), Sivasspor (3).
-- **En zayıf:** İstanbul Başakşehir, Kasımpaşa ve Gaziantep FK (0/10); Alanyaspor, Göztepe, Gençlerbirliği, Fatih Karagümrük, Hatayspor (1/10); Ankaragücü ve Yeni Malatyaspor (2/10).
+- **Orta:** Antalyaspor (5), Kayserispor (5), Konyaspor (4), Çaykur Rizespor (4), Sivasspor (3).
+- **En zayıf:** İstanbul Başakşehir, Kasımpaşa ve Gaziantep FK (0/10); Alanyaspor, Göztepe, Gençlerbirliği, Fatih Karagümrük (1/10); Hatayspor, Ankaragücü ve Yeni Malatyaspor (2/10).
 - Sezon bazında en iyi kapsam 2023-24'te (AA'nın 2023-07-14 tarihli toplu haberi sayesinde); en zayıf 2016-17 ve 2018-19.
 
 ### Kullanılan kaynak türleri
@@ -76,3 +76,19 @@ Hazırlanma tarihi: 2026-10-06 · Klasör: `data/agents/forma/`
 - **Önemli:** TÜİK Ocak 2026'dan itibaren TÜFE'yi **2025=100** bazına geçirdi. EVDS notuna göre 2003=100 **genel endeks** yayımlanmaya devam ediyor (alt kalemler arşivlendi). Arşiv serisi TP.FG.J0 ile 2016-01…2026-01 arasında birebir aynı (kontrol edildi). Doğrulama: 2022-12 = 1.128,45; 2023-12 = 1.859,38; 2024-12 = 2.684,55.
 - **Kapsam:** 2016-01 … 2026-09, 129 ay, eksik yok. En son değer: 4368.35 (2026-09) → reel çevirme için baz ay.
 - Reel fiyat: `fiyat_reel = fiyat_TL × TÜFE[2026-09] / TÜFE[lansman ayı]`.
+
+## 2. tur (hedefli arama, ~45 dk) – sonuç
+
+**Yeni dolan hücreler (2):**
+- Kayserispor 2018-19 = 119 TL (çubuklu forma; milliyet yerel, 2018-08-08; bordo 119, siyah 135, beyaz 105 TL).
+- Hatayspor 2019-20 = 49,90 TL `?` (kirikhanolay, 2019-08-30). Ürün tipi belirtilmemiş, fiyat çok düşük; taraftar versiyonu olabilir. Hatayspor o sezon TFF 1. Lig'deydi.
+
+**Denenen ama bulunamayanlar:**
+- **Öncelik A – Başakşehir, Kasımpaşa, Gaziantep FK, Alanyaspor, Göztepe, Gençlerbirliği, Karagümrük, Hatayspor:** Kulüp sitelerindeki "yeni sezon formaları satışta" duyurularına bakıldı (ibfk.com.tr 2019, kasimpasa.com.tr, gaziantepfk.org 2022/2024/2026, goztepe.org.tr 2017, alanyaspor.org.tr). Bu duyurular **fiyat vermiyor**. Ayrıca yerel basın, AA ve ntvspor/trtspor/habertürk tanıtım haberleri de tarandı; bunlarda da fiyat yok. Kaynak verebilecek birkaç yerel site (gazianteppusula, haber342, alanyapostasi, yenimalatya, sivasmemleket, cayhaber) Cloudflare "Just a moment" ile engelli.
+- **Güncel mağaza fiyatları kullanılmadı:** gfkstore.com.tr ürün sayfası örnek olarak bunun nedenini gösteriyor. Sayfa 2024-25 çubuklu formayı 1.999,90 TL, 2025-26 formasını ise 1.749,90 TL gösteriyor ve varyantlar 2026'da yeniden oluşturulmuş. Yani bugünkü fiyat lansman sonrası indirimli ya da değişmiş fiyat; lansman fiyatı olarak kabul edilemez. Aynı nedenle wulfzsport (Karagümrük, tarihsiz), aremspor (Gençlerbirliği 2025-26, tarihsiz) ve Trendyol "BFK Store" (Başakşehir) fiyatları kullanılmadı.
+- **Fatih Karagümrük:** 90min 2023-03-27 haberi 'Birlik' forması için 700 TL veriyor. Bu, 2023-24 hücresindeki 699,90 TL'yi (AA) doğruluyor. Aynı haberdeki 2022-23 formalarının 323,70 TL fiyatı sezon ortası (indirimli) olduğundan kullanılmadı.
+- **Öncelik B – ilk/son sezon:**
+  - Ek sonuç çıkmadı: TS 2016-17/2017-18, Konyaspor 2016-18, Antalyaspor 2016-18, Kayserispor 2016-18, Sivasspor 2016-18, Rizespor 2017-18, YMS 2016-18.
+  - Yine boş kalan son sezonlar: Rizespor 2024-26, Ankaragücü 2025-26, YMS 2024-26 ve Kayserispor 2025-26. Rizespor için "3.995 / 2.995 TL" fiyatları 2026-27 sezonuna ait (2mart 2026-07-16). Ankaragücü 2025-26 için 1.910 TL yalnızca tarihsiz bir arama özetinde geçiyor.
+  - Galatasaray 2016-17 tekrar denendi; lansman haberlerinde fiyat yok. Arama özetlerindeki "399 TL" aslında 2021-22 fiyatı.
+- 2. turda dolu hücrelerin hiçbirinin değeri değiştirilmedi. Yalnızca boş hücrelerin `not` sütununa "2. tur" açıklamaları eklendi.
