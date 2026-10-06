@@ -67,7 +67,8 @@ def _matches_api(fetcher: Fetcher, sids: dict[int, int]) -> pd.DataFrame:
     for year, sid in sids.items():
         try:
             rounds = datafc.season_rounds_data(config.SOFASCORE_TOURNAMENT_ID, sid)
-            weeks = sorted({int(w) for w in rounds["round"] if str(w).isdigit()})
+            col = "round_number" if "round_number" in rounds else "round"
+            weeks = sorted({int(w) for w in rounds[col] if str(w).isdigit()})
         except Exception as e:
             log.warning("Sofascore %s hafta listesi alınamadı: %s", year, e)
             continue
@@ -161,7 +162,8 @@ def load_attendance(fetcher: Fetcher, matches: pd.DataFrame) -> pd.DataFrame:
         venue = ev.get("venue") or {}
         cap = (venue.get("stadium") or {}).get("capacity") or venue.get("capacity")
         rows.append({
-            "sezon_yil": m["sezon_yil"], "ev": m["ev"],
+            "sezon_yil": m["sezon_yil"], "ev": m["ev"], "deplasman": m["deplasman"],
+            "sofascore_id": int(m["sofascore_id"]),
             "seyirci": ev.get("attendance"), "kapasite": cap,
             "stadyum": (venue.get("stadium") or {}).get("name") or venue.get("name"),
         })

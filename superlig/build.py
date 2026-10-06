@@ -138,46 +138,84 @@ def team_season(m: pd.DataFrame) -> pd.DataFrame:
     return t
 
 
-def attendance(ss_att: pd.DataFrame, wiki: pd.DataFrame, in_league: dict[str, set], conflicts: list):
-    per = []
+# COVID-19: 2020-21'in tamamı ve 2019-20'nin Mart 2020 sonrası seyircisiz oynandı
+COVID_NOTE = {"2019-20": "Mart 2020 sonrası maçlar COVID-19 nedeniyle seyircisiz oynandı.",
+              "2020-21": "Sezon COVID-19 nedeniyle büyük ölçüde seyircisiz oynandı."}
+MIN_ATT_SHARE = 0.5  # Sofascore ortalaması için seyirci kaydı olan iç saha maçı oranı alt sınırı
+
+
+def attendance(ss_att: pd.DataFrame, wiki: pd.DataFrame, in_league: dict[str, set], conflicts: list,
+               matches: pd.DataFrame):
+    """Seyirci: Sofascore (iç saha maçlarının en az yarısında kayıt varsa) → Wikipedia.
+    Kapasite: Wikipedia sezon tablosu → Sofascore. Sofascore'un etkinlik stadı bazı kulüplerde
+    o sezon oynanan stadı değil kulübün güncel stadını gösterdiği için kapasitede Wikipedia önce gelir.
+    İki kaynak %5'ten fazla farklıysa ikisi de celiskiler.csv'ye yazılır."""
+    home_n = matches.groupby(["ev", "sezon"]).size()
+    ss = pd.DataFrame(columns=["takim", "sezon", "ort_seyirci", "seyirci_mac", "kapasite"])
     if not ss_att.empty:
         ss_att = ss_att.assign(sezon=ss_att.sezon_yil.map(config.season_label))
-        agg = ss_att.groupby(["ev", "sezon"]).agg(
+        ss = ss_att.groupby(["ev", "sezon"]).agg(
             ort_seyirci=("seyirci", "mean"), seyirci_mac=("seyirci", "count"),
-            kapasite=("kapasite", lambda s: s.mode().iloc[0] if s.notna().any() else np.nan),
+            kapasite=("kapasite", lambda x: x.mode().iloc[0] if x.notna().any() else np.nan),
         ).reset_index().rename(columns={"ev": "takim"})
-        agg["kaynak"] = sofascore.SRC
-        per.append(agg)
-    if not wiki.empty:
-        per.append(wiki.assign(sezon=wiki.sezon_yil.map(config.season_label)).drop(columns="sezon_yil"))
-    src = pd.concat(per, ignore_index=True) if per else pd.DataFrame(
-        columns=["takim", "sezon", "ort_seyirci", "kapasite", "kaynak"])
+    wk = (wiki.assign(sezon=wiki.sezon_yil.map(config.season_label)) if not wiki.empty
+          else pd.DataFrame(columns=["takim", "sezon", "ort_seyirci", "kapasite"]))
 
-    all_teams = sorted(set().union(*in_league.values()))
+    def pick(t, s, field, order):
+        vals = {}
+        r = ss[(ss.takim == t) & (ss.sezon == s)]
+        if not r.empty and pd.notna(r[field].iloc[0]):
+            vals[sofascore.SRC] = float(r[field].iloc[0])
+        r = wk[(wk.takim == t) & (wk.sezon == s)]
+        if not r.empty and pd.notna(r[field].iloc[0]):
+            vals[wikipedia.SRC] = float(r[field].iloc[0])
+        usable = {k: v for k, v in vals.items() if k in order}
+        if not usable:
+            return None, None, vals
+        src = next(k for k in order if k in usable)
+        for other, v in vals.items():
+            if other != src and abs(v - usable[src]) > 0.05 * max(usable[src], 1):
+                conflicts.append({"sezon": s, "ev": t, "deplasman": "", "alan": field,
+                                  "secilen": round(usable[src]), "secilen_kaynak": src,
+                                  "secim_kurali": f"öncelik ({' > '.join(order)})",
+                                  sofascore.SRC: vals.get(sofascore.SRC, ""), wikipedia.SRC: vals.get(wikipedia.SRC, "")})
+        return usable[src], src, vals
+
     out = []
-    for t in all_teams:
+    for t in sorted(set().union(*in_league.values())):
         for s in config.SEASONS:
-            row = {"takim": t, "sezon": s, "ort_seyirci": np.nan, "kapasite": np.nan,
-                   "kaynak": np.nan, "ligde": t in in_league.get(s, set())}
-            if row["ligde"]:
-                cand = src[(src.takim == t) & (src.sezon == s)]
-                for field in ["ort_seyirci", "kapasite"]:
-                    vals = cand.dropna(subset=[field])
-                    if vals.empty:
-                        continue
-                    first = vals.iloc[0]
-                    row[field] = round(float(first[field]))
-                    row["kaynak"] = first["kaynak"] if pd.isna(row["kaynak"]) else row["kaynak"]
-                    # iki kaynak %5'ten fazla farklıysa çelişki olarak kaydet
-                    for _, other in vals.iloc[1:].iterrows():
-                        if abs(other[field] - first[field]) > 0.05 * max(first[field], 1):
-                            conflicts.append({"sezon": s, "ev": t, "deplasman": "", "alan": field,
-                                              "secilen": row[field], "secilen_kaynak": first["kaynak"],
-                                              "secim_kurali": "öncelik (sofascore > wikipedia)",
-                                              first["kaynak"]: first[field], other["kaynak"]: other[field]})
+            lig = t in in_league.get(s, set())
+            row = {"takim": t, "sezon": s, "ort_seyirci": np.nan, "kapasite": np.nan, "kaynak": np.nan,
+                   "ev_mac": np.nan, "seyirci_mac": np.nan, "not": "", "ligde": lig}
+            if not lig:
+                row["not"] = "Takım bu sezon Süper Lig'de değil."
+                out.append(row)
+                continue
+            notes = [COVID_NOTE.get(s, "")]
+            n_home = int(home_n.get((t, s), 0))
+            r = ss[(ss.takim == t) & (ss.sezon == s)]
+            n_att = int(r.seyirci_mac.iloc[0]) if not r.empty else 0
+            row.update(ev_mac=n_home, seyirci_mac=n_att)
+            att_order = [wikipedia.SRC]
+            if n_home and n_att >= MIN_ATT_SHARE * n_home:
+                att_order = [sofascore.SRC, wikipedia.SRC]
+            elif n_att:
+                notes.append(f"Sofascore'da yalnızca {n_att}/{n_home} iç saha maçında seyirci var; "
+                             "ortalama için yetersiz sayıldı.")
+            v_att, s_att, _ = pick(t, s, "ort_seyirci", att_order)
+            v_cap, s_cap, _ = pick(t, s, "kapasite", [wikipedia.SRC, sofascore.SRC])
+            if v_att is not None:
+                row["ort_seyirci"] = round(v_att)
+            if v_cap is not None:
+                row["kapasite"] = round(v_cap)
+            used = [x for x in (s_att, s_cap) if x]
+            row["kaynak"] = ";".join(dict.fromkeys(used)) if used else np.nan
+            if s_att and s_cap and s_att != s_cap:
+                notes.append(f"Seyirci: {s_att}, kapasite: {s_cap}.")
+            row["not"] = " ".join(n for n in notes if n)
             out.append(row)
     a = pd.DataFrame(out)
-    for c in ["ort_seyirci", "kapasite"]:
+    for c in ["ort_seyirci", "kapasite", "ev_mac", "seyirci_mac"]:
         a[c] = a[c].astype("Int64")
     return a
 
@@ -199,8 +237,13 @@ def missing_report(m, ts, att, coverage) -> pd.DataFrame:
     for _, r in att[att.ligde].iterrows():
         for field, label in [("ort_seyirci", "ort_seyirci"), ("kapasite", "kapasite")]:
             if pd.isna(r[field]):
+                why = coverage["attendance_reason"]
+                if field == "ort_seyirci" and r["not"]:
+                    why = f"{r['not']} Wikipedia sezon sayfasında da bu takım için seyirci yok."
+                elif field == "kapasite":
+                    why = "Ne Wikipedia sezon tablosunda ne Sofascore maç detayında kapasite var."
                 rows.append({"takim": r.takim, "sezon": r.sezon, "alan": label, "durum": "eksik",
-                             "aciklama": coverage["attendance_reason"]})
+                             "aciklama": why})
     return pd.DataFrame(rows)
 
 
@@ -233,7 +276,9 @@ def run() -> dict:
     wiki = wikipedia.load(fetcher)
     if not wiki.empty:
         wiki = wiki[wiki.apply(lambda r: r.takim in in_league.get(config.season_label(r.sezon_yil), set()), axis=1)]
-    att = attendance(ss_att, wiki, in_league, conflict_rows)
+    att = attendance(ss_att, wiki, in_league, conflict_rows, matches)
+    if not ss_att.empty:
+        ss_att.to_csv(config.RAW / "sofascore_mac_seyirci.csv", index=False)
 
     attempts = pd.DataFrame([a.__dict__ for a in fetcher.attempts])
     # yalnızca bağlantı düzeyinde erişilemeyen hostlar (HTTP 404 gibi yanıtlar sayılmaz)
