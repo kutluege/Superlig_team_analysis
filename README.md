@@ -56,6 +56,15 @@ football-data > sofascore > openfootball > transfermarkt; tüm değerler `celisk
 - **Kapasite:** 189 takım-sezonun hepsinde var. Wikipedia sezon tablosu önce, yoksa Sofascore kullanıldı;
   Sofascore bazı kulüplerde o sezonki değil güncel stadı gösteriyor.
 
+### Seyirci tahmini (eksik sezonlar)
+
+`data/attendance_tahmini.csv` eksik sezonları tahmin eder; gözlenen değerler `attendance.csv`'de değişmeden kalır.
+Tahmin = takımın gözlenen sezonlardaki ortalama doluluk oranı × o sezonun stadyum kapasitesi (takımın hiç gözlenen
+sezonu yoksa lig medyanı, %33). `yontem` sütunu her satırın gözlenen mi tahmin mi olduğunu söyler. 2020-21
+seyircisiz olduğu için tahmin edilmez. Gözlenen 60 değer üzerinde geriye dönük test: medyan sapma %21, ortalama
+sapma %34. Stat kapasitesi dayanak sezonlardan çok farklı olan tahminler `not` sütununda "güvenilmez" olarak
+işaretlidir. Görseller: `seyirci_tahminli_isi_haritasi.png`, `seyirci_tahminli_siralama.png`.
+
 ## Görseller
 
 Amblemler `luukhopman/football-logos` deposundan. 2021 öncesi ligden düşen yedi kulübün (Adanaspor,

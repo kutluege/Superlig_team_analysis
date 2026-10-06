@@ -254,6 +254,12 @@ def dashboard(ts: pd.DataFrame, att: pd.DataFrame, matches: pd.DataFrame, confli
     a = att[att.ligde][["takim", "sezon", "ort_seyirci", "kapasite", "kaynak"]]
     rows = rows.merge(a, on=["takim", "sezon"], how="left")
     rows["doluluk"] = rows.ort_seyirci / rows.kapasite
+    est_path = config.DATA / "attendance_tahmini.csv"
+    if est_path.exists():
+        e = pd.read_csv(est_path)[["takim", "sezon", "seyirci", "yontem"]]
+        e["tahmin"] = e.yontem.str.startswith("tahmin")
+        rows = rows.merge(e.rename(columns={"seyirci": "seyirci_t"})[["takim", "sezon", "seyirci_t", "tahmin"]],
+                          on=["takim", "sezon"], how="left")
     recs = json.loads(rows.drop(columns=["ligde"]).to_json(orient="records"))
     teams_used = sorted(rows.takim.unique())
     payload = {
@@ -324,6 +330,10 @@ def render_all():
     else:
         log.warning("Seyirci verisi yok; seyirci görselleri üretilmedi.")
 
+    from . import estimate
+    estimate.run()
+    attendance_estimate_figures()
+
     miss = pd.read_csv(config.DATA / "eksik_veri_raporu.csv")
     summary = {
         "att_missing": int(((miss.durum == "eksik") & (miss.alan == "ort_seyirci")).sum()),
@@ -333,3 +343,85 @@ def render_all():
                        if (miss.alan == "ort_seyirci").any() else ""),
     }
     dashboard(ts, att, matches, conflicts, summary)
+
+
+# ---------------------------------------------------------------- seyirci (tahmin dahil)
+def attendance_estimate_figures():
+    from . import estimate
+    df = pd.read_csv(config.DATA / "attendance_tahmini.csv")
+    if df.seyirci.notna().sum() == 0:
+        return
+    stats = estimate.estimate(pd.read_csv(config.DATA / "attendance.csv"))[1]
+    obs_mask = df.yontem.eq(estimate.M_OBS)
+    est_mask = df.yontem.str.startswith("tahmin")
+
+    # ---- ısı haritası: takım × sezon, değer = seyirci; tahmin hücreleri taralı
+    piv = df.pivot(index="takim", columns="sezon", values="seyirci").reindex(columns=config.SEASONS)
+    kind = df.pivot(index="takim", columns="sezon", values="yontem").reindex(columns=config.SEASONS)
+    order = piv.mean(axis=1).sort_values(ascending=False).index
+    piv, kind = piv.loc[order], kind.loc[order]
+    n, m = piv.shape
+    h = 0.36 * n + 2.6
+    fig = plt.figure(figsize=(12, h))
+    top, bottom = 1 - 1.6 / h, 1.0 / h
+    ax = fig.add_axes([0.22, bottom, 0.76, top - bottom])
+    vmax = np.nanmax(piv.values.astype(float))
+    cmap = LinearSegmentedColormap.from_list("att", SEQ)
+    for i, team in enumerate(piv.index):
+        for j, s in enumerate(piv.columns):
+            v, k = piv.at[team, s], kind.at[team, s]
+            x, y = j + 0.04, i + 0.07
+            if pd.isna(k):  # ligde değil
+                ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="none", edgecolor=GRID, lw=0.8))
+                continue
+            if k == "yok":
+                ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="#efeeea", lw=0))
+                ax.text(j + 0.5, i + 0.5, "seyircisiz", ha="center", va="center", fontsize=7, color=MUTED)
+                continue
+            col = cmap(0.08 + 0.92 * float(v) / vmax)
+            est = str(k).startswith("tahmin")
+            ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor=col, lw=0, alpha=0.55 if est else 1))
+            if est:
+                ax.add_patch(plt.Rectangle((x, y), 0.92, 0.86, facecolor="none", hatch="////",
+                                           edgecolor="white", lw=0))
+            lum = 0.299 * col[0] + 0.587 * col[1] + 0.114 * col[2]
+            dark = lum < 0.55 and not est
+            label = f"{v / 1000:.1f}".replace(".", ",") + "b"
+            ax.text(j + 0.5, i + 0.5, ("~" if est else "") + label, ha="center", va="center", fontsize=8.5,
+                    color="white" if dark else INK, fontweight="normal" if est else "bold",
+                    fontstyle="italic" if est else "normal")
+    ax.set_xlim(0, m)
+    ax.set_ylim(n, 0)
+    ax.set_xticks(np.arange(m) + 0.5)
+    ax.set_xticklabels(piv.columns, fontsize=9)
+    ax.xaxis.tick_top()
+    ax.set_yticks([])
+    for sp in ax.spines.values():
+        sp.set_visible(False)
+    ax.tick_params(length=0)
+    for i, team in enumerate(piv.index):
+        add_logo(ax, team, -0.03, i + 0.5, px=20, xycoords=("axes fraction", "data"))
+        ax.text(-0.06, i + 0.5, team, transform=ax.get_yaxis_transform(), ha="right", va="center",
+                fontsize=9.5, color=INK)
+    _title(fig, "Ortalama seyirci: gözlenen ve tahmini değerler",
+           "Koyu, kalın = gözlenen (Wikipedia) · açık, taralı, ~ = tahmin (takımın doluluk oranı × o sezonun "
+           "kapasitesi) · b = bin kişi")
+    _footer(fig, f"Tahmin: gözlenen sezonlardaki ortalama doluluk oranı × o sezonun stadyum kapasitesi; gözlenen "
+                 f"sezonu olmayan takımda lig medyanı (%{stats['league_occ'] * 100:.0f}).\n"
+                 f"Geriye dönük test ({stats['n_test']} gözlenen değer): ortalama sapma %{stats['mape'] * 100:.0f}, "
+                 f"medyan sapma %{stats['median_ape'] * 100:.0f}. Tahminler gerçek veri değildir; "
+                 "data/attendance_tahmini.csv içinde ayrı işaretlidir.")
+    fig.savefig(config.FIGURES / "seyirci_tahminli_isi_haritasi.png", dpi=150)
+    plt.close(fig)
+    log.info("görsel: seyirci_tahminli_isi_haritasi.png")
+
+    # ---- sıralama: tüm sezonların ortalaması (tahmin dahil)
+    d = df[obs_mask | est_mask]
+    agg = d.groupby("takim").agg(seyirci=("seyirci", "mean"), gozlenen=("yontem", lambda s: (s == estimate.M_OBS).sum()),
+                                 sezon=("yontem", "size")).reset_index()
+    ranking_bar(agg, "seyirci", "Ortalama seyirci sıralaması (tahmin dahil)",
+                "Seyircili tüm sezonların ortalaması · parantezde: gözlenen sezon / toplam sezon",
+                "seyirci_tahminli_siralama.png", fmt="{:,.0f}", extra=lambda r: f"({r.gozlenen}/{r.sezon} gözlenen)",
+                note="Eksik sezonlar takımın doluluk oranı × o sezonun kapasitesi ile tahmin edildi "
+                     f"(geriye dönük medyan sapma %{stats['median_ape'] * 100:.0f}).\n"
+                     "2020-21 seyircisiz olduğu için dahil değil. Kaynak: Wikipedia sezon tabloları; kapasite Wikipedia/Sofascore.")

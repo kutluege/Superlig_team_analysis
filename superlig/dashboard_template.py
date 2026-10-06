@@ -77,6 +77,8 @@ section { display: grid; gap: 14px; min-width: 0; }
 .track { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .bar { height: 18px; background: var(--bar); border-radius: 0 4px 4px 0; min-width: 2px; flex: none; transition: width .35s ease; }
 .bar.neg { background: var(--bar-soft); }
+.bar.est-bar { background: repeating-linear-gradient(135deg, var(--bar) 0 4px, var(--bar-soft) 4px 7px); }
+.est { color: var(--muted); font-weight: 400; font-size: .75rem; }
 .val { font-variant-numeric: tabular-nums; font-weight: 600; font-size: .9rem; white-space: nowrap; }
 .empty { padding: 28px 16px; display: grid; gap: 8px; color: var(--ink-2); max-width: 70ch; }
 .empty strong { color: var(--ink); font-family: var(--display); font-size: 1.3rem; font-weight: 600; text-transform: uppercase; }
@@ -172,6 +174,7 @@ const METRICS = [
   {k: "dis_saha_puan", l: "Dış saha puanı", agg: "sum"},
   {k: "yenilen_gol", l: "En az yenilen gol", agg: "sum", asc: true},
   {k: "ort_seyirci", l: "Ort. seyirci", agg: "mean", att: true},
+  {k: "seyirci_t", l: "Seyirci (tahmin dahil)", agg: "mean", att: true},
   {k: "kapasite", l: "Stadyum kapasitesi", agg: "last", att: true},
   {k: "doluluk", l: "Doluluk", agg: "mean", att: true, pct: true},
 ];
@@ -192,7 +195,8 @@ function rowsFor(season) {
       o[k] = rs.reduce((a, r) => a + (r[k] || 0), 0);
     o.mbp = o.puan / o.oynanan;
     const mean = k => { const v = rs.map(r => r[k]).filter(x => x != null); return v.length ? v.reduce((a, b) => a + b, 0) / v.length : null; };
-    o.ort_seyirci = mean("ort_seyirci"); o.doluluk = mean("doluluk");
+    o.ort_seyirci = mean("ort_seyirci"); o.doluluk = mean("doluluk"); o.seyirci_t = mean("seyirci_t");
+    o.n_tahmin = rs.filter(r => r.tahmin).length;
     const caps = rs.map(r => r.kapasite).filter(x => x != null); o.kapasite = caps.length ? caps[caps.length - 1] : null;
     o.sira = mean("sira");
     return o;
@@ -227,11 +231,11 @@ function render() {
   board.innerHTML = cap + rows.map((r, i) => {
     // çubuk uzunluğu sıfırdan ölçülür; negatif averaj açık tonla çizilir
     const pct = Math.max(0.5, Math.abs(r[m.k]) / maxAbs * 82);
-    const neg = r[m.k] < 0 ? " neg" : "";
+    const neg = r[m.k] < 0 ? " neg" : (m.k === "seyirci_t" && r.tahmin ? " est-bar" : "");
     return `<div class="row" tabindex="0" data-i="${i}">
       <span class="rk">${i + 1}</span>${logo(r.takim)}
       <span class="nm">${r.takim}${state.season === ALL ? `<small>(${r.n})</small>` : ""}</span>
-      <span class="track"><span class="bar${neg}" style="width:${pct}%"></span><span class="val">${fmt(m, r[m.k])}</span></span></div>`;
+      <span class="track"><span class="bar${neg}" style="width:${pct}%"></span><span class="val">${m.k === "seyirci_t" && (r.tahmin || r.n_tahmin) ? "~" : ""}${fmt(m, r[m.k])}${m.k === "seyirci_t" && state.season === ALL && r.n_tahmin ? ` <small class="est">${r.n_tahmin} sezon tahmin</small>` : ""}${m.k === "seyirci_t" && r.tahmin ? ' <small class="est">tahmin</small>' : ""}</span></span></div>`;
   }).join("");
   board.querySelectorAll(".row").forEach(el => {
     const r = rows[+el.dataset.i];
@@ -250,6 +254,7 @@ function tip(e, el, r) {
     ["Puan", r.puan], ["Maç başı puan", r.mbp.toFixed(2).replace(".", ",")],
     ["İç / dış saha puanı", `${r.ic_saha_puan} / ${r.dis_saha_puan}`],
     ["Ort. seyirci", r.ort_seyirci == null ? "veri yok" : nf.format(Math.round(r.ort_seyirci))],
+    ["Seyirci (tahmin dahil)", r.seyirci_t == null ? "–" : (r.tahmin || r.n_tahmin ? "~" : "") + nf.format(Math.round(r.seyirci_t))],
   ];
   tipEl.innerHTML = `<h4>${r.takim} · ${all ? "10 sezon" : state.season}</h4><dl>${pairs.map(([a, b]) => `<dt>${a}</dt><dd>${b}</dd>`).join("")}</dl>`;
   tipEl.hidden = false;
