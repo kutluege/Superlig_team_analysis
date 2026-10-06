@@ -24,6 +24,7 @@ TEAMS19 = ["Galatasaray", "Fenerbahçe", "Beşiktaş", "Trabzonspor", "İstanbul
            "Yeni Malatyaspor"]
 AG = config.DATA / "agents"
 LAST3 = config.SEASONS[-3:]
+PLATFORMS = ["Instagram", "X", "Facebook", "TikTok", "YouTube"]
 AXES = [("sadakat", "Sadakat"), ("basari", "Başarı"), ("gol", "Gol"), ("galibiyet", "Galibiyet"),
         ("forma", "Forma fiyatı"), ("form", "Son 3 sezon")]
 
@@ -74,11 +75,16 @@ def build() -> pd.DataFrame:
         df = df.join(s10[["ort_seyirci_10y", "ort_kapasite_10y", "doluluk_10y", "sezon_sayisi_seyircili"]])
     sm = _read("sosyal/takipci.csv")
     if sm is not None:
+        # resmi ana hesaplar: ikinci dil hesabı ve resmiyeti doğrulanamayan satırlar dışarıda
         sm = sm.dropna(subset=["takipci"])
-        piv = sm.pivot_table(index="takim", columns="platform", values="takipci", aggfunc="max")
-        piv.columns = [f"takipci_{c.lower().replace(' ', '_').replace('(', '').replace(')', '')}" for c in piv.columns]
-        df = df.join(piv)
-        df["takipci_toplam"] = piv.sum(axis=1, min_count=1).reindex(df.index)
+        sm = sm[sm.platform.isin(PLATFORMS) & ~sm["not"].fillna("").str.contains("DOĞRULANMAMIŞ")]
+        piv = sm.pivot_table(index="takim", columns="platform", values="takipci", aggfunc="max").reindex(df.index)
+        df["takipci_toplam"] = piv.sum(axis=1, min_count=1)
+        df["takipci_platform"] = piv.notna().sum(axis=1)
+        for c in piv.columns:
+            df[f"takipci_{c.lower()}"] = piv[c]
+        # platform başına log10 → 0-100, kulübün verisi olan platformların ortalaması
+        df["sosyal_skor"] = pd.concat([_minmax(np.log10(piv[c])) for c in piv.columns], axis=1).mean(axis=1)
 
     # 5: forma fiyatı + TÜFE
     f = _read("forma/forma_fiyat.csv")
@@ -123,8 +129,8 @@ def build() -> pd.DataFrame:
     parts = []
     if "doluluk_10y" in df:
         parts.append(_minmax(df.doluluk_10y))
-    if "takipci_toplam" in df:
-        parts.append(_minmax(np.log10(df.takipci_toplam)))
+    if "sosyal_skor" in df:
+        parts.append(df.sosyal_skor)
     sc["sadakat"] = pd.concat(parts, axis=1).mean(axis=1) if parts else np.nan
     sc["basari"] = _minmax(df.kupa_10y) if "kupa_10y" in df else np.nan
     sc["gol"] = _minmax(df.gol_10y)

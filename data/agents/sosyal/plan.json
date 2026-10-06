@@ -1,0 +1,21 @@
+{
+"Galatasaray":{"IG":{"h":"galatasaray"},"X":{"h":"GalatasaraySK","n":"Ana (Türkçe) resmi hesap; galatasaray.org bağlantısı."},"X_EN":{"h":"galatasaray","n":"İngilizce resmi hesap (Galatasaray EN); skorda ana hesap X kullanılmalı, toplamaya eklenmemeli."},"FB":{"h":"Galatasaray"},"TT":{"h":"galatasaray"},"YT":{"p":"@Galatasaray"}},
+"Fenerbahçe":{"IG":{"h":"fenerbahce"},"X":{"h":"Fenerbahce"},"FB":null,"TT":{"h":"fenerbahce"},"YT":{"p":"@Fenerbahce"}},
+"Beşiktaş":{"IG":{"h":"besiktas"},"X":{"h":"Besiktas"},"FB":{"h":"Besiktas"},"TT":{"h":"besiktasjk"},"YT":{"p":"@Besiktas"}},
+"Trabzonspor":{"IG":{"h":"trabzonspor","n":"Mayıs 2026'da ~1,5 mn iken Mohamed Salah transferi sonrası ~3 mn'a çıkmış; ani sıçrama dikkate alınmalı."},"X":{"h":"Trabzonspor"},"FB":{"h":"Trabzonspor"},"TT":{"h":"trabzonspor"},"YT":{"p":"@trabzonspor"}},
+"İstanbul Başakşehir":{"IG":{"h":"ibfk2014"},"X":{"h":"ibfk2014"},"FB":{"h":"ibfk2014"},"TT":{"h":"ibfk2014"},"YT":{"p":"channel/UCYK_tizS95KBXac733GXo_A"}},
+"Konyaspor":{"IG":{"h":"konyaspor"},"X":{"h":"konyaspor"},"FB":{"h":"konyaspor"},"TT":{"h":"konyaspor"},"YT":{"p":"channel/UCcGZCoEVaUaJWkptpZzO7dA"}},
+"Antalyaspor":{"IG":{"h":"antalyaspor","n":"Ağu 2026 haberinde (sivas360) 194 bin olarak geçiyor."},"X":{"h":"Antalyaspor"},"FB":{"h":"Antalyaspor/"},"TT":null,"YT":{"p":"channel/UCU9w9hinYRvB7uqgYKDDLzw","n":"Kulüp sitesinde bağlantılı kanal (@AntalyasporOriginals)."}},
+"Alanyaspor":{"IG":{"h":"alanyaspor"},"X":{"h":"Alanyaspor"},"FB":{"h":"AIanyaspor","n":"Kulüp sitesindeki sayfa adı (büyük I harfi ile) kullanıldı."},"TT":{"h":"alanyasporkulubu","n":"DOĞRULANMAMIŞ: biyografi 'Kulübü resmi hesabı' diyor ama rozet yok, kulüp sitesinde bağlantı yok."},"YT":{"p":"@Alanyaspor"}},
+"Kasımpaşa":{"IG":null,"X":{"h":"kasimpasa"},"FB":null,"TT":{"h":"kasimpasask"},"YT":{"p":"@kasimpasaonline"}},
+"Kayserispor":{"IG":null,"X":null,"FB":null,"TT":null,"YT":null},
+"Sivasspor":{"IG":null,"X":{"h":"Sivasspor"},"FB":null,"TT":{"h":"sivasspor"},"YT":{"p":"@sivassporkanal"}},
+"Çaykur Rizespor":{"IG":{"h":"crizesporas"},"X":{"h":"CRizesporAS"},"FB":null,"TT":{"h":"crizesporas","n":"DOĞRULANMAMIŞ: rozet ve biyografi yok; kullanıcı adı resmi IG/X ile aynı olduğu için dahil edildi, düşük takipçi sayısı hesabın etkin olmadığına işaret edebilir."},"YT":{"p":"@crizesporas","n":"Kullanıcı adı resmi X/IG ile aynı; kulüp sitesinde doğrudan bağlantı bulunamadı."}},
+"Gaziantep FK":{"IG":null,"X":{"h":"gaziantepfk"},"FB":{"h":"gaziantepfk"},"TT":null,"YT":{"p":"@gaziantepfk"}},
+"Göztepe":{"IG":{"h":"goztepe"},"X":{"h":"Goztepe"},"FB":{"h":"Goztepe"},"TT":{"h":"goztepesporkulubu","n":"Kulüp sitesinde bağlantılı hesap; rozet yok."},"YT":{"p":"@Goztepe"}},
+"Gençlerbirliği":{"IG":null,"X":{"h":"kirmizikara"},"FB":{"h":"genclerbirligisk"},"TT":{"h":"genclerbirligisk"},"YT":{"p":"user/genclerbirligiSK"}},
+"Fatih Karagümrük":{"IG":null,"X":{"h":"karagumruk_sk","n":"karagumruk.com sitesinde bağlantılı hesap."},"FB":{"h":"OfficialKaragumruk"},"TT":{"h":"karagumruk_sk","n":"DOĞRULANMAMIŞ: çok düşük sayı; hesap muhtemelen atıl."},"YT":null},
+"Ankaragücü":{"IG":null,"X":{"h":"Ankaragucu"},"FB":{"h":"Ankaragucu"},"TT":null,"YT":{"p":"@AnkaragucuYoutube"}},
+"Hatayspor":{"IG":null,"X":{"h":"Hatayspor_FK"},"FB":{"h":"Hatayspor","n":"DOĞRULANMAMIŞ: sayfanın resmi olduğu kulüp sitesinden teyit edilemedi."},"TT":null,"YT":{"p":"@atakashatayspor","n":"Resmi X biyografisindeki YouTube bağlantısı."}},
+"Yeni Malatyaspor":{"IG":{"h":"yenimalatyaspor","n":"Kulüp artık Süper Lig'de değil; hesap aktifliği/kimliği sitesinden teyit edilmedi."},"X":null,"FB":{"h":"yenimalatyaspor","n":"DOĞRULANMAMIŞ: resmi olduğu teyit edilemedi."},"TT":null,"YT":null}
+}

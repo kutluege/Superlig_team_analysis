@@ -167,7 +167,7 @@ def team_card(row, avg, rank, n, path):
 
     tiles = [
         ("SADAKAT", f"%{_tr(row.get('doluluk_10y', np.nan) * 100)}" if pd.notna(row.get("doluluk_10y")) else "—",
-         f"doluluk · {_compact(row.get('takipci_toplam'))} takipçi"),
+         f"doluluk · {_compact(row.get('takipci_toplam'))} takipçi ({_tr(row.get('takipci_platform'))} platform)"),
         ("BAŞARI", _tr(row.get("kupa_10y")) + (" kupa" if pd.notna(row.get("kupa_10y")) else ""),
          f"Lig {_tr(row.get('super_lig'))} · Kupa {_tr(row.get('turkiye_kupasi'))} · Süper K. {_tr(row.get('super_kupa'))}"),
         ("GOL", _tr(row.gol_10y), f"{_tr(row.sezon_sayisi)} sezon · maç başı {_tr(row.gol_10y / row.mac, 2)}"),
@@ -219,7 +219,7 @@ def cover(df, avg, path):
 
 # ------------------------------------------------------------------ metrik sıralaması
 METRIC_SLIDES = [
-    ("sadakat", "SADAKAT", "Doluluk oranı (10 yıl) + sosyal medya takipçisi (log)", "skor_sadakat",
+    ("sadakat", "SADAKAT", "Doluluk oranı (10 yıl, 2021-22 hariç) + 5 platform takipçi (log ölçek)", "skor_sadakat",
      lambda r: f"%{_tr(r.get("doluluk_10y", float("nan")) * 100)} · {_compact(r.get("takipci_toplam"))}" if pd.notna(r.get("doluluk_10y")) else _compact(r.get("takipci_toplam"))),
     ("basari", "BAŞARI", "10 yılda Süper Lig + Türkiye Kupası + Süper Kupa", "kupa_10y",
      lambda r: f"{_tr(r.kupa_10y)} kupa"),
