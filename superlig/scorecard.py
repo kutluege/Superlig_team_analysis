@@ -66,7 +66,12 @@ def build() -> pd.DataFrame:
     # 1: sadakat — doluluk + sosyal medya
     s10 = _read("seyirci/seyirci_10yil.csv")
     if s10 is not None:
-        df = df.join(s10.set_index("takim")[["ort_seyirci_10y", "ort_kapasite_10y", "doluluk_10y"]])
+        s10 = s10.set_index("takim")
+        # 2021-22 COVID kapasite kısıtlı; doluluğu yapay düşürdüğü için hariç tutulan sürüm tercih edilir
+        if "doluluk_10y_2122_haric" in s10:
+            s10["doluluk_10y"] = s10.doluluk_10y_2122_haric.fillna(s10.doluluk_10y)
+            s10["ort_seyirci_10y"] = s10.ort_seyirci_10y_2122_haric.fillna(s10.ort_seyirci_10y)
+        df = df.join(s10[["ort_seyirci_10y", "ort_kapasite_10y", "doluluk_10y", "sezon_sayisi_seyircili"]])
     sm = _read("sosyal/takipci.csv")
     if sm is not None:
         sm = sm.dropna(subset=["takipci"])
