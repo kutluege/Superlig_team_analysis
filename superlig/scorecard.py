@@ -12,7 +12,7 @@ Tüm boyutlar GERÇEK yüzdelerdir (kulüpler arası min-max ölçekleme yok):
                        (lig ortalaması = 50, yarı fiyat = 100, iki kat = 25; tavan 100). Fiyatlar aynı
                        sezonda karşılaştırılır: eksik sezonlar zincir endeksle tamamlanır (forma_panel.py)
  6. Son 3 sezon      : alınan resmi puan ÷ alınabilecek puan [2023-24 – 2025-26]
-Genel skor: 6 boyutun ortalaması (verisi olmayan boyut hariç).
+Genel skor: 6 eksen eşit etkili — standartlaştırılmış skorların ortalaması, 50 + 10 × z (lig ort. = 50).
 """
 from __future__ import annotations
 
@@ -145,10 +145,16 @@ def build() -> pd.DataFrame:
     sc["form"] = df.son3_puan_yuzde.fillna(0.0)  # son 3 sezonda hiç Süper Lig'de değilse 0
     sc.columns = [f"skor_{c}" for c in sc.columns]
     out = df.join(sc)
-    # Genel skor: 6 boyutun ortalaması (taraftara maliyet ters yönlü: pahalı forma skoru düşürür).
-    # Verisi olmayan boyut (ör. forma fiyatı bulunamayan kulüp) ortalamaya girmez.
-    out["genel_skor"] = out[[f"skor_{k}" for k, _ in AXES]].mean(axis=1)
-    out["genel_boyut_sayisi"] = out[[f"skor_{k}" for k, _ in AXES]].notna().sum(axis=1)
+    # Genel skor: 6 eksen EŞİT ETKİLİ. Her eksen 19 kulüp arasında standartlaştırılır (z = (x - ort) / std),
+    # z'lerin ortalaması alınır ve 50 + 10 × z ölçeğine çevrilir (lig ortalaması = 50).
+    # Böylece yayılımı büyük eksenler sıralamaya daha çok etki etmez. Verisi olmayan eksen ortalamaya girmez.
+    cols = [f"skor_{k}" for k, _ in AXES]
+    z = (out[cols] - out[cols].mean()) / out[cols].std()
+    for c in cols:
+        out[c.replace("skor_", "z_")] = z[c]
+    out["genel_skor"] = 50 + 10 * z.mean(axis=1)
+    out["genel_skor_basit_ort"] = out[cols].mean(axis=1)  # eski yöntem (yüzdelerin basit ortalaması), karşılaştırma için
+    out["genel_boyut_sayisi"] = out[cols].notna().sum(axis=1)
     out = out.reset_index()
     out.to_csv(config.DATA / "skor_karti.csv", index=False)
     return out

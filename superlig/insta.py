@@ -167,7 +167,7 @@ def team_card(row, avg, rank, n, path):
     vals = ["veri yok" if pd.isna(v) else _tr(v) for v in scores]
     radar(ax, scores, col, avg=avg, labels=[l for _, l in scorecard.AXES], label_vals=vals)
     fig.add_artist(plt.Line2D([0.235, 0.275], [0.338, 0.338], color=MUTED, lw=1.1, ls=(0, (3, 2.5))))
-    _text(fig, 0.285, 0.338, "lig ortalaması  ·  gerçek yüzdeler  ·  maliyet: ucuz forma = yüksek skor", 7.2, MUTED,
+    _text(fig, 0.285, 0.338, "lig ortalaması  ·  eksenler gerçek yüzde  ·  genel skor: 6 eksen eşit etkili, lig ort. = 50", 7.2, MUTED,
           va="center")
 
     g = row.get
@@ -219,7 +219,7 @@ def cover(df, avg, path):
     ax = fig.add_axes([x, y + 0.012, cw, ch - 0.02])
     radar(ax, [100] * 6, MUTED, lw=0.8, labels=["Sadakat", "Başarı", "Gol+xG", "Galibiyet", "Maliyet (ucuz)", "Son 3"],
           label_size=7.5)
-    _footer(fig, "Sıralama: genel skor = 6 gerçek yüzdenin ortalaması")
+    _footer(fig, "Sıralama: genel skor · 6 eksen eşit etkili · lig ortalaması = 50")
     fig.savefig(path, dpi=DPI, facecolor=BG)
     plt.close(fig)
 
@@ -282,6 +282,43 @@ def metric_slide(df, key, title, subtitle, col, fmt, path, page, weak=None, weak
     return True
 
 
+def overall_slide(df, path):
+    d = df.sort_values("genel_skor", ascending=False).reset_index(drop=True)
+    fig = _fig()
+    _text(fig, 0.06, 0.925, "GENEL SIRALAMA", 34, INK, COND, "bold")
+    _text(fig, 0.06, 0.893, "6 eksen eşit etkili (standartlaştırılmış) · lig ortalaması = 50 · sağ: ortalamanın üstü",
+          9, INK2)
+    n = len(d)
+    top, bottom = 0.85, 0.1
+    rowh = (top - bottom) / n
+    cx, half = 0.66, 0.24          # 50 çizgisinin x'i ve ±20 puanın genişliği
+    span = 20.0
+    fig.add_artist(plt.Line2D([cx, cx], [bottom, top + 0.01], color=MUTED, lw=0.9, ls=(0, (2, 2))))
+    _text(fig, cx, top + 0.016, "50", 8, MUTED, COND, "semibold", ha="center")
+    for v in (40, 60):
+        x = cx + (v - 50) / span * half
+        fig.add_artist(plt.Line2D([x, x], [bottom, top], color=LINE, lw=0.6))
+        _text(fig, x, top + 0.016, str(v), 7, MUTED, COND, ha="center")
+    for i, r in d.iterrows():
+        y = top - (i + 0.5) * rowh
+        _text(fig, 0.075, y, str(i + 1), 13, GOLD if i < 3 else MUTED, COND, "bold", ha="right", va="center")
+        _place_logo(fig, r.takim, 0.115, y, 32)
+        _text(fig, 0.15, y, r.takim, 12, INK, COND, "semibold", va="center")
+        dv = (r.genel_skor - 50) / span * half
+        x0 = cx if dv >= 0 else cx + dv
+        fig.add_artist(FancyBboxPatch((x0, y - rowh * 0.24), max(abs(dv), 0.003), rowh * 0.48,
+                                      boxstyle="round,pad=0,rounding_size=0.004", transform=fig.transFigure,
+                                      facecolor=GOLD if i < 3 else ("#dfe5e1" if dv >= 0 else "#5b6560"), edgecolor="none"))
+        tx = cx + dv + (0.012 if dv >= 0 else -0.012)
+        lab = _tr(r.genel_skor, 1) + (" *" if r.genel_boyut_sayisi < 6 else "")
+        _text(fig, tx, y, lab, 10, INK, COND, "bold", ha="left" if dv >= 0 else "right", va="center")
+    _text(fig, 0.06, 0.075, "* forma fiyatı bulunamadığı için 5 eksenle hesaplandı. Radar eksenleri gerçek yüzdeleri gösterir.",
+          7.2, MUTED)
+    _footer(fig, "Genel skor = 50 + 10 × (6 eksenin z-skorlarının ortalaması)")
+    fig.savefig(path, dpi=DPI, facecolor=BG)
+    plt.close(fig)
+
+
 def render_all():
     OUT.mkdir(parents=True, exist_ok=True)
     for old in OUT.glob("*.png"):  # sıralama değişince eski numaralı dosyalar kalmasın
@@ -292,6 +329,7 @@ def render_all():
     df = df.sort_values("genel", ascending=False).reset_index(drop=True)
     avg = df[sc_cols].mean().values
     cover(df, avg, OUT / "00_kapak.png")
+    overall_slide(df, OUT / "01_genel_siralama.png")
     for i, r in df.iterrows():
         team_card(r, avg, i + 1, len(df), OUT / f"takim_{i + 1:02d}_{logos.file_for(r.takim).stem}.png")
     page = 0

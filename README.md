@@ -137,8 +137,13 @@ o sezona taşınmasıyla tamamlanır. Böylece her kulübün maliyeti aynı 10 s
 `data/forma_panel.csv` (`tur` = gerçek / tahmin). Geriye dönük test (59 gerçek fiyat): medyan hata %9, ortalama %14.
 Hiç gerçek fiyatı olmayan kulüpler (Başakşehir, Kasımpaşa, Gaziantep FK) tamamlanmaz.
 
-**Genel skor 6 yüzdenin ortalamasıdır** (verisi olmayan boyut hariç). Son 3 sezonda hiç ligde olmayan kulübün o
-ekseni 0'dır.
+**Genel skor: 6 eksen eşit etkili.** Eksenlerin kulüpler arasındaki yayılımı çok farklı olduğundan (ör. gol payı
+%41-69, son 3 sezon %0-85) yüzdelerin basit ortalaması yayılımı büyük eksenlere fazla ağırlık verir. Bu yüzden her
+eksen 19 kulüp arasında standartlaştırılır (z = (x − ortalama) ÷ std), z'lerin ortalaması alınır ve
+`genel skor = 50 + 10 × ortalama z` ölçeğine çevrilir (lig ortalaması = 50). Her eksen sıralamayı tam %16,7 oranında
+belirler. Radar eksenleri gerçek yüzdeleri göstermeye devam eder. Verisi olmayan eksen (forma fiyatı bulunamayan
+3 kulüp) ortalamaya girmez. Son 3 sezonda hiç ligde olmayan kulübün o ekseni 0'dır. Eski yöntemin sonucu
+`skor_karti.csv`'de `genel_skor_basit_ort` olarak durur. Genel sıralama slaytı: `reports/instagram/01_genel_siralama.png`.
 Sınırlamalar: forma fiyatı 66/190 hücre (Başakşehir, Kasımpaşa, Gaziantep FK'da hiç yok; tek sezonluk değerler
 düşük güvenli olarak işaretli), xG yalnızca son 4 sezon, Fatih Karagümrük doluluğu stat kapasitesi belirsizliği
 nedeniyle güvenilir değil.
